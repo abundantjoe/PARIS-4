@@ -1,0 +1,33 @@
+{
+ "provenance": "Project HERCULES | HRC-JB-0924-O7",
+ "what": "programmatic 2x2 composite of the EXT-CONFIRMED outer-end lead (P4-M-OUT2-EXT-RESULT; DECL-P4-3 item 4 hand-off); built in code, not viewed by the orchestrator",
+ "segment": "20260701183148-w122-123",
+ "p4_inner_ref": "08292cbfbf5ea1eb08b98ce51bac3276981decdf",
+ "manifest": "logs/sib/p4-inner/mo2/w122-123/manifest.json",
+ "px_per_mm": 53.4,
+ "scale_bar_px": 534,
+ "tiles": [
+  {
+   "tile": "r3_c4",
+   "png_sha256": "d03a93c2c442b477cbf567a323732da475e3be00a3a6b0c4c07e495a10ac5991",
+   "manifest_match": true
+  },
+  {
+   "tile": "r3_c5",
+   "png_sha256": "f6778e2f85fac755bb2420f7cf3f883b8fbcf5b2f2668fa3ea6f09ff425d8eec",
+   "manifest_match": true
+  },
+  {
+   "tile": "r4_c4",
+   "png_sha256": "0e545e07348eca7a74d8b0c0e8fe753cff2353cf5e773c45f21915e37f80a030",
+   "manifest_match": true
+  },
+  {
+   "tile": "r4_c5",
+   "png_sha256": "bdb007623de9fed0fa2e7fa06d68071d81e5116ed2093e2f598471a7f1d16061",
+   "manifest_match": true
+  }
+ ],
+ "png_sha256": "7d7c598eb3ffcd9c5ffa6e5332d38e60a2a9dc635471837e9be76bd97f0df551",
+ "bytes": 1312121
+}
