@@ -32,3 +32,6 @@ Attach: `outer_end_lead/20260701183148-w122-123.png` (named after its mesh) and 
 
 **Methodology / reproduction:** repository abundantjoe/dominion (private; access on request). See RULES.md: DECL-P4-2, -3, -23, -25; P4-M-OUT2-P2/-EXT-RESULT; P4-OWN-S1X-RESULT; tools/p4/*.
 **Confidentiality:** not to be made public before any official announcement (prize rule).
+
+## Second lead (2026-10-03): verso of the end-title slot, census-positive, NOT extended-tested
+P4-OFF (DECL-P4-26-A2, RULES.md P4-OFF-VW-RESULT): our own model's verso-offset maps of segment 20260701183124-w010-027 (the winding facing the end-title slot, where flaked ink would be mirrored) were read as 133 stitched 4 x 4 cm windows by the sealed local harness. Reader-sensitivity gate PASS on the known col. -1 text (counts 61 and 43). Null p99 threshold 8.52. Three windows are positive, all just above threshold: r3c1 (10 letters), r3c4 (9 + 1 mark), r4c5 (9), forming clusters {r3c4, r4c5} and {r3c1}. No phase-2 or extended test followed (the project was redirected). It is a census-level signal in the right place and nothing more; it is not a reading and not a title claim.

@@ -26,3 +26,6 @@ Status on 2026-09-27 21:45Z: **no title has been identified.** Full hash-chained
 | Methodology, false-positive mitigation, held-out validation | In dominion RULES.md: DECL-P4-2, -3, -23 (+A1-A3), -25; P4-M-OUT2-EXT-RESULT; P4-OWN-S1-COLM1-AUC (col. -1 AUC 0.978) |
 | No overlap between ink-model training data and the region | M1: tiles >= 1.2 mm from the 8 labelled segments. P4-OWN: title zone plus 1.2 mm excluded |
 | Submission | Needs the owner's own sign-in |
+
+## Second lead (2026-10-03): verso of the end-title slot, census-positive, NOT extended-tested
+P4-OFF (DECL-P4-26-A2, RULES.md P4-OFF-VW-RESULT): our own model's verso-offset maps of segment 20260701183124-w010-027 (the winding facing the end-title slot, where flaked ink would be mirrored) were read as 133 stitched 4 x 4 cm windows by the sealed local harness. Reader-sensitivity gate PASS on the known col. -1 text (counts 61 and 43). Null p99 threshold 8.52. Three windows are positive, all just above threshold: r3c1 (10 letters), r3c4 (9 + 1 mark), r4c5 (9), forming clusters {r3c4, r4c5} and {r3c1}. No phase-2 or extended test followed (the project was redirected). It is a census-level signal in the right place and nothing more; it is not a reading and not a title claim.
