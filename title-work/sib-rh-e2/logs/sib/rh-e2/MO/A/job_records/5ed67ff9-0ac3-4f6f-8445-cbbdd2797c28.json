@@ -1,0 +1,20 @@
+{
+ "job": "5ed67ff9-0ac3-4f6f-8445-cbbdd2797c28",
+ "role": "reader",
+ "images": [
+  "/home/user/dominion/configs/briefs/keysheet_sigma2.png",
+  "/work/p4/img/1d62161c-0b79-4aad-97a7-e8a92e3c9e6a.png",
+  "/work/p4/img/2dc03e9b-e059-464e-855b-894f8cea20b2.png",
+  "/work/p4/img/f6564194-61ee-4d94-9886-5ca9ba0fef63.png"
+ ],
+ "out": "/work/sealed_io/5ed67ff9-0ac3-4f6f-8445-cbbdd2797c28.age",
+ "recipient": "age1vp0tkyj8xecncfmcxj748ceef89mpmwayljccaduapjx3aqhh5rstvvcq5",
+ "brief_sha256": "09074bfb282e4268bbf5ab1fc334cf94f8de28930598aceddf868682a929d53d",
+ "created_utc": "2026-09-27T00:58:11Z",
+ "image_sha256": {
+  "/home/user/dominion/configs/briefs/keysheet_sigma2.png": "164262e67dfd7589bdd03dddb1b8470267bd7d46d5c40b0af63fc1eb980db438",
+  "/work/p4/img/1d62161c-0b79-4aad-97a7-e8a92e3c9e6a.png": "f23699c914d4b7644787667490d8538d0a1b00eea16aed02a43f4f3317a95175",
+  "/work/p4/img/2dc03e9b-e059-464e-855b-894f8cea20b2.png": "a4146e656893ef85d4c2ac6ab3c458fee3475ab4993c6e7a68760252eebb5827",
+  "/work/p4/img/f6564194-61ee-4d94-9886-5ca9ba0fef63.png": "23b746ebdc4d21586368b780bb6042be6daa6dcae9c3cbbfd30ea5d126d9f1bb"
+ }
+}

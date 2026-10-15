@@ -1,0 +1,1295 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-2 items 3-5",
+ "variant": "sigma2t",
+ "count": "n_letters",
+ "cand_cmin": null,
+ "stats": {
+  "jobs": 18,
+  "valid": 18,
+  "invalid": 0,
+  "missing_items": 0,
+  "right_nonempty": 0
+ },
+ "n_census_tiles": 138,
+ "n_null_tiles": 18,
+ "null_letter_counts": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "null_p99": 0.0,
+ "threshold": 5,
+ "n_rows_Y": 12,
+ "n_positive": 3,
+ "n_labelled_adjacent": 0,
+ "tiles": {
+  "0277fdad-1b0b-4106-bd72-fb4100385968": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "0666f0e6-1b17-4af5-9cf2-515e6b89d302": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "076627c5-5c88-4877-b4e7-3876f95e698c": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "0884c9db-7c41-4cf7-ad51-4bf511274287": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "0a6f9ab0-4a09-4886-a743-8be6f01238d8": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "0a834846-f5ab-4e6a-9c52-2f9d8e27cf4f": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "0dd1b7ae-3f5c-40ce-baa3-61a56bbe35a9": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "0ee3ca39-448c-4335-8c51-190f2d5696a1": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "0fc286cb-8f03-49e6-95f3-fbcd9dfdda39": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "11e169ec-28c1-4688-ac8b-1e1b46f6c0ff": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "156a0336-1c8e-4f8b-b2f7-0c85076a5228": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "1aa26aa6-efc7-4b3c-9344-42a2a77ec7a5": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "1c5f0269-5a9b-4c7b-9846-ecf2db9a78a6": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "1fe4a013-b720-48fd-aac1-2c58f85f99a5": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "21323ed2-f171-487c-b1ac-3fa3cd042452": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "21b9822f-78e1-40ef-a38b-15f5ff9e90d5": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "2789498d-8bae-486d-8a41-24cc86b7440a": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "29c27921-c6a1-455d-8f89-891b9d52ca80": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "2deaeb77-0ec4-46e4-bf48-8c2e7f76f087": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "2e60717e-6fea-4652-8857-ee17b0bf4e21": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 12,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "2eabedda-1bc1-4bbc-bc70-470fabd219dc": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "2f653276-86b8-4982-9e41-afee16cea1e7": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "2f9d0587-473d-4774-9e04-345f6b79c76d": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "34560239-03bb-4813-a425-e3f998db4224": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "34a1e8b2-660d-42cc-975e-d255ec3dd295": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "36dfbb59-b0dd-4337-b98b-b97299aeac5b": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "39d23aa8-25c2-46ad-95c2-0205b0f7b6f8": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 14,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "3ae9d438-bf75-4d4a-b65b-7223f8c964c8": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "3e4a2f34-28a6-497c-b2e9-db5d2045bd78": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "400fbfe0-e898-4655-a7f9-4e8b13c95030": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 1,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "4259496a-0022-4769-9763-21f2910f231b": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 12,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "44dcca4d-5ba2-4443-bd64-20f5532496a1": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "45a415fb-054e-40eb-98f0-1f77dfc9c387": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "4a24fb89-c45c-4c24-bd20-4147bca7ab6e": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "4c6e4afa-c24b-4207-b672-b5718d843a60": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "56461f04-5ae9-48e8-8161-18dde87fda24": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "5cd61f48-8c96-42cf-8b41-3245916dcfb6": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "5d291309-b8de-44d1-abef-2dc29f76fc27": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "62555fb6-2fe5-4654-b693-fa1ba6460864": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 12,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "626ad31d-ad93-47a8-9400-9530cd41896a": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6396854a-3ff7-427b-9a1e-1597a17d8e2e": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 4,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "63daf734-a400-4509-9233-664bf9feb000": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "64900a7e-73f3-4187-af99-d0650b465b06": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 10,
+   "rows": "Y",
+   "n_letters": 6,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "665f6238-d981-447b-8210-a3f082fed643": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6847f42e-cbe6-40d1-a814-404b95b8aa5f": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "68a43feb-06ed-4446-a9ec-53fb492c9134": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 15,
+   "rows": "Y",
+   "n_letters": 3,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6b41d107-5cc1-4aaa-98c5-b52b1d94003f": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 4,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6c70d90d-2868-4125-adc4-69124f55c7c0": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6e434a5e-9d32-4a7a-8296-3ce5947e9d83": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6e8c23bf-7e8c-478f-8da4-d643aaf9a61e": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6fd42e2f-f9cb-4e4b-9419-beac9f349db8": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "70a0ce15-3f61-4dd4-a964-83e79f17af1d": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "70db577e-f7ca-4641-980b-15f88d5ae1f3": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "72dab68a-a134-4f35-b39a-5e71ae380f52": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 0,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "75725ffc-6993-4e59-9d85-b03e6e2769c8": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "76e9f02a-8998-497e-819d-43a067091db2": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "779fd39d-63d5-4ecc-b3cb-256cc795104a": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "7d6e29f8-57c8-43ac-bc45-17171b1c9715": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "7f65506a-b4e6-4c86-96bd-3cafb9f7510f": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "7fb7caf5-ea23-416a-bf88-c53a35768990": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 0,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "80c04733-c067-495a-a71f-63df8c54b65d": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "81d2e5cd-e20e-4ee4-937b-bfebc9c329c7": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 1,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "83aabcf2-ccd4-461a-b181-6bd5e6ce5f6d": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 5,
+   "n_firm": 1,
+   "labelled_adjacent": false
+  },
+  "8506bad0-c83a-4a90-845c-2da8942ff5ea": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "8939d115-dabe-46b0-8486-c8c26c8cfff3": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "89a1366c-9fbf-423f-8159-8166115d8a9f": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "8ab37fd5-57df-41f7-a3c6-b5f208beea5f": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "8b8a68d6-7dcb-43dd-a16d-1319e74d8fe2": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 6,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "8bd835da-b233-47ae-8aca-f58fd70c3622": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "8bfca4a9-0220-42c7-ab71-5fbd74443657": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "8d66e5c6-edc4-49eb-a2c8-8005aee35fdb": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "942dd6c2-faae-4ad9-a506-a0335b88b789": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "959442aa-cc02-4066-a532-12baf26860fe": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "965984f9-ce96-4df0-b5e4-cc0e2c643ee5": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "9a2cb9ef-1d9b-44db-be0a-ff60ec176040": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 14,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "9b669098-8d22-45a4-80d0-82037274a80b": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "9b8187a1-4e22-49e4-8a40-1aa1e1a5aa09": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "9b8b0d87-0539-4d44-b73d-461d1b88bae5": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a2487d35-06be-4c6c-9dcd-9291fd2bb76c": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a2f060a9-e779-4203-bc39-6b74870061a1": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a380cf76-7a06-4978-a55f-fa785afedbcf": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a4544aae-6b0b-48e5-b067-408df040a3ff": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a4afcb78-0603-4a2f-a0e2-479e13fb8ce0": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a52f8cd9-2c5e-44e2-962f-0c3616bc3a6a": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a59065b7-0e35-41f3-b9a5-e018dba52090": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a7d77ccd-7fab-44b4-b2fc-dc752fd7f969": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 4,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a93dcd7a-4e05-4d06-979d-4f2091cff056": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "abe3a6b1-32f8-43b1-9eec-a77a21d1f304": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "afa03990-eeec-4ce4-8f23-6870850b4438": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "b735e88e-258d-4ba8-8114-8486c91c1408": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "b7378b61-e435-4c70-a331-1ac414dff994": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "b85db37c-c2d8-44f9-822e-194990824b19": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 12,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "b8ac30d3-872a-4829-8b85-56a85f0d94e0": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "b981ed3a-f6bc-4c98-a328-bece5b694788": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "baf3db42-74fe-4a30-8d6b-57a52d1ce702": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "bb67dea8-d8b5-4dd5-bb49-d42105640693": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "bd6c7abc-85d0-4d75-a7fb-be32b6e048c8": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 5,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "c02fe821-0eb8-4703-a2f5-25a81e7b51e1": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 3,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "c18dfc3a-dae3-48cd-8981-0b5d2bac0a40": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "c287a762-3762-4217-a2a6-e1a492c9fab9": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "c3afbd14-3f23-4475-878e-5fe8f7fe3235": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "c59df49c-987e-4555-820f-2473a2d27057": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "c6146adc-64f3-4386-b7ea-b803d03b160d": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 1,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "cb0e2aad-9026-4e77-92fe-91eeffcba6c8": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "cbce6b41-f1e7-42b6-a86e-3efab39c3279": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 4,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "cc481dad-e6e6-44ee-beb1-28c04d80d002": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "cd0c80b5-08ce-4e0f-ae13-6128cc9d1ff5": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "cf6b9b01-439c-4b5a-a58e-c0dc4e07b27c": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "d0cdf3f9-6f7c-4d10-8df4-61d60e625c9b": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "d23740b6-0b7c-4002-83f2-aacca9530d59": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "d77b0855-34b4-4b47-ba29-707a3259645c": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 12,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "d9888472-efe1-42f9-8262-80d0cdb966b9": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 8,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "da5e8506-ebb6-46f0-a231-fc62d34449da": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "da8e62ae-dd01-458a-a988-56374ef92e18": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "dc03e260-23a1-4280-834d-edd3a4062bd0": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "dc85e3e1-5ee1-42b5-8d35-db8553fd8520": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "dea686e5-4a5d-4000-90bf-1d31856d2e51": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 7,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e2a0b767-3a34-4184-80f0-904d95aab4be": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e34be910-c34b-4a14-a7af-6d43e5fd8bc2": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e4e32118-1b68-4050-9644-0fb0f9aaca3a": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 4,
+   "rows": "N",
+   "n_letters": 1,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e59d6f0b-1cf0-44dc-b54d-18a70f00902e": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e5bd0b1d-247b-4efe-af7e-7013ce2505b7": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e5de2962-659e-4d2b-ac1b-f5c0e0ca49fe": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e6bde3fc-1084-4094-88f6-b93776e3053e": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e778c9ba-7f8c-4229-b34c-57a6c73b32ba": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e9afd8c6-7918-436d-b6fd-8b6ffadc5468": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 7,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "ebbd10c2-dfa1-4020-840a-59124e96fcf8": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "ece73557-c276-47e9-aded-835fca195d29": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "ed83b851-dd83-4bf7-a0a9-ff9451238cec": {
+   "strip": "20260701183149-w124-125",
+   "r": 9,
+   "c": 4,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "eefd71d9-9b05-4cfc-a80a-6b24ffb2a526": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 16,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "ef2393a8-40ad-4a36-9ca7-ea6585523ff4": {
+   "strip": "20260701183149-w124-125",
+   "r": 0,
+   "c": 6,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f1afa4cb-ab17-4923-801b-00c84cca2c30": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f22cc8c9-7b48-4401-822e-92f010654ab8": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 15,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f26ecb38-0bb4-45ae-8c76-1f220da2ebc9": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 1,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f553f176-0be0-4c3b-b6f7-a02c9732ea7c": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 6,
+   "rows": "Y",
+   "n_letters": 3,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f66b07ae-c502-4333-862b-77ff4b839502": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f71ff6cd-a5e6-442b-81f6-fc76869a7871": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f84731a5-99fa-43f3-9af5-1ad4eddea10c": {
+   "strip": "20260701183149-w124-125",
+   "r": 8,
+   "c": 2,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  }
+ },
+ "positive": [
+  "64900a7e-73f3-4187-af99-d0650b465b06",
+  "83aabcf2-ccd4-461a-b181-6bd5e6ce5f6d",
+  "bd6c7abc-85d0-4d75-a7fb-be32b6e048c8"
+ ],
+ "candidates": [
+  "64900a7e-73f3-4187-af99-d0650b465b06",
+  "83aabcf2-ccd4-461a-b181-6bd5e6ce5f6d",
+  "bd6c7abc-85d0-4d75-a7fb-be32b6e048c8"
+ ]
+}

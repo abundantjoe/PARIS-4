@@ -1,0 +1,228 @@
+{
+ "segment": "20260701183150-w126-127",
+ "kind": "stitched 2x2 window (tools/p4/stitch.py windows)",
+ "tiles": [
+  {
+   "r": 3,
+   "c": 4,
+   "sha256": "66d8dc52614074efce733fba69c8249a97c491f85e5ca27f7c366267f8c1afd9",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r3-4 c4-5, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "4bc2342ff81701c9b016814ed50f8f6195854a714b089808a35deb4e80870bea",
+    "6563e05092fd093d8d92e054cc728cf9dd002015e47143db7ea226638c57513e",
+    "218b3685d4ece64cbd722d30793d8631e2219d1b168959f1c287a578bc3ab57b",
+    "755d152542533080629fed4c66eb07ef7faff83e17ef0421ee3c349c71ec7bce"
+   ]
+  },
+  {
+   "r": 4,
+   "c": 4,
+   "sha256": "9ff1f28596145e67c80296e76b6d3a6b919995c650e1782477659c353ce1dbd3",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r4-5 c4-5, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "218b3685d4ece64cbd722d30793d8631e2219d1b168959f1c287a578bc3ab57b",
+    "755d152542533080629fed4c66eb07ef7faff83e17ef0421ee3c349c71ec7bce",
+    "2dfef579863a2f2a22b0654bf9dd3220ce3fc15698a34a2f47841009482b8bd9",
+    "ad7621bd99fed04193713355d533de409a4b5dc6239032bce645eea4f4f88965"
+   ]
+  },
+  {
+   "r": 5,
+   "c": 3,
+   "sha256": "0c21cff8dac2f5ad05d57ac2d13e19a047a828d5567377caf587556f9854af02",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r5-6 c3-4, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "261b7e7d11e29b15312f102726042a9e68e50de37c02f2d9a204fb0b3d0ce126",
+    "2dfef579863a2f2a22b0654bf9dd3220ce3fc15698a34a2f47841009482b8bd9",
+    "88d8a0604c55a7accd1344443ccfa3258f4202806c2eaa39366bfe22eaabbfd9",
+    "cf58d073446157993187d77dc0b43d7efef6295b50575803b1bb282dc11f6b69"
+   ]
+  },
+  {
+   "r": 5,
+   "c": 4,
+   "sha256": "419ae82781214275058b07723e7219914740964340b58dfe8d71779db857cae9",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r5-6 c4-5, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "2dfef579863a2f2a22b0654bf9dd3220ce3fc15698a34a2f47841009482b8bd9",
+    "ad7621bd99fed04193713355d533de409a4b5dc6239032bce645eea4f4f88965",
+    "cf58d073446157993187d77dc0b43d7efef6295b50575803b1bb282dc11f6b69",
+    "3fe0af447379eb4cef1ec0433fc7bddeb155026fa8e9e25fe7d4e1c29f00affc"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 3,
+   "sha256": "c60df5526899b5ebe0435b5d21d4dead7458aaf6b8701e7d9977e558c09ab7b7",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r6-7 c3-4, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "88d8a0604c55a7accd1344443ccfa3258f4202806c2eaa39366bfe22eaabbfd9",
+    "cf58d073446157993187d77dc0b43d7efef6295b50575803b1bb282dc11f6b69",
+    "d905238b899e442c2b10dbe8d5a4645a57c914fc15e53f76979ac9ed52049af9",
+    "fe47ca6d960908dccf3c8757d621c73997bd7a70136ef930333dec0d13b5a7eb"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 4,
+   "sha256": "3c817ba8987bda7b96d2d6693076d84f951715027c5a09945add4963bd67a2e0",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r6-7 c4-5, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "cf58d073446157993187d77dc0b43d7efef6295b50575803b1bb282dc11f6b69",
+    "3fe0af447379eb4cef1ec0433fc7bddeb155026fa8e9e25fe7d4e1c29f00affc",
+    "fe47ca6d960908dccf3c8757d621c73997bd7a70136ef930333dec0d13b5a7eb",
+    "3dd070bb1e16c02043ab47ec47dd7f062f87bf8ecfdc647ad98ba20b5d9cdcda"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 2,
+   "sha256": "f28c669609600b55f01208d8e65f571334868b769a3ac972eb7c31def400228b",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r7-8 c2-3, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "1c84601ac618e1382de44869ea78e3828e8c0c0d4507efe3868a62c90e036e2f",
+    "d905238b899e442c2b10dbe8d5a4645a57c914fc15e53f76979ac9ed52049af9",
+    "21ceccf1160924369ce2e3bfbc9a247dcc396b72338cb13756615d9e4b77731e",
+    "e7e5bf23868a7de0fe8fb13db13dbb07404536569618932817e5c967545c6774"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 3,
+   "sha256": "75858bcd90deee6bfb6237d47677ec8fb60f18a2063f59a04e896cfb10cf842d",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r7-8 c3-4, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "d905238b899e442c2b10dbe8d5a4645a57c914fc15e53f76979ac9ed52049af9",
+    "fe47ca6d960908dccf3c8757d621c73997bd7a70136ef930333dec0d13b5a7eb",
+    "e7e5bf23868a7de0fe8fb13db13dbb07404536569618932817e5c967545c6774",
+    "8822da07d4037a82c7699aaca2e8879bb30e7e0e5b7bd14f18bc907c1ab682aa"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 4,
+   "sha256": "7bfd4fb816c0918fb1b005094a26f0bc7df3d913d390521447b861a045976503",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r7-8 c4-5, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "fe47ca6d960908dccf3c8757d621c73997bd7a70136ef930333dec0d13b5a7eb",
+    "3dd070bb1e16c02043ab47ec47dd7f062f87bf8ecfdc647ad98ba20b5d9cdcda",
+    "8822da07d4037a82c7699aaca2e8879bb30e7e0e5b7bd14f18bc907c1ab682aa",
+    "1eb62be4cbc17165f55508badf763f5f9b71fcf90d02910cac7422b2f133d931"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 5,
+   "sha256": "a40c9994e4a0f567df77d66ded817d0e77b41042294df653f4dba24fe1bdb9c5",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r7-8 c5-6, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "3dd070bb1e16c02043ab47ec47dd7f062f87bf8ecfdc647ad98ba20b5d9cdcda",
+    "67c3cfb6bc8812e04d6d40428c182dfbb76e03b33867eeac44145e8ff3c5f3af",
+    "1eb62be4cbc17165f55508badf763f5f9b71fcf90d02910cac7422b2f133d931",
+    "c3c8c0f4f5a6fddf09ea05c573ac091f7f188f4c303464ba1e6f87e478b9f787"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 2,
+   "sha256": "e84fb8fa3ac870fc8173001a2d9cd209b0a5cbefc858205baf0a375faf57a30d",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r8-9 c2-3, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "21ceccf1160924369ce2e3bfbc9a247dcc396b72338cb13756615d9e4b77731e",
+    "e7e5bf23868a7de0fe8fb13db13dbb07404536569618932817e5c967545c6774",
+    "042254f2b3db957797832100fb8d8b2a8c64372f662db44b5bb5199a4b72c22f",
+    "a61e4d9dc6c5754ca470507a366cb76af6b905f741fbc893c3372657eb6e6542"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 3,
+   "sha256": "9d8304ceec69cfd64eb3da5bfdfe7bb4830b895a56f3b8fc926848c79819a35d",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r8-9 c3-4, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "e7e5bf23868a7de0fe8fb13db13dbb07404536569618932817e5c967545c6774",
+    "8822da07d4037a82c7699aaca2e8879bb30e7e0e5b7bd14f18bc907c1ab682aa",
+    "a61e4d9dc6c5754ca470507a366cb76af6b905f741fbc893c3372657eb6e6542",
+    "247f679a79b821839ee95a9f33770a1d391a8effdc0a6e77785a65fa5db72daf"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 4,
+   "sha256": "c929e14b9e2d19d10e3825d617cd9d533f08c7083726c460fd7283487dded93a",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r8-9 c4-5, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "8822da07d4037a82c7699aaca2e8879bb30e7e0e5b7bd14f18bc907c1ab682aa",
+    "1eb62be4cbc17165f55508badf763f5f9b71fcf90d02910cac7422b2f133d931",
+    "247f679a79b821839ee95a9f33770a1d391a8effdc0a6e77785a65fa5db72daf",
+    "7a53f6718d4e232e17d8503d654f8856a63e85c40b129e2bcc2c2dde05ea0bec"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 5,
+   "sha256": "88fc4610f8ef514e9d01d221d930b8601b58cc5c12a7897d17235c20c2f6b6e1",
+   "valid_fraction": 1.0,
+   "window": "2x2 tiles r8-9 c5-6, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "1eb62be4cbc17165f55508badf763f5f9b71fcf90d02910cac7422b2f133d931",
+    "c3c8c0f4f5a6fddf09ea05c573ac091f7f188f4c303464ba1e6f87e478b9f787",
+    "7a53f6718d4e232e17d8503d654f8856a63e85c40b129e2bcc2c2dde05ea0bec",
+    "0a99e2aaa1055c83c04da3f205d4a3fbe314e7b85846b570f0650169169bd04b"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 2,
+   "sha256": "a5fc855c08bf1c39720dbfaec326be14b02ff5f91818c508963026abab3818a9",
+   "valid_fraction": 0.9524197968285406,
+   "window": "2x2 tiles r9-10 c2-3, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "042254f2b3db957797832100fb8d8b2a8c64372f662db44b5bb5199a4b72c22f",
+    "a61e4d9dc6c5754ca470507a366cb76af6b905f741fbc893c3372657eb6e6542",
+    "a4de676d7025315ef3c1aad0d8cfec0020a34458573df611e402e122615891f6",
+    "dcddd412fe611b6fa7a0aaeb9c7d075526ae113653eb6316a901b25afb03410f"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 3,
+   "sha256": "3509f759b23c192b8d69588a3f5a40e6f6eed17b9d40d135d8591ea8f5b1d4d7",
+   "valid_fraction": 0.8906410968467342,
+   "window": "2x2 tiles r9-10 c3-4, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "a61e4d9dc6c5754ca470507a366cb76af6b905f741fbc893c3372657eb6e6542",
+    "247f679a79b821839ee95a9f33770a1d391a8effdc0a6e77785a65fa5db72daf",
+    "dcddd412fe611b6fa7a0aaeb9c7d075526ae113653eb6316a901b25afb03410f",
+    "d2ccf6663f94dbb8853740ccda2d4552a3469e7b5ff61fe16d0b8ff2a86c298d"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 4,
+   "sha256": "3a431f391ea78eb757683e9a5deeadbf7ba9324c30236eeb63c0c2fb13fb0277",
+   "valid_fraction": 0.8884522308237056,
+   "window": "2x2 tiles r9-10 c4-5, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "247f679a79b821839ee95a9f33770a1d391a8effdc0a6e77785a65fa5db72daf",
+    "7a53f6718d4e232e17d8503d654f8856a63e85c40b129e2bcc2c2dde05ea0bec",
+    "d2ccf6663f94dbb8853740ccda2d4552a3469e7b5ff61fe16d0b8ff2a86c298d",
+    "133f2ed13a828ce8b9ada100542c9ce344c30387dd79460dc3b0cafe16fe0604"
+   ]
+  }
+ ],
+ "rule": "DECL-P4-25-A16 item 4 (>= 1 Region-Q tile)"
+}

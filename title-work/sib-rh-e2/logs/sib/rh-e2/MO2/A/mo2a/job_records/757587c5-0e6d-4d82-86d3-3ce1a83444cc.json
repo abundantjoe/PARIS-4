@@ -1,0 +1,32 @@
+{
+ "job": "757587c5-0e6d-4d82-86d3-3ce1a83444cc",
+ "role": "reader",
+ "images": [
+  "/home/user/dominion/configs/briefs/keysheet_sigma2.png",
+  "/work/p4/img/992ddc11-fe9f-43a4-b362-9d2d3a2ff464.png",
+  "/work/p4/img/817a540b-2c10-4e3e-b546-b7a927d41818.png",
+  "/work/p4/img/1ebfba00-482d-456a-8974-58b50b47138d.png",
+  "/work/p4/img/62488c5d-e073-4ac7-b8df-56be2020b565.png",
+  "/work/p4/img/0149a5f6-3efc-4a2a-a79b-a93693dfb547.png",
+  "/work/p4/img/1eabda76-ccaa-4c2d-a66a-4eac8c95a4e5.png",
+  "/work/p4/img/afc140ec-8f6e-49a1-ba75-95a8d7e049c6.png",
+  "/work/p4/img/bae85520-4e3b-4b78-8fea-374fea194717.png",
+  "/work/p4/img/d48baf3e-4396-4f3c-8bd8-f957d511c77c.png"
+ ],
+ "out": "/work/sealed_io/757587c5-0e6d-4d82-86d3-3ce1a83444cc.age",
+ "recipient": "age1vp0tkyj8xecncfmcxj748ceef89mpmwayljccaduapjx3aqhh5rstvvcq5",
+ "brief_sha256": "34e9634d636dbb7b959ef120275a0714f117ee0cc63af2cf083cba337bd4ec64",
+ "created_utc": "2026-09-27T06:40:40Z",
+ "image_sha256": {
+  "/home/user/dominion/configs/briefs/keysheet_sigma2.png": "164262e67dfd7589bdd03dddb1b8470267bd7d46d5c40b0af63fc1eb980db438",
+  "/work/p4/img/992ddc11-fe9f-43a4-b362-9d2d3a2ff464.png": "ce1cebaa9bf4abaee4d15b82f849e429c1bbcc48b22d6bcd154d74e03962e4af",
+  "/work/p4/img/817a540b-2c10-4e3e-b546-b7a927d41818.png": "24b7337f3a9f65cdfd6c2f9e38f5870a468e2c2e08c2cc91ba439cb4fffcc531",
+  "/work/p4/img/1ebfba00-482d-456a-8974-58b50b47138d.png": "2ffb10e6295b10c4c63c644e25f90a2a2e9d2a2cc20af17e29fffcaf4d211a18",
+  "/work/p4/img/62488c5d-e073-4ac7-b8df-56be2020b565.png": "a1554eb55a578579b7c7baad4e38e682c52226fa34e43c86dc243b31045ce1e4",
+  "/work/p4/img/0149a5f6-3efc-4a2a-a79b-a93693dfb547.png": "8ff7b318b0472663e2e838ffc3710da081611a52c693e44d8f092aa6f1c29d3a",
+  "/work/p4/img/1eabda76-ccaa-4c2d-a66a-4eac8c95a4e5.png": "3308991ca1d6588af39df20c4569783203979ccd819d1f94067e6c46045bb523",
+  "/work/p4/img/afc140ec-8f6e-49a1-ba75-95a8d7e049c6.png": "3308991ca1d6588af39df20c4569783203979ccd819d1f94067e6c46045bb523",
+  "/work/p4/img/bae85520-4e3b-4b78-8fea-374fea194717.png": "071f5ccf4393405114e094d8424eac0a884e593ef63a01d241d31c2d897f253e",
+  "/work/p4/img/d48baf3e-4396-4f3c-8bd8-f957d511c77c.png": "a90a4262a1550594095ac85fe0d2deb77e4322502d1ff1c49307d2bb86b08757"
+ }
+}

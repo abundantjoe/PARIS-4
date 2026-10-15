@@ -1,0 +1,285 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-25-A1 (P4-M-OUT2 phase-2 batch p2mo2)",
+ "sources": {
+  "mo2a": {
+   "file": "logs/p4/census_mo2a_summary.json",
+   "sha256": "8ad1a5070c4b36d718ccd481ee3ef7ab459b3f77b2c6c5f5177913334fe280db"
+  },
+  "mo2b": {
+   "file": "logs/p4/census_mo2b_summary.json",
+   "sha256": "147b3996b38128fdb7684d6f202522d4937f8394f710bc89e0afbc512f6bdc01"
+  },
+  "mo2c": {
+   "file": "logs/p4/census_mo2c_summary.json",
+   "sha256": "828daa7990c0cc2d0cff80c254c4812d395d955b15fff32cdebcda15196adb26"
+  }
+ },
+ "direction": "outward = decreasing column on every strip (p4-inner mo2/*/direction.json, 08292cbf)",
+ "cap": 20,
+ "n_candidates": 20,
+ "candidates": [
+  {
+   "batch": "mo2c",
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 5,
+   "uuid": "79b759d1-4f02-4e70-90be-10792014d607",
+   "n_letters": 13,
+   "n_firm": 8,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 108.0
+  },
+  {
+   "batch": "mo2a",
+   "strip": "20260701183150-w126-127",
+   "r": 5,
+   "c": 15,
+   "uuid": "630f1217-0697-4a49-85e8-bff840d14595",
+   "n_letters": 9,
+   "n_firm": 0,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 60.92
+  },
+  {
+   "batch": "mo2c",
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 4,
+   "uuid": "d4bb863e-3a83-4245-ace3-9060f5c5d60a",
+   "n_letters": 8,
+   "n_firm": 4,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 106.01
+  },
+  {
+   "batch": "mo2c",
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 5,
+   "uuid": "21edbe8b-1094-47f8-b324-f3b60989e904",
+   "n_letters": 7,
+   "n_firm": 2,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 108.16
+  },
+  {
+   "batch": "mo2a",
+   "strip": "20260701183150-w126-127",
+   "r": 3,
+   "c": 13,
+   "uuid": "2644c82e-cd28-412a-a5d4-d53620a4e5ae",
+   "n_letters": 6,
+   "n_firm": 1,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 60.44
+  },
+  {
+   "batch": "mo2b",
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 10,
+   "uuid": "64900a7e-73f3-4187-af99-d0650b465b06",
+   "n_letters": 6,
+   "n_firm": 0,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 84.78
+  },
+  {
+   "batch": "mo2b",
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 12,
+   "uuid": "83aabcf2-ccd4-461a-b181-6bd5e6ce5f6d",
+   "n_letters": 5,
+   "n_firm": 1,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 88.92
+  },
+  {
+   "batch": "mo2b",
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 12,
+   "uuid": "bd6c7abc-85d0-4d75-a7fb-be32b6e048c8",
+   "n_letters": 5,
+   "n_firm": 0,
+   "kind": "positive",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 89.81
+  },
+  {
+   "batch": "mo2c",
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 4,
+   "uuid": "360a94f7-4baa-47ad-98b8-4606c7588bcf",
+   "n_letters": 3,
+   "n_firm": 1,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 106.16
+  },
+  {
+   "batch": "mo2c",
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 3,
+   "uuid": "76d25b09-57df-431d-96b6-cb7b5422be4a",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 103.99
+  },
+  {
+   "batch": "mo2a",
+   "strip": "20260701183150-w126-127",
+   "r": 3,
+   "c": 12,
+   "uuid": "81303dc4-a64d-448a-9c42-27e2b98fa661",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 58.3
+  },
+  {
+   "batch": "mo2b",
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 11,
+   "uuid": "8ab37fd5-57df-41f7-a3c6-b5f208beea5f",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 87.76
+  },
+  {
+   "batch": "mo2c",
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 2,
+   "uuid": "993977b9-d3c0-414f-8e6f-645ef05ed470",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 101.9
+  },
+  {
+   "batch": "mo2a",
+   "strip": "20260701183150-w126-127",
+   "r": 5,
+   "c": 13,
+   "uuid": "a4a0b921-cd58-49dd-88e6-fdfb25d73e71",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 56.81
+  },
+  {
+   "batch": "mo2c",
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 3,
+   "uuid": "b12db365-eb71-427f-845f-ab9d7fbfc5be",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 104.16
+  },
+  {
+   "batch": "mo2a",
+   "strip": "20260701183150-w126-127",
+   "r": 3,
+   "c": 11,
+   "uuid": "b5820b8c-d900-42fc-a146-c440b361182d",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 55.69
+  },
+  {
+   "batch": "mo2b",
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 9,
+   "uuid": "cd0c80b5-08ce-4e0f-ae13-6128cc9d1ff5",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 82.77
+  },
+  {
+   "batch": "mo2a",
+   "strip": "20260701183150-w126-127",
+   "r": 5,
+   "c": 14,
+   "uuid": "d3fb6e92-9fdd-485d-9376-b7095176fa01",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 58.88
+  },
+  {
+   "batch": "mo2b",
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 8,
+   "uuid": "d9888472-efe1-42f9-8262-80d0cdb966b9",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 80.79
+  },
+  {
+   "batch": "mo2b",
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 10,
+   "uuid": "f71ff6cd-a5e6-442b-81f6-fc76869a7871",
+   "n_letters": 0,
+   "n_firm": 0,
+   "kind": "mirror",
+   "labelled_adjacent": false,
+   "s_from_outer_end_cm": 85.72
+  }
+ ],
+ "pc_pool": {
+  "source": "logs/p4/p2_select_1.json pc_pool (M1 w028-037)",
+  "uuids": [
+   "057e9638-e28c-46e2-9103-31d9b2b2a801",
+   "0d1ffdad-8aa3-440c-a269-ff7d17c87cbe",
+   "23c4cc98-4fd5-42e6-9145-dea51c60b3d7",
+   "2980b21f-507d-48c8-93a9-886c6c9bd11a",
+   "2cc795f8-55ee-44a4-bf3a-a3ccead95081",
+   "37048d63-27de-4a86-a61f-5dbcaa8aefac",
+   "38c141ca-653d-4364-ba3c-e8083dcf9efa",
+   "53134903-477c-4358-a593-5ebce8731f07",
+   "71815cdc-4e42-4aba-95f2-9d5c06673996",
+   "803fdff0-fcb3-4f11-a623-96f44cbf565e",
+   "8c3fb678-c128-4fb1-96e4-30f6bbf00bb2",
+   "96170849-dac4-4f91-a0b6-833eac01c0ac",
+   "a149a264-7016-4dfe-b0fc-bac6136cfe05",
+   "d4148b4c-bda0-444a-aedd-1f0250fe9198",
+   "f9495fb5-fb47-4977-9373-f141ce19d327"
+  ],
+  "files": "logs/p4/pc_pool_m1/"
+ },
+ "n0_pool": "census tiles of batches mo, mo2a, mo2b, mo2c (rot 0), excluding every candidate; drawn and shown rot-90 per p4_phase2.py build"
+}

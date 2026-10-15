@@ -1,0 +1,32 @@
+{
+ "segment": "20260701183148-w122-123",
+ "kind": "stitched 2x2 window (tools/p4/stitch.py windows)",
+ "tiles": [
+  {
+   "r": 6,
+   "c": 0,
+   "sha256": "d0cb5a9a12fe324a754c46d5f47b1a6d50f154c123d80b1f37f22794b286ee44",
+   "valid_fraction": 0.8932967345339322,
+   "window": "2x2 tiles r6-7 c0-1, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "b75284d276c73d00e4b4d609b4898a995ed24e30cfe59caef0cbab60a661c537",
+    "f99c673c62313dfad00dadfac48172a91ff064133c6a3aec34ed32c212969342",
+    "a4ced954f3959f08f5f32db61bc6f9d0110ef3f6416c7f4ca892971aa9a2d639",
+    "1b2e893c4044c73f2ea690f7bafd0b661ba2e9ea355f966df71d0f8b10cab749"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 0,
+   "sha256": "6e2cd044e494173b1651f3998cea022f4205de3adc13af4137484b4b0c2bd18f",
+   "valid_fraction": 0.9061599640323736,
+   "window": "2x2 tiles r7-8 c0-1, 4 x 4 cm, 26.7 px/mm",
+   "src_sha256": [
+    "a4ced954f3959f08f5f32db61bc6f9d0110ef3f6416c7f4ca892971aa9a2d639",
+    "1b2e893c4044c73f2ea690f7bafd0b661ba2e9ea355f966df71d0f8b10cab749",
+    "4962bef00843e33c57fe2397a0dece6ab592fa5cbca214700e593b617fd9a940",
+    "58f97905e47dfd36b086df7a015ccdb2549a0afbecfce0897dde75a18b588922"
+   ]
+  }
+ ]
+}

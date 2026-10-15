@@ -1,0 +1,1039 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-3 item 4 (audit before recording); DECL-P4-25-A2; METRIC-HASH-24/-32/-38/-43",
+ "batch": "extmo2_3",
+ "candidate": {
+  "strip": "20260701183148-w122-123",
+  "r": 3,
+  "c": 5
+ },
+ "audited_file": {
+  "path": "logs/p4/extmo2_3_score.json",
+  "sha256": "365caf3b391ade95a1e91afe0b9d3f5624ed293fc0da0baa9294856b471753be"
+ },
+ "verify_file": {
+  "path": "logs/p4/rh_verify_extmo2_3.json",
+  "sha256": "1ce83ad4f37f91778fdf19604ed624311564d1be6d1f0d8f134aacae756ae63f"
+ },
+ "verdict": "VALID",
+ "verdict_reasons": [
+  "check1: every number of logs/p4/extmo2_3_score.json re-derived independently; all_runner_numbers_match = True (19 fields); 0 own-vs-hercules matching disagreements over 315 pair computations; 18/18 answers equal their sealed heredocs; 0 answers outside the schema",
+  "check2: DECL-P4-25-A2 2026-09-27T07:38:50Z < commit A 2026-09-27T07:44:08+00:00 < first reader 2026-09-27T07:55:21.602000+00:00 < commit B 2026-09-27T08:02:20+00:00; METRIC-HASH-43 2026-09-27T07:54:32Z < score first commit 2026-09-27T10:55:45+00:00",
+  "check3: U is the p2mo2 candidate file, byte-equal to its census source tile; R = rot90(U, k=-1) exactly and != rot90(U, k=1); N0 draw reproduced exactly (same order) with every N0 image recomputed byte-exactly; PC files equal the manifest",
+  "check4: 18 distinct transcripts audit VALID with the pinned audit code; one sealed answer per job with consistent hashes"
+ ],
+ "recorded_outcome": {
+  "EXT_CONFIRMED": true,
+  "auditor": "CONFIRMED (not disputed)",
+  "wording_per_DECL-P4-3_item_4": "a blind-reader lead that passed a pre-declared extended test (readers are one model family; no title word is named; title vs text for papyrologists)"
+ },
+ "criteria_rederived": {
+  "i_median_u_gt_n0max": true,
+  "ii_every_u_triple_ge5": true,
+  "iii_u_gt_r_p001": true,
+  "p_exact": 2.0567667626491154e-05,
+  "p_seeded_replication": 4.999750012499375e-05,
+  "EXT_CONFIRMED": true
+ },
+ "rules_chain_verify": "OK /home/user/dominion/RULES.md: 230 entries; preamble sha256 f0b331fdd48042aa25f42e9598bb10a3d705e4473102d7b41e89269694dde201; last METRIC-HASH-44 sha256 a1e0c5604ff44abe0af2978768bd06f7fb2c77ca211eabf28139119064f5b4cc",
+ "harness_ref": "origin/claude/gifted-bell-gavnl5-sib-rh-e2",
+ "harness_ref_commit": "9a9eb864c60f08d0fad84c02f47cf3c5c808cb51",
+ "inner_ref_commit": "08292cbfbf5ea1eb08b98ce51bac3276981decdf",
+ "check1_rederive": {
+  "auditor_decrypts": {
+   "purpose": "audit-extmo2",
+   "n": 18,
+   "utc_start": "2026-09-27T11:16:36Z",
+   "log_rows_purpose_audit_extmo2": 18,
+   "utc_range": [
+    "2026-09-27T11:16:36Z",
+    "2026-09-27T11:16:36Z"
+   ],
+   "reruns": 0
+  },
+  "stats": {
+   "sessions": 18,
+   "attempts": 18,
+   "used": 18,
+   "void_pc": 0,
+   "invalid": 0,
+   "missing_items": 0,
+   "dropped_sessions": 0
+  },
+  "pc_rows": {
+   "Y": 18
+  },
+  "answers_equal_transcript_heredoc": {
+   "checked": 18,
+   "equal": 18
+  },
+  "answers_failing_pinned_schema": 0,
+  "answers_failing_own_structure_check": 0,
+  "answer_ids_not_in_session": 0,
+  "duplicate_answer_ids": 0,
+  "known_kind_filter_disagreements_vs_runner": 0,
+  "non_known_kind_namings_dropped": 0,
+  "u_letters_per_read_session_order": [
+   8,
+   5,
+   6,
+   8,
+   8,
+   7,
+   6,
+   5,
+   6
+  ],
+  "u_firm_per_read_session_order": [
+   1,
+   1,
+   1,
+   5,
+   4,
+   2,
+   1,
+   1,
+   1
+  ],
+  "r_letters_per_read_session_order": [
+   3,
+   2,
+   4,
+   1,
+   3,
+   3,
+   3,
+   3,
+   5
+  ],
+  "u_triples_session_order": [
+   5,
+   6,
+   5
+  ],
+  "u_triples_n_pairs_tied_at_best": [
+   3,
+   3,
+   3
+  ],
+  "r_triples_session_order": [
+   3,
+   2,
+   2
+  ],
+  "n0_reads_per_tile": {
+   "3": 48
+  },
+  "n0_triple_score_counts": {
+   "0": 45,
+   "1": 1,
+   "2": 1,
+   "3": 1
+  },
+  "n0_max": 3,
+  "n0_p99_higher": 3.0,
+  "max_u_minus_p99": 3.0,
+  "n0_letters_per_read_counts": {
+   "0": 135,
+   "1": 4,
+   "3": 2,
+   "4": 2,
+   "6": 1
+  },
+  "u_mean_pairwise": 4.638888888888889,
+  "r_mean_pairwise": 2.0,
+  "u_minus_r": 2.6388888888888893,
+  "permutation": {
+   "exact_enumeration_labelings": 48620,
+   "exact_ge": 1,
+   "p_exact": 2.0567667626491154e-05,
+   "p_exact_is_minimum_attainable": true,
+   "seeded_replication": {
+    "seed": 20260927,
+    "n": 20000,
+    "ge": 0,
+    "p": 4.999750012499375e-05
+   },
+   "runner_p": 4.999750012499375e-05
+  },
+  "u_pair_agreement_counts": {
+   "3": 2,
+   "4": 12,
+   "5": 19,
+   "6": 3
+  },
+  "r_pair_agreement_counts": {
+   "1": 8,
+   "2": 20,
+   "3": 8
+  },
+  "u_vs_r_cross_pair_agreement_counts": {
+   "0": 81
+  },
+  "criteria": {
+   "median_u_triple": 5,
+   "i_median_u_gt_n0max": true,
+   "ii_every_u_triple_ge5": true,
+   "iii_u_gt_r_p001_exact": true,
+   "iii_u_gt_r_p001_seeded": true,
+   "EXT_CONFIRMED": true
+  },
+  "matching_disagreements": {
+   "pairs_computed": 315,
+   "own_augmenting_vs_hercules_max_matching_size": 0,
+   "own_vs_runner_pair_agreement_fn": 0
+  },
+  "robustness_all_U_triplings": {
+   "n_partitions": 280,
+   "min_median_triple": 5.0,
+   "max_median_triple": 5.0,
+   "min_min_triple": 5.0,
+   "crit_i_holds_under_every_tripling": true,
+   "crit_ii_holds_under_every_tripling": true
+  },
+  "field_match": {
+   "stats": true,
+   "n_u_reads": true,
+   "n_r_reads": true,
+   "u_letters_per_read": true,
+   "r_letters_per_read": true,
+   "n0_triple_scores": true,
+   "n0_tiles_with_ge2_reads": true,
+   "n0_p99_higher": true,
+   "sg1c_spirit_agreed_minus_p99": true,
+   "u_triples": true,
+   "r_triples": true,
+   "n0_max": true,
+   "u_minus_r_mean_pairwise": true,
+   "perm_p": true,
+   "crit_i_median_u_gt_n0max": true,
+   "crit_ii_every_u_triple_ge5": true,
+   "crit_iii_u_gt_r_p001": true,
+   "EXT_CONFIRMED": true,
+   "keys_in_score_file_all_checked": true
+  },
+  "all_runner_numbers_match": true,
+  "fields_differing": [],
+  "method": "own item lookup (id.strip() == file uuid; first match), own known-kind filter (hercules.scorer.letters.normalize_letter; numeric x, y), own same-kind <= 150 px allowed matrix (math.hypot); matching size by hercules max_matching_size AND an own Kuhn augmenting-path matcher; U and R triples in session-index order; N0 triple = best pair of the tile reads; criterion (iii) p by exact enumeration of all C(18,9) labelings, plus a replication of the runner seeded 20000 permutations"
+ },
+ "check2_timeline": {
+  "pass": true,
+  "decl_p4_25_a2_utc": "2026-09-27T07:38:50Z",
+  "metric_hash_43_utc": "2026-09-27T07:54:32Z",
+  "commit_A": {
+   "sha": "e082d0ca",
+   "utc": "2026-09-27T07:44:08+00:00"
+  },
+  "commit_B": {
+   "sha": "469bbdc2",
+   "utc": "2026-09-27T08:02:20+00:00"
+  },
+  "A_dir_unchanged_since_commit_A": true,
+  "B_dir_unchanged_since_commit_B": true,
+  "A_dir_exists_at_commit_A_complete": true,
+  "n_transcripts_in_timeline": 18,
+  "earliest_transcript_ts": "2026-09-27T07:55:21.602000+00:00",
+  "latest_transcript_ts": "2026-09-27T08:01:21.243000+00:00",
+  "jobs_created_utc_range": [
+   "2026-09-27T07:42:59Z",
+   "2026-09-27T07:43:00Z"
+  ],
+  "order_decl_lt_A_lt_first_read_lt_B": true,
+  "latest_transcript_before_commit_B": true,
+  "jobs_created_after_decl": true,
+  "score_file_first_commit": {
+   "sha": "b00d0019",
+   "utc": "2026-09-27T10:55:45+00:00"
+  },
+  "score_file_mtime": "2026-09-27T10:55:32.468413+00:00",
+  "metric_hash_43_lt_score_first_commit": true,
+  "metric_hash_43_lt_score_file_mtime": true,
+  "score_file_committed_once_unchanged": true,
+  "decrypt_log_rows_before_this_audit_by_purpose": {
+   "rh-verify-ext-consistency": 18,
+   "score-p4-ext": 18
+  },
+  "decrypt_first_utc_by_purpose": {
+   "rh-verify-ext-consistency": "2026-09-27T10:55:01Z",
+   "score-p4-ext": "2026-09-27T10:55:31Z"
+  },
+  "decrypt_last_utc_by_purpose": {
+   "rh-verify-ext-consistency": "2026-09-27T10:55:27Z",
+   "score-p4-ext": "2026-09-27T10:55:32Z"
+  },
+  "prior_audit_extmo2_rows": 0,
+  "only_verifier_and_scorer_decrypted_before_audit": true,
+  "score_decrypts": 18,
+  "score_decrypts_after_metric_hash_43": true,
+  "score_decrypts_after_commit_B": true,
+  "code": {
+   "p4_ext_py_head_equals_METRIC_HASH_38_pin": true,
+   "p4_ext_py_worktree_equals_pin": true,
+   "p4_phase2_py_head_equals_METRIC_HASH_38_pin": true,
+   "p4_phase2_py_worktree_equals_pin": true,
+   "builder_ref_code_sha_equals_pins": true,
+   "builder_ref_code_sha_equals_head": true,
+   "rh_verify_ext_py_v1_at_a30d5474_equals_METRIC_HASH_43_pin": true,
+   "rh_verify_ext_py_head_sha256": "13d759b629be3d65400f5bd5014cc71abe743c730516e44098e16dc6f3244efd",
+   "rh_verify_ext_py_head_is_v1_MH43_or_v2_MH44": true,
+   "rh_verify_ext_py_worktree_sha256": "13d759b629be3d65400f5bd5014cc71abe743c730516e44098e16dc6f3244efd",
+   "rh_verify_ext_py_worktree_mtime": "2026-09-27T11:04:24.439987+00:00",
+   "rh_verify_ext_py_first_commit": [
+    "a30d54746e48b7b5228d5e1a01579942afc30e69",
+    "2026-09-27T07:40:46+00:00"
+   ],
+   "metric_hash_38_utc": "2026-09-26T22:01:51Z"
+  },
+  "verifier_committed_before_commit_A": true,
+  "verify_output_mtime": "2026-09-27T10:55:31.173284+00:00",
+  "metric_hash_44_utc": "2026-09-27T11:06:49Z",
+  "rh_verify_ext_v2_first_commit": "b58cb95a 2026-09-27T11:06:49+00:00",
+  "verifier_version_used": "v1 (METRIC-HASH-43)",
+  "verify_output_before_v2_existed": true
+ },
+ "check3_material": {
+  "pass": true,
+  "installed_key_equals_commit_A_key": true,
+  "installed_jobs_equals_commit_A_jobs": true,
+  "key_sha_equals_builder_ref": true,
+  "installed_p2_key_equals_harness_p2_key": true,
+  "n_U": 1,
+  "n_R": 1,
+  "u_is_p2mo2_candidate_uuid": true,
+  "u_key_src_equals_p2_cand_src": true,
+  "u_src_is_select_candidate_same_strip_r_c": true,
+  "u_key_strip_r_c_correct": true,
+  "u_census_key_strip_r_c_correct": true,
+  "u_source_tile_sha_equals_census_key": true,
+  "u_bytes_equal_census_source_tile(manifest sha)": true,
+  "u_sha_equals_p2mo2_commit_A_manifest": true,
+  "u_sha_in_every_U_job_record": true,
+  "u_dtype_shape": "uint8 [1068, 1068]",
+  "r_equals_rot90_u_cw_exact(sha of png_bytes)": true,
+  "r_decoded_equals_rot90_u_cw(np.array_equal)": true,
+  "r_not_equal_rot90_ccw": true,
+  "r_not_equal_u": true,
+  "r_key_matches_u": true,
+  "r_sha_in_every_R_job_record": true,
+  "n0_count": 48,
+  "n0_seed": 20327838,
+  "n0_seed_matches_jobs_file_and_builder_ref": true,
+  "n0_pool_size": 534,
+  "n0_pool_excluded": {
+   "candidate_source": 1,
+   "pc_pool": 15,
+   "p2mo2_n0_sources": 20,
+   "pc_pool_in_census_pool_batches": 0,
+   "p2mo2_n0_sources_in_census_pool_batches": 20
+  },
+  "n0_draw_reproduced_same_order": true,
+  "n0_draw_reproduced_same_set": true,
+  "n0_checks_pass_counts": {
+   "src_in_census_rot0_pool_batches": 48,
+   "key_pos_matches_census": 48,
+   "src_file_sha_matches_census": 48,
+   "rot90_cw_of_source_exact": 48,
+   "not_candidate_source_uuid": 48,
+   "not_candidate_position": 48,
+   "not_pc_pool_uuid": 48,
+   "not_pc_pool_position": 48,
+   "not_p2mo2_n0_source_uuid": 48,
+   "not_p2mo2_n0_position": 48,
+   "rot_is_90": 48,
+   "job_record_sha_matches_manifest": 48
+  },
+  "n0_distinct_sources": 48,
+  "n0_strip_counts": {
+   "w128-129": 11,
+   "w126-127": 12,
+   "w124-125": 11,
+   "w122-123": 14
+  },
+  "n0_by_batch_matches_builder_ref": true,
+  "n0_sources_that_are_other_p2mo2_candidates": 0,
+  "pc_count": 18,
+  "pc_checks_pass_counts": {
+   "src_in_pool": 18,
+   "img_sha_equals_pc_manifest": 18,
+   "local_pc_file_sha_equals_manifest": 18,
+   "census_b1_sha_equals_manifest": 18
+  },
+  "pc_distinct_sources": 15,
+  "pc_pool_size": 15,
+  "harness_select_pc_pool_equals_orchestrator": true,
+  "harness_select_candidates_equal_orchestrator": true,
+  "K_roles_complete": true,
+  "census_rot0_tiles_pool_batches": 555,
+  "census_duplicate_positions": 0,
+  "census_duplicate_src_sha": {
+   "groups": 1,
+   "extra_tiles": 46,
+   "groups_whose_tile_is_all_zero": 1,
+   "tiles_in_dup_groups_drawn_as_n0": 4
+  },
+  "n0_all_zero_tiles": 4,
+  "n0_all_zero_tiles_builder_ref": 4,
+  "candidate_src_sha_unique_in_census": true,
+  "sessions": 18,
+  "session_attempts": {
+   "1": 18
+  },
+  "session_checks_pass_counts": {
+   "all_images_in_key": 18,
+   "first_image_is_keysheet": 18,
+   "one_of_U_or_R_not_both": 18,
+   "arm_matches_content": 18,
+   "n0_8": 18,
+   "pc_1": 18,
+   "pc_matches_job_pc": 18,
+   "no_duplicate_item": 18,
+   "n_images_11": 18,
+   "installed_record_images_equal_commit_A": 18,
+   "image_sha_in_record_equals_manifest": 18,
+   "brief_sha_equals_record": 18,
+   "record_out_is_sealed_io_job": 18
+  },
+  "arms": {
+   "U": 9,
+   "R": 9
+  },
+  "n0_session_count_distribution": {
+   "3": 48
+  },
+  "pc_session_count_distribution": {
+   "1": 18
+  },
+  "variant": "sigma2t",
+  "variant_equals_p2mo2": true
+ },
+ "check4_harness": {
+  "pass": true,
+  "agg": {
+   "harness_audit_json_one_row_valid_for_used_attempt": 18,
+   "harness_tsv_one_valid_row": 18,
+   "transcript_sha_matches_harness_audit": 18,
+   "transcript_sha_matches_rh_verify": 18,
+   "own_audit_valid": 18,
+   "own_audit_no_violations": 18,
+   "own_audit_no_unread": 18,
+   "single_agent_id": 18,
+   "all_sidechain": 18,
+   "model_opus_5_5_only(excluding <synthetic> API-error records)": 18,
+   "synthetic_records_are_api_errors": 18,
+   "first_prompt_equals_brief": 18,
+   "one_non_meta_user_prompt": 18,
+   "tool_result_errors_zero": 18,
+   "reads_only_listed_paths": 18,
+   "every_image_read": 18,
+   "reads_exactly_once_each": 18,
+   "exactly_one_bash": 18,
+   "only_read_bash_handback_tools": 18,
+   "one_handback_call": 18,
+   "handback_is_DONE": 18,
+   "final_text_DONE_or_absent": 18,
+   "transcript_starts_after_job_created": 18,
+   "transcript_starts_after_commit_A": 18,
+   "one_age_file_for_job": 18,
+   "age_sha_consistent(B sums, harness audit, installed, record, rh_verify)": 18,
+   "installed_record_valid": 18
+  },
+  "n_jobs": 18,
+  "reruns": {
+   "reruns": 0,
+   "r2_age_files": 0,
+   "r2_transcripts": 0,
+   "higher_attempt_files": 0,
+   "harness_audit_rows_per_job": {
+    "1": 18
+   },
+   "exactly_one_rerun_per_rerun_job_and_none_elsewhere": true,
+   "per_job": {},
+   "all_rerun_checks_pass": true
+  },
+  "handback_other_than_DONE": [],
+  "transcript_files_distinct": true,
+  "agent_ids_distinct": true,
+  "age_files_in_B": 18,
+  "age_files_distinct_sha": true,
+  "transcript_files_in_B": 18,
+  "call_count_distribution": {
+   "{\"Bash\": 1, \"Read\": 11, \"SubagentHandback\": 1}": 18
+  },
+  "pass_note": "pass requires every other aggregate at 18/18; a missing hand-back is tolerated only where the session ended on an API-error record after its one valid sealed write (hercules.harness.audit VALID; precedent RULES.md line ~1013, D1 model arm)",
+  "handback_missing_sessions": 0,
+  "sessions_with_api_error_record": 0,
+  "handback_missing_sessions_all_have_api_error": true,
+  "handback_nonDONE_text_sessions": 0
+ },
+ "check5_adversarial": {
+  "scale": {
+   "px_per_mm_level0": 416.19747127139743,
+   "T_canvas_px": 8324,
+   "display_px": 1068,
+   "display_px_per_mm": 53.39967555476363,
+   "tile_mm": 20.0001215158081,
+   "source": "p4-inner mo2/w122-123 manifest.json (px_per_mm 416.197 from 2.4 um voxels and the median mesh edge 20.02 vox per 20 canvas px; T 8324); 416.197 x 1068 / 8324 = 53.40 display px/mm; the task text quoted about 416.4, which would give 53.43 (0.05 % difference)",
+   "radius_150px_mm": 2.809005830871924
+  },
+  "n0_max_tiles": [
+   {
+    "triple": 3,
+    "strip": "w122-123",
+    "r": 4,
+    "c": 12,
+    "census_letters": 9,
+    "census_firm": 1,
+    "census_rows": "Y",
+    "labelled_adjacent": false,
+    "reads": 3,
+    "letters_per_read": [
+     3,
+     3,
+     4
+    ],
+    "pair_agreements": [
+     3,
+     3,
+     3
+    ],
+    "is_other_p2mo2_candidate": false,
+    "chebyshev_tiles_from_candidate": 7,
+    "manhattan_tiles_from_candidate": 8
+   }
+  ],
+  "n0_tiles_triple_ge1": [
+   {
+    "triple": 3,
+    "strip": "w122-123",
+    "r": 4,
+    "c": 12,
+    "census_letters": 9,
+    "census_rows": "Y",
+    "labelled_adjacent": false,
+    "is_other_p2mo2_candidate": false,
+    "chebyshev_tiles_from_candidate": 7
+   },
+   {
+    "triple": 2,
+    "strip": "w122-123",
+    "r": 3,
+    "c": 13,
+    "census_letters": 8,
+    "census_rows": "Y",
+    "labelled_adjacent": false,
+    "is_other_p2mo2_candidate": false,
+    "chebyshev_tiles_from_candidate": 8
+   },
+   {
+    "triple": 1,
+    "strip": "w122-123",
+    "r": 2,
+    "c": 12,
+    "census_letters": 4,
+    "census_rows": "Y",
+    "labelled_adjacent": false,
+    "is_other_p2mo2_candidate": false,
+    "chebyshev_tiles_from_candidate": 7
+   }
+  ],
+  "other_p2mo2_candidates_in_n0": [],
+  "n0_triples_by_census_letters": {
+   "census_letters<5": {
+    "n": 46,
+    "max": 1,
+    "counts": {
+     "0": 45,
+     "1": 1
+    }
+   },
+   "census_letters>=5": {
+    "n": 2,
+    "max": 3,
+    "counts": {
+     "2": 1,
+     "3": 1
+    }
+   }
+  },
+  "n0_same_strip": {
+   "n": 14,
+   "max_triple": 3,
+   "chebyshev_le2_n": 3,
+   "chebyshev_le2_max_triple": 0
+  },
+  "u_row_geometry": {
+   "per_triple": [
+    {
+     "best_pair": 5,
+     "n_pairs_tied_at_best": 3,
+     "matched_centre_y_std_mm": 2.469,
+     "matched_centre_y_span_mm": 6.27,
+     "matched_centre_x_span_mm": 10.63,
+     "box_height_median_mm": 2.81,
+     "box_width_median_mm": 2.62,
+     "matched_pair_distance_median_mm": 0.21
+    },
+    {
+     "best_pair": 6,
+     "n_pairs_tied_at_best": 3,
+     "matched_centre_y_std_mm": 3.019,
+     "matched_centre_y_span_mm": 6.37,
+     "matched_centre_x_span_mm": 13.67,
+     "box_height_median_mm": 2.88,
+     "box_width_median_mm": 2.43,
+     "matched_pair_distance_median_mm": 0.14
+    },
+    {
+     "best_pair": 5,
+     "n_pairs_tied_at_best": 3,
+     "matched_centre_y_std_mm": 3.07,
+     "matched_centre_y_span_mm": 6.41,
+     "matched_centre_x_span_mm": 13.76,
+     "box_height_median_mm": 2.88,
+     "box_width_median_mm": 2.53,
+     "matched_pair_distance_median_mm": 0.09
+    }
+   ],
+   "pooled_matched_centre_y_std_mm": 2.965,
+   "u_all_namings_n": 59,
+   "u_all_namings_y_std_mm": 3.025,
+   "u_all_namings_box_height_median_mm": 2.87,
+   "u_all_namings_box_height_iqr_mm": [
+    2.62,
+    3.02
+   ],
+   "u_all_namings_box_width_median_mm": 2.43,
+   "cross_triple_median_nn_distance_mm": {
+    "0-1": 0.19,
+    "0-2": 0.15,
+    "1-2": 0.07
+   }
+  },
+  "u_line_structure": {
+   "method": "U namings of all 9 reads pooled, in tile mm; Gaussian KDE of y (bw 0.25 mm); a line is a KDE peak with namings from >= min_support distinct reads within +-win mm; peaks closer than 1.5 mm merged; spacings are between adjacent detected lines (a missed line doubles a spacing)",
+   "variants": {
+    "win1.0_sup5": {
+     "n_lines": 2,
+     "adjacent_line_spacings_mm": [
+      6.11
+     ],
+     "line_y_std_mm": [
+      0.241,
+      0.081
+     ],
+     "line_x_span_mm": [
+      9.7,
+      15.2
+     ],
+     "line_support_reads": [
+      9,
+      9
+     ],
+     "line_namings_per_supporting_read": [
+      2.78,
+      3.78
+     ],
+     "line_slope_mm_per_mm": [
+      0.0677,
+      -0.0054
+     ],
+     "line_box_height_median_mm": [
+      2.9,
+      2.74
+     ]
+    },
+    "win0.75_sup5": {
+     "n_lines": 2,
+     "adjacent_line_spacings_mm": [
+      6.11
+     ],
+     "line_y_std_mm": [
+      0.241,
+      0.081
+     ],
+     "line_x_span_mm": [
+      9.7,
+      15.2
+     ],
+     "line_support_reads": [
+      9,
+      9
+     ],
+     "line_namings_per_supporting_read": [
+      2.78,
+      3.78
+     ],
+     "line_slope_mm_per_mm": [
+      0.0677,
+      -0.0054
+     ],
+     "line_box_height_median_mm": [
+      2.9,
+      2.74
+     ]
+    },
+    "win1.5_sup5": {
+     "n_lines": 2,
+     "adjacent_line_spacings_mm": [
+      6.11
+     ],
+     "line_y_std_mm": [
+      0.241,
+      0.081
+     ],
+     "line_x_span_mm": [
+      9.7,
+      15.2
+     ],
+     "line_support_reads": [
+      9,
+      9
+     ],
+     "line_namings_per_supporting_read": [
+      2.78,
+      3.78
+     ],
+     "line_slope_mm_per_mm": [
+      0.0677,
+      -0.0054
+     ],
+     "line_box_height_median_mm": [
+      2.9,
+      2.74
+     ]
+    },
+    "win1.0_sup3": {
+     "n_lines": 2,
+     "adjacent_line_spacings_mm": [
+      6.11
+     ],
+     "line_y_std_mm": [
+      0.241,
+      0.081
+     ],
+     "line_x_span_mm": [
+      9.7,
+      15.2
+     ],
+     "line_support_reads": [
+      9,
+      9
+     ],
+     "line_namings_per_supporting_read": [
+      2.78,
+      3.78
+     ],
+     "line_slope_mm_per_mm": [
+      0.0677,
+      -0.0054
+     ],
+     "line_box_height_median_mm": [
+      2.9,
+      2.74
+     ]
+    },
+    "matched_centres_win1.0_sup2of3": {
+     "n_lines": 2,
+     "adjacent_line_spacings_mm": [
+      6.11
+     ],
+     "line_y_std_mm": [
+      0.246,
+      0.079
+     ]
+    }
+   }
+  },
+  "consistency": {
+   "u_pairs_total": 36,
+   "u_pairs_ge5": 22,
+   "u_min_agreement_per_read": [
+    3,
+    4,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    5
+   ],
+   "u_max_agreement_per_read": [
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    5,
+    5,
+    5
+   ],
+   "r_max_pair": 3
+  },
+  "summary_numbers": {
+   "matched_centre_y_std_mm_per_triple": [
+    2.469,
+    3.019,
+    3.07
+   ],
+   "pooled_matched_centre_y_std_mm": 2.965,
+   "note_y_std": "the matched namings lie on 2 lines, so the matched-centre y std mostly measures the line separation; the within-line y std is the row-tightness figure",
+   "within_line_y_std_mm": [
+    0.241,
+    0.081
+   ],
+   "matched_centre_x_span_mm_per_triple": [
+    10.63,
+    13.67,
+    13.76
+   ],
+   "box_height_median_mm": 2.87,
+   "box_height_median_mm_matched_per_triple": [
+    2.81,
+    2.88,
+    2.88
+   ],
+   "lines_in_tile": 2,
+   "line_spacing_in_tile_mm": [
+    6.11
+   ],
+   "line_pitch_estimate_block_mm": 6.48
+  },
+  "cross_candidate_line_geometry": {
+   "method": "Per candidate, text lines = peaks of a Gaussian KDE (bw 0.25 mm) of the y of all U namings of the 9 U reads that hold namings from >= 5 distinct reads within +-1.0 mm (variants 0.75/1.5 mm windows and >= 3 reads reported per batch). Lines are placed in the common canvas frame of 20260701183148-w122-123 (Y = r x 20.0 mm + y; X = c x 20.0 mm + x; display rows = canvas rows, no transpose, tile_strip.py). Each line is expressed at the c4|c5 boundary X = 100 mm with its own least-squares y-on-x slope; lines within 1.2 mm merge; pitch = least-squares lattice Y = a + kP over the merged lines. Aggregates only; no letter identity or individual letter position is used outside the analysis.",
+   "display_px_per_mm": 53.4,
+   "lines_detected_per_candidate": {
+    "r4 c5": 2,
+    "r4 c4": 2,
+    "r3 c5": 2,
+    "r3 c4": 2
+   },
+   "line_support_reads_per_candidate": {
+    "r4 c5": [
+     9,
+     9
+    ],
+    "r4 c4": [
+     9,
+     9
+    ],
+    "r3 c5": [
+     9,
+     9
+    ],
+    "r3 c4": [
+     5,
+     9
+    ]
+   },
+   "within_tile_adjacent_line_spacing_mm": {
+    "r4 c5": [
+     6.85
+    ],
+    "r4 c4": [
+     6.25
+    ],
+    "r3 c5": [
+     6.11
+    ],
+    "r3 c4": [
+     7.19
+    ]
+   },
+   "line_slope_y_on_x_by_tile_column": {
+    "c4": [
+     0.099,
+     0.097,
+     0.098,
+     0.089
+    ],
+    "c5": [
+     -0.016,
+     -0.002,
+     0.068,
+     -0.005
+    ],
+    "note": "c4 lines tilt about 5.1-5.6 degrees in the canvas, c5 lines about 0 (one at 3.9 degrees); cos(5.6 deg) = 0.995, so the tilt changes a perpendicular pitch by < 0.5 %"
+   },
+   "same_line_offsets_across_c4_c5_boundary": [
+    {
+     "tile_row": "r4",
+     "offset_at_c4c5_boundary_mm": 0.21,
+     "offset_without_tilt_correction_mm": 1.37
+    },
+    {
+     "tile_row": "r4",
+     "offset_at_c4c5_boundary_mm": 0.93,
+     "offset_without_tilt_correction_mm": 1.97
+    },
+    {
+     "tile_row": "r3",
+     "offset_at_c4c5_boundary_mm": -0.57,
+     "offset_without_tilt_correction_mm": 0.73
+    }
+   ],
+   "merged_lines": 5,
+   "merged_lines_members": [
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "merged_adjacent_spacings_mm": [
+    6.48,
+    6.47,
+    6.57,
+    6.35
+   ],
+   "lattice_pitch_mm": 6.478,
+   "lattice_rms_residual_mm": 0.041,
+   "lattice_max_abs_residual_mm": 0.077,
+   "lattice_grid_search_local_minima_5_10mm(P, rms)": [
+    [
+     6.478,
+     0.041
+    ],
+    [
+     5.395,
+     1.517
+    ],
+    [
+     5.411,
+     1.527
+    ]
+   ],
+   "c5_column_4_lines_no_tilt_correction": {
+    "pitch_mm": 6.526,
+    "rms_mm": 0.187,
+    "spacings_mm": [
+     6.11,
+     6.59,
+     6.85
+    ],
+    "note": "r3 c5 lines 1-2 and r4 c5 lines 1-2 are consecutive across the r3|r4 tile boundary"
+   },
+   "LINE_PITCH_ESTIMATE_MM": 6.48,
+   "line_pitch_range_single_spacings_mm": [
+    6.11,
+    7.19
+   ],
+   "block_vertical_extent_lines": "5 lines over 25.9 mm (top line only from r3 c4, 5 of 9 reads)",
+   "line_horizontal_extent_x_mm_abs": [
+    82.1,
+    119.4
+   ],
+   "line_horizontal_extent_mm": 37.3,
+   "census_letters_rows_neighbourhood": {
+    "r1": {
+     "c2": "0N",
+     "c3": "0N",
+     "c4": "1N",
+     "c5": "0N",
+     "c6": "0N",
+     "c7": "0N"
+    },
+    "r2": {
+     "c2": "0N",
+     "c3": "0N",
+     "c4": "0N",
+     "c5": "3Y",
+     "c6": "0Y",
+     "c7": "0N"
+    },
+    "r3": {
+     "c2": "0N",
+     "c3": "0N",
+     "c4": "3Y",
+     "c5": "7Y",
+     "c6": "0N",
+     "c7": "0N"
+    },
+    "r4": {
+     "c2": "0N",
+     "c3": "0N",
+     "c4": "8Y",
+     "c5": "13Y",
+     "c6": "0Y",
+     "c7": "0N"
+    },
+    "r5": {
+     "c2": "0N",
+     "c3": "0N",
+     "c4": "0N",
+     "c5": "3Y",
+     "c6": "0N",
+     "c7": "0N"
+    },
+    "r6": {
+     "c2": "0N",
+     "c3": "0N",
+     "c4": "0N",
+     "c5": "1Y",
+     "c6": "2Y",
+     "c7": "0N"
+    },
+    "r7": {
+     "c2": "0N",
+     "c3": "0N",
+     "c4": "0N",
+     "c5": "0N",
+     "c6": "0N",
+     "c7": "0N"
+    }
+   },
+   "box_height_median_mm_per_candidate": {
+    "r4 c5": 3.28,
+    "r4 c4": 3.42,
+    "r3 c5": 2.87,
+    "r3 c4": 3.09
+   },
+   "box_height_iqr_mm_per_candidate": {
+    "r4 c5": [
+     3.09,
+     3.56
+    ],
+    "r4 c4": [
+     2.97,
+     3.93
+    ],
+    "r3 c5": [
+     2.62,
+     3.02
+    ],
+    "r3 c4": [
+     3.0,
+     3.37
+    ]
+   },
+   "scale_uncertainty": "px/mm 416.197 is the p4-inner manifest value (2.4 um voxels, median mesh edge 20.02 vox per 20 canvas px); the medians along rows and columns are 19.88 and 20.16 vox, so an axis-specific scale differs by about +-0.7 % (about +-0.05 mm on the pitch). The task text quoted about 416.4 px/mm; that changes the pitch by 0.05 %.",
+   "q6_comparison_descriptive": [
+    "Q6 (METRIC-HASH-42) predicts a line pitch of 6.0-6.3 mm for (a) a text column and 6-9.5 mm (1.0-1.5 x the text pitch, larger letters possible) for (b) an initial-title block.",
+    "The reader-derived pitch of 6.48 mm (lattice over 5 lines; RMS 0.04 mm; single spacings 6.1-6.9 mm, one 7.2 mm spacing on the weakest tile) lies 0.18 mm above the top of the (a) band. It is inside (b) only at its low end, i.e. 1.03-1.08 x the (a) text pitch, which is in the 0.9-1.1 ratio band that Q6 discriminator 1 assigns to (a) and below the >= 1.2 it assigns to (b). Discriminator 1 itself is defined on the M1 z-profile against the s >= 119 cm cluster (p4-layout); this reader-based figure is not that discriminator.",
+    "Letter box-height medians 2.87-3.42 mm per candidate show no enlargement against the 3.46 mm the same reader model gave on the w010-027 phase-2 lead beside known text (P4-B-PHASE2-RESULT).",
+    "The lines are continuous across the c4|c5 tile boundary and about 37 mm long in the reader namings (from about 2 mm inside c4 to about 0.6 mm before c6); the outward c3 tiles read 0 letters in phase 2 and c6 is census 0. That width (about 3.7 cm) is inside the (b) W range 2-5.5 cm and below the (a) 5.5-7.0 cm, but M1 visibility can truncate lines; W is p4-layout's measurement.",
+    "Net: the line pitch and letter size lean toward ordinary text spacing, the line length toward a narrow block. Descriptive only; it cannot make or break a candidate (DECL-P4-25-A2 item 2), and title vs text is for papyrologists."
+   ]
+  },
+  "judgement": [
+   "All three criteria hold, (ii) at the bar: median U triple 5 > N0 max 3; U triples 5, 6, 5; U mean pairwise 4.64 vs R 2.00 (exact p = 1/48620). It holds under every one of the 280 groupings (min triple 5), but 14 of 36 U pairs agree on < 5, and max U - P99 = 3 is well below the SG 1c-spirit bar of 10. This is the weakest of the three confirmations.",
+   "Most U namings are tentative (firm per read 1-5; 7 of 9 reads have <= 2 firm).",
+   "The N0 max of 3 comes from w122-123 r4 c12 (census 9, the s >= 119 cm text-like cluster, Chebyshev 7).",
+   "Geometry: 2 lines with spacing 6.11 mm, box height median 2.87 mm. With r4 c5 they form 4 consecutive lines of column c5 across the r3|r4 tile boundary (spacings 6.11, 6.59, 6.85 mm)."
+  ]
+ },
+ "disclosures": [
+  "the extmo2_3 score file was committed (b00d0019) before this audit as counts only; no RULES.md result entry exists for it (the commit message defers it to this audit)",
+  "the auditor opened no image and printed or wrote no pixel array, letter identity, letter text, answer content or individual letter position; images were compared only by sha256 of png_bytes and np.array_equal on decoded arrays; transcripts were parsed in memory (an in-memory memfd for hercules.harness.audit), never written to disk",
+  "decryption only through hercules.scorer.keyaccess.decrypt_answer_logged(path, \"audit-extmo2\"), one process per batch, 18 logged decryptions per batch (72 in total, 11:15:55Z-11:16:53Z); no re-run was needed. The rows were appended to the tracked logs/key_reads.tsv; the orchestrator committed that file (5f3f66d9, 11:18:27Z); the auditor committed nothing",
+  "a pipeline dry run with synthetic answers (no decryption) preceded each real run; check2-check4 ran before any decryption",
+  "during the audit another process ran \"git fetch --depth 1\" on the rh-e2 branch, which truncated its local history; the auditor re-deepened it before each run, pinned the harness SHA, and verified every first-add commit against its parent (a truncated history fails closed)",
+  "at most 2 threads (single-threaded numpy/cv2); scratch scripts in /dev/shm/audit_scratch; only logs/p4/audit_extmo2_<k>.json written in the repository",
+  "px/mm: the p4-inner manifest value 416.197 (display 53.40 px/mm); the task text quoted about 416.4 (0.05 % difference)",
+  "the three confirmed candidates are adjacent tiles of one 2 x 2 block whose lines continue across tiles, read by one model family: they are one lead, not three independent confirmations (DECL-P4-25-A2: one confirmed candidate suffices)",
+  "the N0 pools of DECL-P4-3 as declared include census-blank tiles (47 identical all-zero tiles among the 555 rot-0 census tiles of the pool batches; 3-4 of them drawn per batch) and do not exclude the other phase-2 candidates (3 drawn in extmo2_1 and in extmo2_4). 46-48 of the 48 N0 tiles per batch have census < 5 letters. Criterion (i) is therefore mainly a rotated, mostly blank comparator; the within-tile R arm is the stricter control and is reported",
+  "verified by rh_verify_ext.py v1 (METRIC-HASH-43, dc1f8538; committed a30d5474 before commit A); v2 came after this batch",
+  "commit B (08:02:20Z) preceded verification and scoring (10:55Z) by about 3 h; the A and B directories are unchanged since their commits"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "batch": "extmo2_1",
+ "declaration": "RULES.md DECL-P4-25-A2 item 1; DECL-P4-3 unchanged",
+ "command": "python3 tools/p4/p4_ext.py build extmo2_1 p2mo2 0a917b2f-293f-4fab-bc5f-eaf52aca2288 mo,mo2a,mo2b,mo2c",
+ "p2_batch": "p2mo2",
+ "candidate_file": "0a917b2f-293f-4fab-bc5f-eaf52aca2288",
+ "candidate_source": "79b759d1-4f02-4e70-90be-10792014d607",
+ "candidate_strip_rc": [
+  "20260701183148-w122-123",
+  4,
+  5
+ ],
+ "orchestrator_base_commit": "a30d54746e48b7b5228d5e1a01579942afc30e69",
+ "variant": "sigma2t",
+ "n0_seed": 20323752,
+ "n0_pool_batches": [
+  "mo",
+  "mo2a",
+  "mo2b",
+  "mo2c"
+ ],
+ "n0_by_batch": {
+  "mo2c": 15,
+  "mo2b": 13,
+  "mo": 10,
+  "mo2a": 10
+ },
+ "n0_from_all_zero_tiles": 4,
+ "recipient": "age1vp0tkyj8xecncfmcxj748ceef89mpmwayljccaduapjx3aqhh5rstvvcq5",
+ "key_sha256": {
+  "p4ext_key_extmo2_1.json": "15ebc0a00ebf466a06b0fde038089e74169edccd4f8ef073626f964b72e605d6"
+ },
+ "code_sha256": {
+  "tools/p4/p4_ext.py": "843a2664913a4a94e95b21635212e1f6d7a4a18d526df4ba10c321ddfed8a8c8",
+  "tools/p4/p4_phase2.py": "999cb5534943fdd70b78a35cc0f61957ddc6e5411b9c10b507f0ffa415a94e05",
+  "tools/p4/p4_jobs.py": "e9f99ce4247e45211b8a6701f42a7ec4e38c9f458b9c23d191bc60cfdf04e45f",
+  "tools/p4/score_p4.py": "9a5b4761a22f6a792eadb38928f8d7adfb217e885fa4ff2655c0bc1b5eb1e24d",
+  "src/hercules/harness/audit.py": "e36cb995aee6f54461ef8dfc3af57ecd167853c74408f2917d1cbf560426e1f1",
+  "src/hercules/harness/jobs.py": "02d9bd781beb4d3d26bb26efcc8ab4c6fd5c2b1d64bffcba883d2daaf947f0ae",
+  "src/hercules/display/builder.py": "ed42725e878c4e8c99aae98d24316cb39477ebc2c35308d43176fa22a8be7f8a",
+  "configs/briefs/keysheet_sigma2.png": "164262e67dfd7589bdd03dddb1b8470267bd7d46d5c40b0af63fc1eb980db438",
+  "configs/briefs/k_d2_task_sigma2t.txt": "f07fbdffab8ee0d62afb946fafc13b6a794ef5ab5e8506bdfbd5ae90c4f8bea0",
+  "logs/p4/ref_brief_sigma2t.txt": "627ebb0fb6dc6d1714cacc27bf35343f95d2e02967def7756872cb0dfe826700"
+ },
+ "pc_pool_manifest_sha256": "417f8081c802a11356435b9830e5553069f59006ebf5f1b4acc2f87241c32811",
+ "roles": {
+  "U": 1,
+  "R": 1,
+  "n0": 48,
+  "pc": 18
+ },
+ "arms": {
+  "R": 9,
+  "U": 9
+ },
+ "n_sessions": 18,
+ "n_images": 68,
+ "checks": {
+  "R_equals_rot90_U": true,
+  "n0_equal_rot90_src": true,
+  "pc_copies_identical": true,
+  "n0_from_pool_batches_and_not_excluded": true,
+  "sessions_8n0_1pc_1arm_no_dup": true,
+  "each_n0_in_3_sessions": true,
+  "briefs_match_ref_template": true
+ }
+}

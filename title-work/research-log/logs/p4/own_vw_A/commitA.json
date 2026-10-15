@@ -1,0 +1,260 @@
+{
+ "rule": "DECL-P4-26-A2 item 6 + DECL-P4-26-A2-A1 item 7",
+ "keys_sha256": {
+  "p4_key_own_vw_a.json": "df0d7973bf122064726575139bdeb9bb2c34da2e960736f09aaabb4a23b8c4ee",
+  "p4_key_own_vw_c.json": "b38cecfd48f9f5d966149fa95b40131830c4744dd597153505f6891353d92631",
+  "p4_key_n_own_vw.json": "502077de22577f57d15cc345f0391ed9c3e54689195dd09b8516c88d0fc4d146"
+ },
+ "briefs": {
+  "c0315d49-66e5-4b7e-8c6a-9830335f0678": "c22635ea1c09ffc7416b30ea9d9b735ee47bb0fc235745c5657b6fd8b06447c7",
+  "d00df248-4084-48c9-a056-80756e62b222": "42c07d207503b09ea6ab1c7ae6df417ebe8ade499fef52447920f3e359f075f9",
+  "376cd8d5-f9fa-4a54-bbfa-f9e38f76cbb8": "afe5c151d000dff7b8593b561a1ffd592621afb4bf84132de1f01a6cc1304e57",
+  "f452e1b1-3afb-40ea-ba18-4681786b2328": "a309431f8dc92ab2c40acdb38cb6a5d4e83a628f70df1ba429e3f78845797b17",
+  "99018fda-3c7a-4256-bfdc-f6bd386d07a2": "4d32dcc33b78e544e0746d7ee49d647c0074d6553064847bd6c5b92dd4a61396",
+  "ffb0ba8a-e047-468a-a216-60a515d994d4": "e68074516b5922abc0293603b58fbab20cecace86cd7de136b97a200696a4403",
+  "f1373d96-241b-4129-8a2b-97e2c02eaa2f": "9445d6ce23dc13accda5ce708b38370b3f4601dc0f06b1dd8df33a6fdbaf46ba",
+  "cbb8f2f1-60f6-44cb-b54f-475e594fcdde": "17c9f21b6b84c368d697b210033e974b92fe857b87982874c071d2c3928635d6",
+  "6b826d2a-ac18-4c7b-8ac4-2872e1e71234": "c8e2cf5cd0e0db740011f27f1fec89e63d6e40d8ba6ca8813577d0e3f42307ee",
+  "e4bc1d71-b586-4d7f-a4e0-a7d727810c79": "f5836fcc6712f446678c21e0ace8c1293db2d94e658f2eb0ee0b4cb68b8e68c7",
+  "40ac436f-066d-4f4f-8242-390df6dfff0e": "ad8438a4229e66bcdeeb84cc2e2543ede3519f3a1cf5b2dc4f7d9288f8f376f8",
+  "9dad7c8c-eeac-40ce-8225-4569f2fb5f1c": "dea6966ce5857bfd8bdd75e16071d08cfbcfc9b07e6b01bfb1f7dc16499a5e0b",
+  "cd81645f-b84a-44ef-a260-fd93bbaef9c4": "356fc86241532fb0fde2734ef897a80f03d8467c1eef9a4f503082d41c2fae44",
+  "36b3f6db-3d6b-4eb2-afb0-6f3af50aac89": "5b331cfa381fb12ec146fb022a42cd1256ced1ff6c04ba7cb74f3408a5404f40",
+  "06f0a7bb-9fb8-4e35-b103-463b29f81135": "774c305927f7d6bdd2e9817a3d6b742a9d294220e59bb8ba7962c2e4831db821",
+  "59fa81c8-f3ea-4caa-9cac-722ac4129dcd": "d8aede74bbd4c0570ec9043a1d17f8ac05dc8e59e50e4d53a005c8bbb794d088",
+  "0bcf6d4b-80e8-4dcb-a0ca-249ec0849e9c": "d324df3afa8dd668adf428a93d38f1512035adafa48045fe5a6cd7d7fbb4f0ae"
+ },
+ "stage": {
+  "verso": {
+   "staged": 160,
+   "missing": [],
+   "bad": [
+    [
+     "20260701183124-w010-027_r0_c20",
+     "fl-pherc1545",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r1_c20",
+     "pairs0139c",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r2_c20",
+     "tracer",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r3_c20",
+     "fl-pherc0483b",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r4_c20",
+     "fl-pherc0483b",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r5_c20",
+     "p4-excl",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r6_c20",
+     "fl-pilot",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r7_c20",
+     "census",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c0",
+     "p4v-09",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c1",
+     "p4v-03",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c2",
+     "p4v-12",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c3",
+     "p4v-06",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c4",
+     "p4v-15",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c5",
+     "p4v-09",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c6",
+     "p4v-03",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c7",
+     "p4v-12",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c8",
+     "p4v-06",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c9",
+     "fl-pherc0483b",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c10",
+     "census",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c11",
+     "census",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c12",
+     "tracer",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c13",
+     "fl-pherc0483a",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c14",
+     "fl-pherc0175b",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c15",
+     "p4-excl",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c16",
+     "fl-pherc1545",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c17",
+     "fl-pherc0191",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c18",
+     "rh-e1",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c19",
+     "fl-pherc0257",
+     "valid<0.5"
+    ],
+    [
+     "20260701183124-w010-027_r8_c20",
+     "pairs0814b",
+     "valid<0.5"
+    ]
+   ],
+   "nodata": [],
+   "partial": [],
+   "dups": 49,
+   "dup_mismatch": [],
+   "makers": {
+    "p4v-01": 6,
+    "p4v-10": 5,
+    "p4v-04": 6,
+    "census": 9,
+    "p4v-07": 5,
+    "pairs0814b": 10,
+    "fl-pherc0191": 6,
+    "fl-pherc0483b": 9,
+    "tracer": 9,
+    "fl-pherc0483a": 5,
+    "fl-pilot": 6,
+    "pairs0139c": 2,
+    "own-lead": 16,
+    "p4v-02": 6,
+    "p4v-11": 4,
+    "p4v-05": 6,
+    "p4v-14": 4,
+    "p4v-08": 6,
+    "p4v-03": 5,
+    "fl-pherc0175b": 5,
+    "p4-excl": 9,
+    "fl-pherc0211": 2,
+    "p4v-12": 3,
+    "p4v-06": 4,
+    "p4v-15": 4,
+    "p4v-09": 3,
+    "fl-pherc0257": 2,
+    "fl-pherc1545": 1,
+    "rh-e1": 2
+   },
+   "staged_sha256": 160
+  },
+  "forward": {
+   "staged": 189,
+   "missing": [],
+   "bad": [],
+   "nodata": [],
+   "partial": [],
+   "dups": 14,
+   "dup_mismatch": [],
+   "makers": {
+    "p4v-01": 6,
+    "p4v-10": 5,
+    "p4v-04": 6,
+    "census": 5,
+    "p4v-07": 5,
+    "pairs0814b": 4,
+    "own-lead": 80,
+    "fl-pherc1545": 2,
+    "p4v-02": 6,
+    "p4v-11": 4,
+    "p4v-05": 6,
+    "p4v-14": 4,
+    "p4v-08": 6,
+    "p4v-03": 7,
+    "pairs0139c": 1,
+    "p4v-12": 5,
+    "p4v-06": 6,
+    "p4v-15": 5,
+    "p4v-09": 5,
+    "tracer": 5,
+    "p4-excl": 4,
+    "fl-pherc0483b": 3,
+    "fl-pherc0191": 2,
+    "fl-pherc0175b": 2,
+    "fl-pilot": 1,
+    "fl-pherc0483a": 2,
+    "rh-e1": 1,
+    "fl-pherc0257": 1
+   },
+   "staged_sha256": 189
+  },
+  "facing": {
+   "n_npz": 189,
+   "commit": "11b9c7d208f57d07a98fe35d63a79aead6223ffd"
+  }
+ }
+}

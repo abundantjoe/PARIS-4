@@ -1,0 +1,130 @@
+{
+ "batch": "census_own_vw",
+ "census_batches": [
+  "own_vw_a",
+  "own_vw_c"
+ ],
+ "null_batch": "n_own_vw",
+ "variant": "block",
+ "jobs": [
+  {
+   "job": "c0315d49-66e5-4b7e-8c6a-9830335f0678",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "d00df248-4084-48c9-a056-80756e62b222",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "376cd8d5-f9fa-4a54-bbfa-f9e38f76cbb8",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "f452e1b1-3afb-40ea-ba18-4681786b2328",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "99018fda-3c7a-4256-bfdc-f6bd386d07a2",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "ffb0ba8a-e047-468a-a216-60a515d994d4",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "f1373d96-241b-4129-8a2b-97e2c02eaa2f",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "cbb8f2f1-60f6-44cb-b54f-475e594fcdde",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "6b826d2a-ac18-4c7b-8ac4-2872e1e71234",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "e4bc1d71-b586-4d7f-a4e0-a7d727810c79",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "40ac436f-066d-4f4f-8242-390df6dfff0e",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "9dad7c8c-eeac-40ce-8225-4569f2fb5f1c",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "cd81645f-b84a-44ef-a260-fd93bbaef9c4",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "36b3f6db-3d6b-4eb2-afb0-6f3af50aac89",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "06f0a7bb-9fb8-4e35-b103-463b29f81135",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "59fa81c8-f3ea-4caa-9cac-722ac4129dcd",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "0bcf6d4b-80e8-4dcb-a0ca-249ec0849e9c",
+   "n_census": 7,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 9
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-2 items 3-5",
+ "variant": "sigma2t",
+ "count": "n_letters",
+ "cand_cmin": null,
+ "stats": {
+  "jobs": 1,
+  "valid": 1,
+  "invalid": 0,
+  "missing_items": 0,
+  "right_nonempty": 0
+ },
+ "n_census_tiles": 6,
+ "n_null_tiles": 1,
+ "null_letter_counts": [
+  4
+ ],
+ "null_p99": 4.0,
+ "threshold": 5,
+ "n_rows_Y": 6,
+ "n_positive": 5,
+ "n_labelled_adjacent": 0,
+ "tiles": {
+  "056cf5e2-f125-490c-b70f-1beab4a9fe69": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 6,
+   "rows": "Y",
+   "n_letters": 6,
+   "n_firm": 2,
+   "labelled_adjacent": false
+  },
+  "182831b7-61cc-4531-a741-b9af819c3d92": {
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 5,
+   "rows": "Y",
+   "n_letters": 12,
+   "n_firm": 6,
+   "labelled_adjacent": false
+  },
+  "1a5a46e5-2747-43b4-9eb4-545247e95d92": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 5,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "1e790aed-d60d-4b70-bf68-b507b29a2ddc": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "3397ada0-f088-4434-8cb3-b56165febe32": {
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 5,
+   "rows": "Y",
+   "n_letters": 10,
+   "n_firm": 3,
+   "labelled_adjacent": false
+  },
+  "a7198def-deff-4845-b9ff-65adaefe1264": {
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 9,
+   "n_firm": 2,
+   "labelled_adjacent": false
+  }
+ },
+ "positive": [
+  "056cf5e2-f125-490c-b70f-1beab4a9fe69",
+  "182831b7-61cc-4531-a741-b9af819c3d92",
+  "1a5a46e5-2747-43b4-9eb4-545247e95d92",
+  "3397ada0-f088-4434-8cb3-b56165febe32",
+  "a7198def-deff-4845-b9ff-65adaefe1264"
+ ],
+ "candidates": [
+  "182831b7-61cc-4531-a741-b9af819c3d92",
+  "3397ada0-f088-4434-8cb3-b56165febe32",
+  "a7198def-deff-4845-b9ff-65adaefe1264",
+  "056cf5e2-f125-490c-b70f-1beab4a9fe69",
+  "1a5a46e5-2747-43b4-9eb4-545247e95d92"
+ ]
+}

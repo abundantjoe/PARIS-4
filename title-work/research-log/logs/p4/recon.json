@@ -1,0 +1,4296 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "generated_utc": "2026-09-26T00:06:34Z",
+ "serves": "RULES.md DECL-P4-1 item 1",
+ "viewing": "no image or CT chunk was opened",
+ "method": "Anonymous metadata reads only: S3 list requests and JSON/zarr metadata (.zarray/.zattrs/zarr.json/meta.json/metadata.json/transform.json) from s3://vesuvius-challenge-open-data, HF API listings/READMEs/.zattrs and checkpoint data.pkl config (HTTP range, no weights loaded) from huggingface.co/scrollprize, scrollprize.org pages, organizers Substack posts, ScrollPrize/villa GitHub. No TIFF, PNG, JPG, CT chunk, surface-volume slice or ink map was opened. No account, login or terms acceptance. Three recon lenses (volumes, labels, statements) merged; unverified and conflicting items re-checked live at 2026-09-26T00:02-00:04Z.",
+ "title_words_policy": "No proposed or known title words, readings, transcriptions or author attributions are recorded here. Where a page holds such text, only its existence and location are noted.",
+ "prize": {
+  "name": "PHerc. Paris 4's Title (Scroll 1)",
+  "amount_usd": 50000,
+  "url": "https://scrollprize.org/prizes#first-title-prize",
+  "status": "open; no Paris 4 title award on https://scrollprize.org/winners (sha256 57f099a741d3d252cbde838641e66f0b61f7dcd224a9bb2ad9b24911a4ef276b, fetched 2026-09-25T23:55:16Z); listed as open on the home page",
+  "deadline": "June 25th, 2027 (11:59pm Pacific); \"Submissions remain open until the prize is won\"",
+  "first_appeared": "villa commit 1ecdfc58 (2026-07-14, \"Obsidian Minimal website restyle #1109\"); title/Paris 4 lines unchanged through 75c79ac5 (2026-09-24, \"prize updates #1887\")",
+  "page_sha256": [
+   {
+    "sha256": "b5649c1f6f2b520940c3a8d30982b942bc5e9a50b35e7811bd345930c91162e7",
+    "bytes": 59596,
+    "fetched_utc": "2026-09-25T23:53:29Z"
+   },
+   {
+    "sha256": "4214ffc9e1a07368a5c8d048ce3afa356f22f94bcd3fe7c6de7b5f40e10ca9d3",
+    "fetched_utc": "2026-09-26T00:04:18Z",
+    "note": "re-fetch; hash differs only by Cloudflare nonce/obfuscation markup, rendered text of the title prize identical"
+   }
+  ],
+  "source_markdown": "ScrollPrize/villa HEAD f4570bfa scrollprize.org/docs/34_prizes.md (sha256 ca896b869caf445af6f4ba2abc95e953ee745c3f3ec5ed5ac5ff4a363bdf5421, byte-identical to earlier saved prizes_live.md)",
+  "requirements": [
+   "Scope: discover the title of PHerc. Paris 4 using any of its scans, including the 2.4 um volumes; specify which scan the image comes from.",
+   "Mesh: tifxyz mesh of the surface region containing the title, already including a low-distortion isometric 2D parametrization (flattening).",
+   "Image of the virtually unwrapped region showing the title visibly and legibly; the submitter need not read it, papyrologists must be able to.",
+   "Illustrate the ink predictions in the spatial context of the title search (as in the organizers 30k-first-title-prize post).",
+   "Images generated programmatically from the reconstructed CT volume and the submitted mesh; no manual annotation of characters or text.",
+   "Ink model outputs of this region should not overlap with any training data used; do not include overlap between training and prediction regions.",
+   "Scale bar of 1 cm on the image, plus pixel and millimetre dimensions of a few representative letters.",
+   "Name the image after the tifxyz mesh in the same package.",
+   "Reproducible methodology: Docker image for automated software, or instructions plus video for human-in-the-loop work.",
+   "False-positive mitigation: demonstrate letters are not hallucinated, e.g. validate on a held-out region with known ground truth (k-fold if trained on it); organizers may run the method on held-out data.",
+   "Judged by review teams for technical validity and papyrological plausibility and legibility; discovery must not be made public before the official announcement.",
+   "Terms: award at sole discretion of Scroll Prize, Inc.; method open-sourced under a permissive licence to accept; payment info within 30 days; datasets used to train ML models and pseudo-label stages/checkpoints published under CC BY-NC 4.0.",
+   "Submission form https://forms.gle/4zeVPPBtNdSCAQa88 (not opened)."
+  ]
+ },
+ "bucket": {
+  "root_metadata": {
+   "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/metadata.json",
+   "etag": "7b86f3272d4ffa1085fafb4e3e6383bf",
+   "last_modified": "2026-09-23T15:22:11Z",
+   "bytes_gzip": 1343134,
+   "rechecked_utc": "2026-09-26T00:02:49Z",
+   "note": "ETag unchanged; content byte-identical to earlier recon copy"
+  },
+  "scroll_prefix": "PHercParis4/ (photos/, representations/, segments/, volumes/)",
+  "license": "Bucket LICENSE.txt: CC BY-NC 4.0; Paris 4 data browser adds a publication reservation (no scholarly claims, transcriptions, translations etc. without permission) until 25/06/2027; the 7.91 um DLS volumes are under the EduceLab Data License (https://dl.ash2txt.org/LICENSE.txt, registration-based, not accepted)."
+ },
+ "scans": [
+  {
+   "id": "20230205180739",
+   "facility": "DLS",
+   "energy_keV": 54,
+   "pixel_um": 7.91,
+   "note": "stitched_part_1, cropped 8096x7888+1184+1040"
+  },
+  {
+   "id": "20230206171837",
+   "facility": "DLS",
+   "energy_keV": 54,
+   "pixel_um": 7.91,
+   "note": "stitched_part_2, cropped 8316x7812+900+948"
+  },
+  {
+   "id": "20260310152857",
+   "facility": "ESRF BM18",
+   "energy_keV": 74,
+   "pixel_um": 45.532,
+   "distance_mm": 11000.73,
+   "tomo_N": 4000,
+   "exposure_s": 0.012,
+   "note": "helical half-acq"
+  },
+  {
+   "id": "20260310160232",
+   "facility": "ESRF BM18",
+   "energy_keV": 110,
+   "pixel_um": 45.532,
+   "distance_mm": 11000.73,
+   "tomo_N": 3600,
+   "exposure_s": 0.012
+  },
+  {
+   "id": "20260311024914",
+   "facility": "ESRF BM18",
+   "energy_keV": 78,
+   "pixel_um": 2.4,
+   "distance_mm": 220,
+   "tomo_N": 49000,
+   "exposure_s": 0.017,
+   "note": "helical, 36 scans, full acq, GAGG 50um, Paganin d/b 1000, radix 2.4um_PHerc-Paris4_B_HA"
+  },
+  {
+   "id": "20260315072529",
+   "facility": "ESRF BM18",
+   "energy_keV": 137,
+   "pixel_um": 2.4,
+   "distance_mm": 220,
+   "tomo_N": 13000,
+   "exposure_s": 0.12,
+   "note": "5 scans, ROI1, Paganin d/b 2000"
+  },
+  {
+   "id": "20260315102010",
+   "facility": "ESRF BM18",
+   "energy_keV": 78,
+   "pixel_um": 1.129,
+   "distance_mm": 225,
+   "tomo_N": 10000,
+   "exposure_s": 0.013,
+   "note": "19-tile mosaic ROI-1, half-acq, LuAG 25um, Paganin d/b 500 + unsharp"
+  }
+ ],
+ "volumes": [
+  {
+   "id": "20260411134726",
+   "path": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/",
+   "scan": "20260311024914",
+   "pixel_um": 2.4,
+   "energy_keV": 78,
+   "format": "OME-Zarr v2 (NGFF 0.4), zyx, 6 levels (x1..x32)",
+   "L0_shape": [
+    75784,
+    32693,
+    32693
+   ],
+   "L2_shape": [
+    18946,
+    8174,
+    8174
+   ],
+   "chunks": [
+    128,
+    128,
+    128
+   ],
+   "dtype": "uint8",
+   "compressor": null,
+   "extent_cm": [
+    18.19,
+    7.85,
+    7.85
+   ],
+   "notes": "SAM2 masked; z_crop 1528..75783; left_handed false; CC BY-NC 4.0; affine to 20230205180739 in transform.json (24 landmarks). Main volume: all segments, labels, predictions and representations target it.",
+   "verified_utc": "2026-09-26T00:03:22Z"
+  },
+  {
+   "id": "20260608103018",
+   "path": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260608103018-1.129um-0.2m-78keV-masked.zarr/",
+   "scan": "20260315102010",
+   "pixel_um": 1.129,
+   "L0_shape": [
+    59969,
+    36006,
+    32354
+   ],
+   "chunks": [
+    128,
+    128,
+    128
+   ],
+   "dtype": "uint8",
+   "compressor": null,
+   "extent_cm": [
+    6.77,
+    4.07,
+    3.65
+   ],
+   "notes": "fused mosaic of 19 helical half-acq tiles; affine to 20260411134726 (16 landmarks). Footprint in 2.4um voxels x 5805-21267, y 5232-22447, z 28078-56359 (x 13.9-51.0 mm, y 12.6-53.9 mm, z 67.4-135.3 mm): central/inner region incl. umbilicus, not the outer windings.",
+   "verified_utc": "2026-09-25T23:54:32Z"
+  },
+  {
+   "id": "20260323153942",
+   "path": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260323153942-2.400um-0.2m-137keV-masked.zarr/",
+   "scan": "20260315072529",
+   "pixel_um": 2.4,
+   "energy_keV": 137,
+   "L0_shape": [
+    6625,
+    8431,
+    8431
+   ],
+   "chunks": [
+    128,
+    128,
+    128
+   ],
+   "dtype": "uint8",
+   "compressor": null,
+   "extent_cm": [
+    1.59,
+    2.02,
+    2.02
+   ],
+   "notes": "ROI near the central axis (in 2.4um-78keV frame x 22.2-42.8 mm, y 22.9-43.4 mm, z 101.1-117.0 mm); affine only to 20230205180739 (13 landmarks); every segment overlaps it by <=8%; no meshes on it.",
+   "verified_utc": "2026-09-25T23:54:32Z"
+  },
+  {
+   "id": "20260310170716",
+   "path": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260310170716-45.532um-11.0m-74keV-masked.zarr/",
+   "scan": "20260310152857",
+   "pixel_um": 45.532,
+   "L0_shape": [
+    4071,
+    2264,
+    2264
+   ],
+   "extent_cm": [
+    18.54,
+    10.31,
+    10.31
+   ],
+   "notes": "overview; all 81 segments meshed and rendered (6 slices) on it; affine to 20230205180739. CONFLICT re-verified 2026-09-26T00:03:02Z: transform.json (15 landmarks, Last-Modified 2026-03-24T15:50:19Z) translation (13272.78, 2675.95, -9679.64) differs from root metadata.json transforms entry (8 landmarks) translation (13219.98, 2621.10, -9399.31); authority unknown."
+  },
+  {
+   "id": "20260310173927",
+   "path": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260310173927-45.532um-11.0m-110keV-masked.zarr/",
+   "scan": "20260310160232",
+   "pixel_um": 45.532,
+   "L0_shape": [
+    4066,
+    2264,
+    2264
+   ],
+   "extent_cm": [
+    18.51,
+    10.31,
+    10.31
+   ],
+   "notes": "no transform, no meshes"
+  },
+  {
+   "id": "20230205180739",
+   "path": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/ (NOT in open-data bucket)",
+   "scan": "20230205180739",
+   "pixel_um": 7.91,
+   "L0_shape": [
+    14369,
+    7888,
+    8096
+   ],
+   "extent_cm": [
+    11.37,
+    6.24,
+    6.4
+   ],
+   "license": "EduceLab Data License",
+   "notes": "Root metadata.json entry re-verified 2026-09-26T00:02:49Z (shape, uint8, left_handed_coordinates true, window u16 14500-75000, z_crop 0..14257). Its z maps to about 69.7-183.5 mm of the 2.4 um volume (upper part). .zarray not fetched: host outside the declared source list. Legacy volpkg https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/.",
+   "verified": "metadata entry only"
+  },
+  {
+   "id": "20230206171837",
+   "path": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230206171837-7.910um-54keV-masked.zarr/ (NOT in open-data bucket)",
+   "scan": "20230206171837",
+   "pixel_um": 7.91,
+   "L0_shape": [
+    10529,
+    7812,
+    8316
+   ],
+   "extent_cm": [
+    8.33,
+    6.18,
+    6.58
+   ],
+   "license": "EduceLab Data License",
+   "notes": "root metadata entry re-verified 2026-09-26T00:02:49Z; no transform, no meshes in the bucket; the 2024 1B title-search segments (dl.ash2txt.org) sit on it.",
+   "verified": "metadata entry only"
+  }
+ ],
+ "representations_on_20260411134726": [
+  "surface prediction m7 (nnUNet Dataset100_VesuviusSurface, level 2, th 0.2): representations/predictions/surfaces/20260411134726-surface-20260413222639-surface-m7-L2-th0.2.zarr",
+  "recto surface full-res th 0.45: representations/predictions/surfaces/...-20260413141734-surface-recto-2um-ps256-L0-th0.45.zarr (+ .normal-grids/ xy, xy_img, xz, yz)",
+  "lasagna L2: representations/predictions/lasagna/20260411134726-lasagna-20260419180421-L2",
+  "fibers L1: representations/fibers/20260411134726-fibers-20260801084232-L1 and -20260915212757-L1",
+  "3D ink: representations/predictions/ink-3d/20260411134726-ink3d-20260428123845-v3-78k-fullsup.zarr (L0 [75784,32693,32693], chunks 256^3)",
+  "umbilicus: representations/umbilicus/20260411134726-umbilicus-20260524235033.json (146 control points, z 2252-72960, median x 17082, y 17000 in 2.4um voxels)"
+ ],
+ "segments": {
+  "count": 81,
+  "source": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/segments/ + root metadata.json",
+  "verified_utc": "2026-09-25T23:57:00Z",
+  "families": {
+   "gp-2023": "11 segments on original volume 20230205180739: 20230702185753, 20230929220926, 20231005123336, 20231007101619, 20231012184424, 20231016151002, 20231022170901, 20231031143852, 20231106155351, 20231210121321, 20231221180251; bbox half-extent 9-15 mm (middle windings)",
+   "retrace-2026": "20260602230115-20230702185753_v14, 20260603222816-20231005123336_v2_flatboi, 20260604223808-20231210121321_v8",
+   "strip-5753": "9 narrow strips 5753_0, 5753_-1..-7, 5753_-1_copy (ds 4, 23-53 cm2)",
+   "spiral-20260701": "28 winding strips w010-027 ... w128-129 (ds 4), z 28.8-172.8 mm, 504-793 cm2 each",
+   "spiral-20260623": "30 winding strips w010-027 ... w128-129 plus w046-052_jordi, w053-058_jordi (ds 4), z 67.1-163.3 mm, 325-520 cm2 each"
+  },
+  "winding_convention": "wNNN = winding index from the organizers spiral fit (Paris 4 fit has 130 windings; r(theta)=omega/(2 pi) theta; innermost winding wraps the umbilicus, outermost follows the outer shell) per https://scrollprize.org/tutorial_spiral; so w128-129 is the outermost.",
+  "mesh_path_pattern": "PHercParis4/segments/<long_id>/mesh/<timestamp_id>-on-<volume>-<px>.tifxyz/{x,y,z}.tif + meta.json (bbox, area_vx2, scale 0.05); note the folder uses the 14-digit timestamp id, not the full long id (verified 2026-09-26T00:03:30Z)",
+  "mesh_coverage": "all 81 meshed on 20260411134726 and 20260310170716; 1.129 um (20260608103018) meshes for 37 segments (none for w124-129); 7.91 um meshes for 2023 segments, 5753_*, v2/v8, all 20260623 set and 20260701 w010-045; none on 20260310173927, 20260323153942, 20230206171837",
+  "surface_volumes": "198 layers-zarr: 81 on 20260310170716 (6 slices), 80 on 20260411134726 (109 slices, missing only 20260623161921-w104-106), 37 on 20260608103018 (render level 1, 116 slices); uint8 uncompressed, chunks [n,128,128]; path segments/<id>/surface-volumes/{2.4um-0.22m-78keV-volume-20260411134726, 1.129um-0.23m-78keV-volume-20260608103018-L1, 45.532um-11.0m-74keV-volume-20260310170716}.zarr",
+  "outermost": "20260701183151-w128-129 and 20260623171929-w128-129 (then w126-127: 20260701183150, 20260623171400; w124-125: 20260701183149, 20260623170833; w122-123: 20260701183148, 20260623170305). 20260701 w-set bbox half-extent rises 13.9 mm (w010-027) to 31.9 mm (w128-129). Ranking by bbox + umbilicus, not per-vertex radius.",
+  "anomalies": [
+   "20260602230115-20230702185753_v14 2.4um mesh bbox exceeds the volume (y max 42323.6 > 32693, z max 78615.5 > 75784); its meta.json and v8 meta.json have no area_vx2 (re-verified 2026-09-26T00:03:30Z)",
+   "No segment is named for a title region (PHerc. 139 uses a title_... naming convention; Paris 4 has none)"
+  ],
+  "table": [
+   {
+    "id": "20260701183124-w010-027",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 641.42,
+    "bbox_2.4um_vox": [
+     [
+      11304.9,
+      11250.3,
+      11953.3
+     ],
+     [
+      21584.0,
+      24169.7,
+      72051.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.7,
+     172.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.315,
+     "20260310170716": 1.0,
+     "20260323153942": 0.012,
+     "20260608103018": 0.187
+    }
+   },
+   {
+    "id": "20260701183125-w028-037",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 676.2,
+    "bbox_2.4um_vox": [
+     [
+      10682.3,
+      10496.8,
+      11966.7
+     ],
+     [
+      23314.5,
+      24992.5,
+      72006.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.7,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.307,
+     "20260310170716": 1.0,
+     "20260323153942": 0.011,
+     "20260608103018": 0.167
+    }
+   },
+   {
+    "id": "20260701183126-w038-045",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 711.78,
+    "bbox_2.4um_vox": [
+     [
+      10160.8,
+      9767.2,
+      12012.4
+     ],
+     [
+      23873.5,
+      25702.0,
+      71985.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.302,
+     "20260310170716": 1.0,
+     "20260323153942": 0.01,
+     "20260608103018": 0.159
+    }
+   },
+   {
+    "id": "20260701183127-w046-052",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 754.52,
+    "bbox_2.4um_vox": [
+     [
+      9530.2,
+      9238.2,
+      12000.3
+     ],
+     [
+      24384.8,
+      26432.7,
+      71989.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.278,
+     "20260310170716": 1.0,
+     "20260323153942": 0.009,
+     "20260608103018": 0.14
+    }
+   },
+   {
+    "id": "20260701183128-w053-058",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 741.1,
+    "bbox_2.4um_vox": [
+     [
+      8882.5,
+      8799.4,
+      11960.1
+     ],
+     [
+      25213.8,
+      26738.7,
+      71992.8
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.7,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.261,
+     "20260310170716": 1.0,
+     "20260323153942": 0.009,
+     "20260608103018": 0.131
+    }
+   },
+   {
+    "id": "20260701183129-w059-063",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 687.99,
+    "bbox_2.4um_vox": [
+     [
+      8615.3,
+      8549.7,
+      12014.0
+     ],
+     [
+      25909.0,
+      27010.8,
+      71993.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.253,
+     "20260310170716": 1.0,
+     "20260323153942": 0.008,
+     "20260608103018": 0.127
+    }
+   },
+   {
+    "id": "20260701183130-w064-068",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 742.6,
+    "bbox_2.4um_vox": [
+     [
+      8256.4,
+      8259.1,
+      12013.4
+     ],
+     [
+      26371.1,
+      27365.5,
+      72037.3
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.247,
+     "20260310170716": 1.0,
+     "20260323153942": 0.008,
+     "20260608103018": 0.124
+    }
+   },
+   {
+    "id": "20260701183131-w069-072",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 634.92,
+    "bbox_2.4um_vox": [
+     [
+      7899.8,
+      8018.8,
+      12013.4
+     ],
+     [
+      26876.0,
+      27544.3,
+      71990.2
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.938,
+     "20230205180739": 0.222,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.112
+    }
+   },
+   {
+    "id": "20260701183132-w073-076",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 671.82,
+    "bbox_2.4um_vox": [
+     [
+      7513.8,
+      7858.7,
+      12017.2
+     ],
+     [
+      27476.2,
+      31895.3,
+      72040.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.923,
+     "20230205180739": 0.203,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.103
+    }
+   },
+   {
+    "id": "20260701183133-w077-080",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 712.27,
+    "bbox_2.4um_vox": [
+     [
+      7195.0,
+      7599.5,
+      12014.1
+     ],
+     [
+      27751.3,
+      30458.9,
+      71993.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.962,
+     "20230205180739": 0.221,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.111
+    }
+   },
+   {
+    "id": "20260701183134-w081-084",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 756.48,
+    "bbox_2.4um_vox": [
+     [
+      6983.5,
+      7434.3,
+      12012.2
+     ],
+     [
+      28075.6,
+      31790.6,
+      72048.3
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.923,
+     "20230205180739": 0.2,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.101
+    }
+   },
+   {
+    "id": "20260701183135-w085-088",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 793.13,
+    "bbox_2.4um_vox": [
+     [
+      6739.9,
+      7197.3,
+      12010.9
+     ],
+     [
+      28512.0,
+      29710.9,
+      72039.9
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.905,
+     "20230205180739": 0.197,
+     "20260310170716": 1.0,
+     "20260323153942": 0.006,
+     "20260608103018": 0.099
+    }
+   },
+   {
+    "id": "20260701183136-w089-091",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 621.24,
+    "bbox_2.4um_vox": [
+     [
+      6536.8,
+      7077.5,
+      12005.7
+     ],
+     [
+      29072.1,
+      31328.2,
+      72046.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.213,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.107
+    }
+   },
+   {
+    "id": "20260701183137-w092-094",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 641.82,
+    "bbox_2.4um_vox": [
+     [
+      6407.9,
+      6981.4,
+      12015.2
+     ],
+     [
+      29435.7,
+      30291.3,
+      72018.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.912,
+     "20230205180739": 0.193,
+     "20260310170716": 1.0,
+     "20260323153942": 0.006,
+     "20260608103018": 0.097
+    }
+   },
+   {
+    "id": "20260701183138-w095-097",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 660.7,
+    "bbox_2.4um_vox": [
+     [
+      6248.3,
+      6867.0,
+      12015.8
+     ],
+     [
+      29591.5,
+      31248.7,
+      72018.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.969,
+     "20230205180739": 0.204,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.102
+    }
+   },
+   {
+    "id": "20260701183139-w098-100",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 672.35,
+    "bbox_2.4um_vox": [
+     [
+      6046.4,
+      6725.8,
+      11968.9
+     ],
+     [
+      29825.7,
+      30347.0,
+      72013.3
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.7,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.893,
+     "20230205180739": 0.187,
+     "20260310170716": 1.0,
+     "20260323153942": 0.006,
+     "20260608103018": 0.094
+    }
+   },
+   {
+    "id": "20260701183140-w101-103",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 688.4,
+    "bbox_2.4um_vox": [
+     [
+      5847.0,
+      6562.4,
+      12013.0
+     ],
+     [
+      29971.2,
+      31775.8,
+      72008.9
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.205,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.103
+    }
+   },
+   {
+    "id": "20260701183141-w104-106",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 702.29,
+    "bbox_2.4um_vox": [
+     [
+      5662.8,
+      6340.8,
+      12013.4
+     ],
+     [
+      30022.2,
+      31724.0,
+      71987.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.205,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.102
+    }
+   },
+   {
+    "id": "20260701183142-w107-109",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 717.31,
+    "bbox_2.4um_vox": [
+     [
+      5541.3,
+      6210.7,
+      12014.4
+     ],
+     [
+      30062.0,
+      31091.1,
+      71986.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.205,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.102
+    }
+   },
+   {
+    "id": "20260701183143-w110-112",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 730.85,
+    "bbox_2.4um_vox": [
+     [
+      5389.2,
+      6043.1,
+      12016.7
+     ],
+     [
+      30084.9,
+      30306.5,
+      71991.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.213,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.107
+    }
+   },
+   {
+    "id": "20260701183144-w113-115",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 743.36,
+    "bbox_2.4um_vox": [
+     [
+      5247.5,
+      5884.4,
+      12014.6
+     ],
+     [
+      30106.6,
+      30579.5,
+      71988.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.209,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.105
+    }
+   },
+   {
+    "id": "20260701183145-w116-117",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 504.44,
+    "bbox_2.4um_vox": [
+     [
+      5114.7,
+      5785.1,
+      12013.9
+     ],
+     [
+      30131.9,
+      30493.9,
+      71994.7
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.204,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.102
+    }
+   },
+   {
+    "id": "20260701183146-w118-119",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 510.65,
+    "bbox_2.4um_vox": [
+     [
+      4978.7,
+      5706.5,
+      12017.5
+     ],
+     [
+      30218.5,
+      30510.1,
+      71985.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.206,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.103
+    }
+   },
+   {
+    "id": "20260701183147-w120-121",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 519.38,
+    "bbox_2.4um_vox": [
+     [
+      4884.6,
+      5576.0,
+      12014.9
+     ],
+     [
+      30286.5,
+      31795.4,
+      71990.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.966,
+     "20230205180739": 0.195,
+     "20260310170716": 1.0,
+     "20260323153942": 0.006,
+     "20260608103018": 0.098
+    }
+   },
+   {
+    "id": "20260701183148-w122-123",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 524.38,
+    "bbox_2.4um_vox": [
+     [
+      3979.3,
+      5461.2,
+      12020.1
+     ],
+     [
+      30341.0,
+      31787.7,
+      71985.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.202,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.101
+    }
+   },
+   {
+    "id": "20260701183149-w124-125",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 531.97,
+    "bbox_2.4um_vox": [
+     [
+      4588.1,
+      5339.6,
+      11992.6
+     ],
+     [
+      30396.6,
+      30915.6,
+      71989.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.956,
+     "20230205180739": 0.193,
+     "20260310170716": 1.0,
+     "20260323153942": 0.006,
+     "20260608103018": 0.097
+    }
+   },
+   {
+    "id": "20260701183150-w126-127",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 564.08,
+    "bbox_2.4um_vox": [
+     [
+      4305.9,
+      5261.5,
+      12020.0
+     ],
+     [
+      30461.9,
+      31256.5,
+      71985.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.204,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.102
+    }
+   },
+   {
+    "id": "20260701183151-w128-129",
+    "family": "spiral-20260701",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 543.8,
+    "bbox_2.4um_vox": [
+     [
+      4131.5,
+      5155.3,
+      12017.3
+     ],
+     [
+      30553.0,
+      31834.4,
+      71983.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     28.8,
+     172.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.2,
+     "20260310170716": 1.0,
+     "20260323153942": 0.007,
+     "20260608103018": 0.1
+    }
+   },
+   {
+    "id": "20260623141135-w046-052_jordi",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 484.06,
+    "bbox_2.4um_vox": [
+     [
+      12634.8,
+      9386.0,
+      27973.6
+     ],
+     [
+      24287.7,
+      25221.9,
+      68044.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.963,
+     "20260310170716": 1.0,
+     "20260323153942": 0.039,
+     "20260608103018": 0.414
+    }
+   },
+   {
+    "id": "20260623141649-w053-058_jordi",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 471.62,
+    "bbox_2.4um_vox": [
+     [
+      12077.2,
+      8844.1,
+      27965.7
+     ],
+     [
+      25130.8,
+      25730.0,
+      67974.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.938,
+     "20260310170716": 1.0,
+     "20260323153942": 0.036,
+     "20260608103018": 0.385
+    }
+   },
+   {
+    "id": "20260623141924-w010-027",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 415.32,
+    "bbox_2.4um_vox": [
+     [
+      14706.6,
+      11252.3,
+      27963.7
+     ],
+     [
+      21575.6,
+      23096.3,
+      68063.2
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.4
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.963,
+     "20260310170716": 1.0,
+     "20260323153942": 0.042,
+     "20260608103018": 0.605
+    }
+   },
+   {
+    "id": "20260623142658-w028-037",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 438.29,
+    "bbox_2.4um_vox": [
+     [
+      13924.3,
+      10498.0,
+      27951.7
+     ],
+     [
+      22610.4,
+      23940.1,
+      68056.7
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.963,
+     "20260310170716": 1.0,
+     "20260323153942": 0.041,
+     "20260608103018": 0.506
+    }
+   },
+   {
+    "id": "20260623143441-w038-045",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 445.1,
+    "bbox_2.4um_vox": [
+     [
+      13155.2,
+      9794.8,
+      27950.2
+     ],
+     [
+      23564.6,
+      24682.3,
+      68050.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.962,
+     "20260310170716": 1.0,
+     "20260323153942": 0.041,
+     "20260608103018": 0.448
+    }
+   },
+   {
+    "id": "20260623144224-w046-052",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 489.14,
+    "bbox_2.4um_vox": [
+     [
+      12517.9,
+      9424.7,
+      27970.1
+     ],
+     [
+      24404.2,
+      25401.3,
+      68053.8
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.962,
+     "20260310170716": 1.0,
+     "20260323153942": 0.038,
+     "20260608103018": 0.407
+    }
+   },
+   {
+    "id": "20260623144957-w053-058",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 478.46,
+    "bbox_2.4um_vox": [
+     [
+      12049.2,
+      8821.9,
+      27960.5
+     ],
+     [
+      25080.5,
+      25809.3,
+      68046.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.939,
+     "20260310170716": 1.0,
+     "20260323153942": 0.036,
+     "20260608103018": 0.386
+    }
+   },
+   {
+    "id": "20260623145652-w059-063",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 448.43,
+    "bbox_2.4um_vox": [
+     [
+      11597.9,
+      8531.8,
+      27944.7
+     ],
+     [
+      25916.9,
+      26185.8,
+      67988.8
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.885,
+     "20260310170716": 1.0,
+     "20260323153942": 0.034,
+     "20260608103018": 0.361
+    }
+   },
+   {
+    "id": "20260623150417-w064-068",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 487.55,
+    "bbox_2.4um_vox": [
+     [
+      11088.7,
+      8271.6,
+      27963.2
+     ],
+     [
+      26419.2,
+      26659.0,
+      68031.9
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.844,
+     "20260310170716": 1.0,
+     "20260323153942": 0.033,
+     "20260608103018": 0.349
+    }
+   },
+   {
+    "id": "20260623151041-w069-072",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 417.14,
+    "bbox_2.4um_vox": [
+     [
+      10708.9,
+      8004.6,
+      27966.2
+     ],
+     [
+      26831.6,
+      26982.8,
+      67993.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.814,
+     "20260310170716": 1.0,
+     "20260323153942": 0.032,
+     "20260608103018": 0.34
+    }
+   },
+   {
+    "id": "20260623151729-w073-076",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 439.69,
+    "bbox_2.4um_vox": [
+     [
+      10280.7,
+      7827.9,
+      27940.0
+     ],
+     [
+      27317.3,
+      27221.2,
+      68027.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.786,
+     "20260310170716": 1.0,
+     "20260323153942": 0.031,
+     "20260608103018": 0.332
+    }
+   },
+   {
+    "id": "20260623152443-w077-080",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 465.12,
+    "bbox_2.4um_vox": [
+     [
+      9777.0,
+      7604.5,
+      27979.7
+     ],
+     [
+      27650.5,
+      27512.1,
+      67996.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.766,
+     "20260310170716": 1.0,
+     "20260323153942": 0.031,
+     "20260608103018": 0.328
+    }
+   },
+   {
+    "id": "20260623153216-w081-084",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 494.16,
+    "bbox_2.4um_vox": [
+     [
+      9338.0,
+      7451.5,
+      27979.9
+     ],
+     [
+      28079.8,
+      27937.5,
+      68049.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.742,
+     "20260310170716": 1.0,
+     "20260323153942": 0.03,
+     "20260608103018": 0.319
+    }
+   },
+   {
+    "id": "20260623154006-w085-088",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 519.39,
+    "bbox_2.4um_vox": [
+     [
+      8867.7,
+      7235.8,
+      27994.2
+     ],
+     [
+      28512.2,
+      28291.9,
+      68025.8
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.721,
+     "20260310170716": 1.0,
+     "20260323153942": 0.028,
+     "20260608103018": 0.312
+    }
+   },
+   {
+    "id": "20260623154617-w089-091",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 408.12,
+    "bbox_2.4um_vox": [
+     [
+      8491.9,
+      7093.3,
+      27949.5
+     ],
+     [
+      28917.3,
+      28546.0,
+      68040.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.7,
+     "20260310170716": 1.0,
+     "20260323153942": 0.026,
+     "20260608103018": 0.306
+    }
+   },
+   {
+    "id": "20260623155240-w092-094",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 421.93,
+    "bbox_2.4um_vox": [
+     [
+      8146.9,
+      6975.2,
+      27987.1
+     ],
+     [
+      29398.2,
+      28794.7,
+      68014.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.672,
+     "20260310170716": 1.0,
+     "20260323153942": 0.025,
+     "20260608103018": 0.3
+    }
+   },
+   {
+    "id": "20260623155914-w095-097",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 433.12,
+    "bbox_2.4um_vox": [
+     [
+      7863.6,
+      6871.9,
+      27973.2
+     ],
+     [
+      29643.6,
+      28978.6,
+      68023.7
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.654,
+     "20260310170716": 1.0,
+     "20260323153942": 0.024,
+     "20260608103018": 0.297
+    }
+   },
+   {
+    "id": "20260623160554-w098-100",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 441.0,
+    "bbox_2.4um_vox": [
+     [
+      7578.5,
+      6727.9,
+      27999.3
+     ],
+     [
+      29897.2,
+      29161.4,
+      68031.7
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.638,
+     "20260310170716": 1.0,
+     "20260323153942": 0.023,
+     "20260608103018": 0.295
+    }
+   },
+   {
+    "id": "20260623161233-w101-103",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 449.66,
+    "bbox_2.4um_vox": [
+     [
+      7328.0,
+      6560.8,
+      27958.1
+     ],
+     [
+      29995.1,
+      29336.6,
+      68045.9
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.621,
+     "20260310170716": 1.0,
+     "20260323153942": 0.022,
+     "20260608103018": 0.294
+    }
+   },
+   {
+    "id": "20260623161921-w104-106",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716"
+    ],
+    "ink_2d": [],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 457.58,
+    "bbox_2.4um_vox": [
+     [
+      7023.8,
+      6343.3,
+      27944.8
+     ],
+     [
+      30038.0,
+      29412.7,
+      67960.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.603,
+     "20260310170716": 1.0,
+     "20260323153942": 0.021,
+     "20260608103018": 0.296
+    }
+   },
+   {
+    "id": "20260623162614-w107-109",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 467.68,
+    "bbox_2.4um_vox": [
+     [
+      6684.9,
+      6211.3,
+      27963.6
+     ],
+     [
+      30072.8,
+      29439.3,
+      68050.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.591,
+     "20260310170716": 1.0,
+     "20260323153942": 0.021,
+     "20260608103018": 0.299
+    }
+   },
+   {
+    "id": "20260623163339-w110-112",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 474.31,
+    "bbox_2.4um_vox": [
+     [
+      6560.9,
+      6058.7,
+      27953.3
+     ],
+     [
+      30104.9,
+      29484.8,
+      68044.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.1,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.582,
+     "20260310170716": 1.0,
+     "20260323153942": 0.021,
+     "20260608103018": 0.3
+    }
+   },
+   {
+    "id": "20260623164141-w113-115",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 480.51,
+    "bbox_2.4um_vox": [
+     [
+      6439.1,
+      5898.3,
+      28003.9
+     ],
+     [
+      30121.7,
+      29502.6,
+      67976.2
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.574,
+     "20260310170716": 1.0,
+     "20260323153942": 0.02,
+     "20260608103018": 0.301
+    }
+   },
+   {
+    "id": "20260623164704-w116-117",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 324.69,
+    "bbox_2.4um_vox": [
+     [
+      6352.9,
+      5812.2,
+      27989.8
+     ],
+     [
+      30139.1,
+      29512.3,
+      68036.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.57,
+     "20260310170716": 1.0,
+     "20260323153942": 0.02,
+     "20260608103018": 0.302
+    }
+   },
+   {
+    "id": "20260623165230-w118-119",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 327.16,
+    "bbox_2.4um_vox": [
+     [
+      6245.5,
+      5718.5,
+      28017.0
+     ],
+     [
+      30168.4,
+      29518.1,
+      67984.7
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.564,
+     "20260310170716": 1.0,
+     "20260323153942": 0.02,
+     "20260608103018": 0.304
+    }
+   },
+   {
+    "id": "20260623165742-w120-121",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 329.93,
+    "bbox_2.4um_vox": [
+     [
+      6125.5,
+      5576.8,
+      27992.2
+     ],
+     [
+      30240.8,
+      29525.3,
+      68032.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.556,
+     "20260310170716": 1.0,
+     "20260323153942": 0.02,
+     "20260608103018": 0.303
+    }
+   },
+   {
+    "id": "20260623170305-w122-123",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 332.54,
+    "bbox_2.4um_vox": [
+     [
+      5999.2,
+      5461.5,
+      28015.8
+     ],
+     [
+      30303.7,
+      29531.7,
+      67986.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.549,
+     "20260310170716": 1.0,
+     "20260323153942": 0.02,
+     "20260608103018": 0.302
+    }
+   },
+   {
+    "id": "20260623170833-w124-125",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 336.65,
+    "bbox_2.4um_vox": [
+     [
+      5955.8,
+      5336.4,
+      28026.2
+     ],
+     [
+      30368.0,
+      29547.5,
+      68023.7
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.3,
+     163.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.544,
+     "20260310170716": 1.0,
+     "20260323153942": 0.019,
+     "20260608103018": 0.298
+    }
+   },
+   {
+    "id": "20260623171400-w126-127",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 359.08,
+    "bbox_2.4um_vox": [
+     [
+      5933.4,
+      5228.4,
+      28019.1
+     ],
+     [
+      30440.6,
+      29842.6,
+      67987.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.533,
+     "20260310170716": 1.0,
+     "20260323153942": 0.019,
+     "20260608103018": 0.293
+    }
+   },
+   {
+    "id": "20260623171929-w128-129",
+    "family": "spiral-20260623",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 388.17,
+    "bbox_2.4um_vox": [
+     [
+      5915.6,
+      5128.4,
+      28017.5
+     ],
+     [
+      30529.3,
+      29897.8,
+      67986.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     67.2,
+     163.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.527,
+     "20260310170716": 1.0,
+     "20260323153942": 0.019,
+     "20260608103018": 0.29
+    }
+   },
+   {
+    "id": "20260603222816-20231005123336_v2_flatboi",
+    "family": "retrace-2026",
+    "orig_volume": "20260411134726",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": null,
+    "bbox_2.4um_vox": [
+     [
+      13480.1,
+      9967.8,
+      28362.7
+     ],
+     [
+      22971.7,
+      24704.8,
+      71735.8
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     68.1,
+     172.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.975,
+     "20260310170716": 1.0,
+     "20260323153942": 0.038,
+     "20260608103018": 0.431
+    }
+   },
+   {
+    "id": "20260604223808-20231210121321_v8",
+    "family": "retrace-2026",
+    "orig_volume": "20260411134726",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": null,
+    "bbox_2.4um_vox": [
+     [
+      10489.9,
+      10350.8,
+      7148.1
+     ],
+     [
+      22289.3,
+      25078.6,
+      70691.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     17.2,
+     169.7
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.65,
+     "20260310170716": 1.0,
+     "20260323153942": 0.034,
+     "20260608103018": 0.321
+    }
+   },
+   {
+    "id": "20230702185753",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 92.18,
+    "bbox_2.4um_vox": [
+     [
+      14037.4,
+      11637.3,
+      29438.3
+     ],
+     [
+      21223.6,
+      24400.6,
+      73919.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     70.7,
+     177.4
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.041,
+     "20260411134726": 1.0,
+     "20260608103018": 0.377
+    }
+   },
+   {
+    "id": "20230929220926",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 119.47,
+    "bbox_2.4um_vox": [
+     [
+      12715.9,
+      10807.5,
+      45685.9
+     ],
+     [
+      23518.0,
+      25468.0,
+      70553.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     109.6,
+     169.3
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.03,
+     "20260411134726": 1.0,
+     "20260608103018": 0.244
+    }
+   },
+   {
+    "id": "20231005123336",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 169.16,
+    "bbox_2.4um_vox": [
+     [
+      12843.9,
+      10383.8,
+      43727.8
+     ],
+     [
+      23325.6,
+      25505.5,
+      71693.4
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     104.9,
+     172.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.042,
+     "20260411134726": 1.0,
+     "20260608103018": 0.252
+    }
+   },
+   {
+    "id": "20231007101619",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 282.98,
+    "bbox_2.4um_vox": [
+     [
+      12646.0,
+      10201.7,
+      29402.5
+     ],
+     [
+      22988.8,
+      25574.6,
+      72976.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     70.6,
+     175.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.032,
+     "20260411134726": 1.0,
+     "20260608103018": 0.343
+    }
+   },
+   {
+    "id": "20231012184424",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 196.4,
+    "bbox_2.4um_vox": [
+     [
+      13430.9,
+      10699.9,
+      29384.7
+     ],
+     [
+      22421.1,
+      25097.2,
+      72973.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     70.5,
+     175.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.039,
+     "20260411134726": 1.0,
+     "20260608103018": 0.36
+    }
+   },
+   {
+    "id": "20231016151002",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 79.93,
+    "bbox_2.4um_vox": [
+     [
+      14211.3,
+      13732.3,
+      47002.0
+     ],
+     [
+      20522.0,
+      24200.1,
+      73931.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     112.8,
+     177.4
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.016,
+     "20260411134726": 1.0,
+     "20260608103018": 0.227
+    }
+   },
+   {
+    "id": "20231022170901",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 127.17,
+    "bbox_2.4um_vox": [
+     [
+      13669.3,
+      15397.4,
+      55432.3
+     ],
+     [
+      21001.8,
+      24789.1,
+      73283.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     133.0,
+     175.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.0,
+     "20260411134726": 1.0,
+     "20260608103018": 0.035
+    }
+   },
+   {
+    "id": "20231031143852",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 72.15,
+    "bbox_2.4um_vox": [
+     [
+      14745.3,
+      11456.8,
+      29402.9
+     ],
+     [
+      21438.2,
+      20181.8,
+      59329.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     70.6,
+     142.4
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.078,
+     "20260411134726": 1.0,
+     "20260608103018": 0.748
+    }
+   },
+   {
+    "id": "20231106155351",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 89.82,
+    "bbox_2.4um_vox": [
+     [
+      14592.9,
+      11122.4,
+      29405.7
+     ],
+     [
+      21754.5,
+      20380.3,
+      59328.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     70.6,
+     142.4
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.078,
+     "20260411134726": 1.0,
+     "20260608103018": 0.738
+    }
+   },
+   {
+    "id": "20231210121321",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [
+     "20260918@20260411134726"
+    ],
+    "area_cm2_on_2.4um": 101.86,
+    "bbox_2.4um_vox": [
+     [
+      13228.3,
+      10634.7,
+      29409.1
+     ],
+     [
+      22503.3,
+      25238.5,
+      72975.3
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     70.6,
+     175.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.037,
+     "20260411134726": 1.0,
+     "20260608103018": 0.354
+    }
+   },
+   {
+    "id": "20231221180251",
+    "family": "gp-2023",
+    "orig_volume": "20230205180739",
+    "ds": 1,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 69.66,
+    "bbox_2.4um_vox": [
+     [
+      14544.3,
+      10987.6,
+      29402.0
+     ],
+     [
+      21968.7,
+      20110.7,
+      57039.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     70.6,
+     136.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20230205180739": 1.0,
+     "20260310170716": 1.0,
+     "20260323153942": 0.083,
+     "20260411134726": 1.0,
+     "20260608103018": 0.78
+    }
+   },
+   {
+    "id": "20260602204401-5753_-7",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 23.4,
+    "bbox_2.4um_vox": [
+     [
+      11217.2,
+      12340.6,
+      2180.6
+     ],
+     [
+      20403.0,
+      24144.5,
+      72728.9
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     5.2,
+     174.5
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.615,
+     "20260310170716": 1.0,
+     "20260323153942": 0.032,
+     "20260608103018": 0.332
+    }
+   },
+   {
+    "id": "20260602225659-5753_0",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 52.79,
+    "bbox_2.4um_vox": [
+     [
+      10147.6,
+      11821.4,
+      1653.4
+     ],
+     [
+      22526.0,
+      24767.2,
+      73403.1
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.0,
+     176.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.614,
+     "20260310170716": 1.0,
+     "20260323153942": 0.027,
+     "20260608103018": 0.277
+    }
+   },
+   {
+    "id": "20260602230115-20230702185753_v14",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 1,
+    "mesh_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": null,
+    "bbox_2.4um_vox": [
+     [
+      346.7,
+      11755.7,
+      1533.6
+     ],
+     [
+      21442.3,
+      42323.6,
+      78615.5
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     3.7,
+     188.7
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 0.657,
+     "20230205180739": 0.25,
+     "20260310170716": 0.818,
+     "20260323153942": 0.007,
+     "20260608103018": 0.089
+    }
+   },
+   {
+    "id": "20260603005223-5753_-1",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 49.08,
+    "bbox_2.4um_vox": [
+     [
+      10257.3,
+      11877.5,
+      1693.3
+     ],
+     [
+      22385.9,
+      24623.0,
+      73404.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.1,
+     176.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.614,
+     "20260310170716": 1.0,
+     "20260323153942": 0.028,
+     "20260608103018": 0.283
+    }
+   },
+   {
+    "id": "20260603024952-5753_-2",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 46.14,
+    "bbox_2.4um_vox": [
+     [
+      10384.6,
+      11829.1,
+      1700.3
+     ],
+     [
+      20982.7,
+      24486.0,
+      73408.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.1,
+     176.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.614,
+     "20260310170716": 1.0,
+     "20260323153942": 0.031,
+     "20260608103018": 0.32
+    }
+   },
+   {
+    "id": "20260603042357-5753_-3",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 44.34,
+    "bbox_2.4um_vox": [
+     [
+      10365.7,
+      11862.2,
+      1755.8
+     ],
+     [
+      20877.4,
+      24491.4,
+      73396.3
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.2,
+     176.2
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.615,
+     "20260310170716": 1.0,
+     "20260323153942": 0.032,
+     "20260608103018": 0.321
+    }
+   },
+   {
+    "id": "20260603145540-5753_-4",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 41.48,
+    "bbox_2.4um_vox": [
+     [
+      10552.9,
+      11856.1,
+      1781.1
+     ],
+     [
+      20855.9,
+      24411.9,
+      73308.9
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.3,
+     175.9
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.615,
+     "20260310170716": 1.0,
+     "20260323153942": 0.032,
+     "20260608103018": 0.324
+    }
+   },
+   {
+    "id": "20260603185441-5753_-6",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 33.88,
+    "bbox_2.4um_vox": [
+     [
+      10721.9,
+      12188.6,
+      1926.5
+     ],
+     [
+      20719.6,
+      24330.9,
+      73231.2
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.6,
+     175.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.615,
+     "20260310170716": 1.0,
+     "20260323153942": 0.031,
+     "20260608103018": 0.325
+    }
+   },
+   {
+    "id": "20260603190005-5753_-5",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 37.28,
+    "bbox_2.4um_vox": [
+     [
+      10697.6,
+      11903.2,
+      1875.2
+     ],
+     [
+      20790.7,
+      24277.2,
+      73231.6
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.5,
+     175.8
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.615,
+     "20260310170716": 1.0,
+     "20260323153942": 0.032,
+     "20260608103018": 0.326
+    }
+   },
+   {
+    "id": "20260603193311-5753_-1_copy",
+    "family": "strip-5753",
+    "orig_volume": "20260411134726",
+    "ds": 4,
+    "mesh_on": [
+     "20230205180739",
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "surface_volumes_on": [
+     "20260310170716",
+     "20260411134726",
+     "20260608103018"
+    ],
+    "ink_2d": [
+     "20260417190342@20260411134726",
+     "20260709123958@20260608103018"
+    ],
+    "ink_labels": [],
+    "area_cm2_on_2.4um": 41.38,
+    "bbox_2.4um_vox": [
+     [
+      10869.2,
+      11877.3,
+      1677.3
+     ],
+     [
+      21012.5,
+      24652.0,
+      72942.0
+     ]
+    ],
+    "z_mm_on_2.4um": [
+     4.0,
+     175.1
+    ],
+    "bbox_overlap_by_volume": {
+     "20260411134726": 1.0,
+     "20230205180739": 0.612,
+     "20260310170716": 1.0,
+     "20260323153942": 0.03,
+     "20260608103018": 0.319
+    }
+   }
+  ]
+ },
+ "labels": {
+  "ink_9um_aligned": {
+   "url": "hf://buckets/scrollprize/datasets/ink_9um/labels/aligned-scrollprizeorg-21slices/",
+   "cases": [
+    "phercparis4-w00",
+    "phercparis4-w01",
+    "phercparis4-w02",
+    "phercparis4-w03",
+    "phercparis4-w05",
+    "phercparis4-w06",
+    "phercparis4-w07",
+    "phercparis4-w09"
+   ],
+   "correction_to_DECL-P4-1": "8 cases, not w00..w09: no w04 exists; w08 (w08_3336) is only in ink/unused with no label files",
+   "mapping": {
+    "w00": "20231016151002",
+    "w01": "20230702185753 (entry w01_20230702185753_r15)",
+    "w02": "20231031143852",
+    "w03": "20231106155351",
+    "w05": "20231012184424",
+    "w06": "20231210121321",
+    "w07": "20231007101619",
+    "w09": "20230929220926"
+   },
+   "aligned_to": "segment surface-volume render 2.4um-0.22m-78keV-volume-20260411134726.zarr level 2 (volume 20260411134726, scan 20260311024914)",
+   "format": "zarr v2 uint8 [21,Y,X] at 9.6 um, chunks [21,128,128], blosc zstd; source_z_slice [13,97] pooled as 21 means of 4; only Z=10 annotated; files <case>_inklabels.zarr and <case>_supervision_mask.zarr; no Paris 4 validation mask",
+   "shapes_YX": {
+    "w00": [
+     7990,
+     12990
+    ],
+    "w01": [
+     12650,
+     9100
+    ],
+    "w02": [
+     8545,
+     11005
+    ],
+    "w03": [
+     8575,
+     12810
+    ],
+    "w05": [
+     12700,
+     18930
+    ],
+    "w06": [
+     12750,
+     9995
+    ],
+    "w07": [
+     13010,
+     27035
+    ],
+    "w09": [
+     8020,
+     18950
+    ]
+   },
+   "fetched_utc": "2026-09-25T23:40:57Z"
+  },
+  "s3_label_set_20260918": {
+   "path": "PHercParis4/segments/<id>/ink-labels/2.4um-volume-20260411134726/20260918/{inklabels.zarr,supervision.zarr}",
+   "segments": 8,
+   "format": "zarr v3 / OME 0.5, 2D, 6 levels 2.4-76.8 um, sharded 512x512",
+   "registration": "transferred",
+   "supervision_fraction_of_canvas": "0.034-0.133",
+   "mapping_coverage": "0.995-0.9998",
+   "note": "mapping_validity arrays marked published in metadata but absent from live listing"
+  },
+  "original_annotations": "hf://buckets/scrollprize/datasets/ink/phercparis4/ (same 8 entries; ink/unused/phercparis4/w08_3336 has no labels)"
+ },
+ "predictions": {
+  "ink_2d": [
+   {
+    "model": "20260417190342-new_canon_autoresearch_recipe (ResNet3D-152, 2-3 um)",
+    "volume": "20260411134726",
+    "segments": 80,
+    "path": "segments/<id>/ink-detection/PHercParis4-<ts>-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif (+ downsampled/-ds8.jpg)",
+    "missing": "20260623161921-w104-106"
+   },
+   {
+    "model": "20260709123958-mrg20736-1um-s1z2 (ResNet3D-152, 1-1.5 um)",
+    "volume": "20260608103018 render L1",
+    "segments": 37,
+    "note": "no HF card; training data unknown"
+   }
+  ],
+  "ink_3d": "20260411134726-ink3d-20260428123845-v3-78k-fullsup.zarr (dino3d; teacher trained on labels incl. Paris 4)",
+  "ink_9um": "no official ink_9um prediction product for Paris 4 in the bucket",
+  "outer_segments": "model 20260417190342 predictions exist for all outer w-segments on 2.4 um; none were viewed",
+  "title_region_statement": "organizers: the expected title region has shown no detectable ink so far (see title_region_statements)"
+ },
+ "checkpoints_training_use": [
+  {
+   "model": "scrollprize/ink_9um step-075000 (seed42 138360039 B, seed43 138360231 B; MIT; repo sha 7109667e2607db1b90c37c8b09cb876ea7fe7bb1; not gated)",
+   "paris4_labels_in_training": "yes, all 8 (model card: PHerc. Paris 4 (8); checkpoint config datasets list phercparis4-w00..w09 minus w04,w08; 11 of 64 patches per batch); no Paris 4 validation case",
+   "fetched_utc": "2026-09-25T23:44:20Z"
+  },
+  {
+   "model": "ink_3d_dino_guided (20260428123845)",
+   "paris4_labels_in_training": "yes (teacher trained on 8-scroll labels incl. Paris 4)"
+  },
+  {
+   "model": "hecate",
+   "paris4_labels_in_training": "yes (moderate 3D supervision on Paris4 plus 2D annotations)"
+  },
+  {
+   "model": "ink_canonical_2um / new_canon_autoresearch_recipe (20260417190342)",
+   "paris4_labels_in_training": "unknown (card silent)"
+  },
+  {
+   "model": "mrg20736-1um-s1z2 (20260709123958)",
+   "paris4_labels_in_training": "unknown (no card)"
+  },
+  {
+   "model": "timesformer_large_scroll1_01122024 / resnet50_7.9um_scroll1_frags / timesformer_GP_scroll1",
+   "paris4_labels_in_training": "Scroll 1 segments incl. 20231210121321, 20231106155351, 20230702185753, 20230929220926 in fine-tuning/pretraining lists; GP model training list commented out"
+  },
+  {
+   "model": "dinovol_v2_ps8_with_paris4_352500",
+   "paris4_labels_in_training": "name indicates Paris 4 in self-supervised pretraining"
+  }
+ ],
+ "title_region_statements": [
+  {
+   "quote": "The expected title region has shown no detectable ink so far — possibly a different ink, and the top rows are physically missing — so finding it may take better methods, higher resolution, or looking somewhere new.",
+   "url": "https://scrollprize.org/prizes",
+   "fetched_utc": "2026-09-26T00:04:18Z"
+  },
+  {
+   "quote": "The title region shows no detectable ink (possibly a different ink; the top rows are physically missing).",
+   "url": "https://scrollprize.org/data_browser/PHercParis4",
+   "fetched_utc": "2026-09-25T23:54:08Z",
+   "note": "source villa scrollprize.org/src/data/atlasOverlay.json key scrolls/PHercParis4/content/caveat (commit 4d7d7769, 2026-06-30); page also states title not yet identified and that text was recovered from the banner and body; an author attribution on the page is not recorded"
+  },
+  {
+   "quote": "We know from the opened ones that Herculaneum scrolls often contain a final title at the end of the roll.",
+   "url": "https://scrollprize.substack.com/p/30k-first-title-prize",
+   "fetched_utc": "2026-09-25T23:54:08Z",
+   "note": "2024-06-05 Scroll 1 First Title post"
+  },
+  {
+   "quote": "This image shows the end of the scroll, and the segments that have so far been made in a search for the title.",
+   "url": "https://scrollprize.substack.com/p/30k-first-title-prize",
+   "fetched_utc": "2026-09-25T23:54:08Z",
+   "note": "segment ids appear only inside the figure (not viewed)"
+  },
+  {
+   "quote": "The title often follows the end of the primary text, in a subsequent column that can be otherwise blank. When the final column of the primary text is short, it may also appear below this last column.",
+   "url": "https://scrollprize.substack.com/p/30k-first-title-prize",
+   "fetched_utc": "2026-09-25T23:54:08Z"
+  },
+  {
+   "quote": "As of yesterday, these segments have all been released, along with the scan data for the bottom half of the scroll!",
+   "url": "https://scrollprize.substack.com/p/30k-first-title-prize",
+   "fetched_utc": "2026-09-25T23:54:08Z"
+  },
+  {
+   "quote": "Here are the new segment IDs: 20240102231959 (1A), 20240110113230 (1A), 20240116164433 (1A), 20240101215220 (1B), 20240109095720 (1B).",
+   "url": "https://scrollprize.substack.com/p/new-scroll-ct-data-released",
+   "fetched_utc": "2026-09-25T23:56:40Z",
+   "note": "2024-06-04 post; caption: overlap between Scroll 1 halves and segments near the end of the scroll. Tying these ids to the title search is our inference. They exist only on dl.ash2txt.org PHercParis4.volpkg/paths (on 7.91 um volumes 20230205180739 / 20230206171837; 3.05-39.92 cm2), not in the open-data bucket, with no stated transform to 20260411134726. dl.ash2txt.org is outside the declared source list (linked from the official data browser); read by one lens, not re-fetched."
+  },
+  {
+   "quote": "manually segmented and uploaded a large region in the area of Scroll 1 where we expect there might be a scroll title hiding. Though we still haven't been able to identify a title, it is helpful to continue exploring this region!",
+   "url": "https://scrollprize.substack.com/p/vesuvius-challenge-progress-prizes",
+   "fetched_utc": "2026-09-25T23:55:41Z",
+   "note": "Nov 2024 progress prize (post 2025-01-23); segment linked only via Discord, id and location not stated officially"
+  },
+  {
+   "quote": "Since this is the end of a scroll, ...",
+   "url": "https://scrollprize.org/grandprize",
+   "fetched_utc": "2026-09-25T23:54:57Z",
+   "note": "organizers place the 2023 Grand Prize text at the end of the work; FAQ cites a paper on the final columns of PHerc. Paris 4; page body transcriptions and identity speculation not recorded"
+  },
+  {
+   "quote": "10-20cm blank at start and end of scroll.",
+   "url": "https://scrollprize.org/faq",
+   "fetched_utc": "2026-09-25T23:54:53Z",
+   "note": "Papyrology Q&A summary hosted on the FAQ (credited to a community summary); also ~1/8 height paddings top and bottom, 4.5-6 cm columns"
+  },
+  {
+   "quote": "This Scroll 5 trace ... begins about 2 wraps past the fold (just past the umbilicus) and extends out for roughly 50% of the scroll's diameter, likely placing the left side of it right around where we'd expect the title to be.",
+   "url": "https://scrollprize.substack.com/p/new-prizes-and-an-update-on-progress",
+   "fetched_utc": "2026-09-26T00:00:27Z",
+   "note": "precedent from another scroll: end title near the core; PHerc. 172 title recovered from deep inside"
+  }
+ ],
+ "title_region_location_summary": "No official page gives a winding, segment id or coordinates for the Paris 4 expected title region. Official statements: end title at the end of the roll (after the final column of the primary text); the known Grand Prize text is the end of the work; the expected region shows no detectable ink so far and its top rows are physically missing; organizers suggest better methods, higher resolution, or looking somewhere new. Which physical end (inner or outer) holds the end of the roll for Paris 4 is not stated; precedents (PHerc. 172, Scroll 5) place end titles near the core.",
+ "feasibility_inputs": {
+  "machine": "4 vCPU, no GPU, 15 GB RAM; free disk measured 2.2 GB at 2026-09-26T00:03Z (not ~3 GB); scratch already holds 80 MB",
+  "volume_2.4um_L0_total_bytes": 81000383158216,
+  "volume_chunk": "128^3 uint8 uncompressed = 2,097,152 B; covers 0.307 mm cube at L0, 1.229 mm cube at L2 (9.6 um)",
+  "surface_volume_2.4um": {
+   "bytes_per_cm2_L0_109_layers": 1892361111,
+   "bytes_per_cm2_L0_31_layers": 538194444,
+   "bytes_per_cm2_L2_109_layers": 118272569,
+   "bytes_per_cm2_ink9um_input_21_slices": 22786458,
+   "chunk_bytes": 1785856,
+   "px_per_cm_L0": 4167,
+   "px_per_cm_L2": 1042
+  },
+  "window_2x2cm": {
+   "L0_109_layers_bytes": 7569444444,
+   "L0_31_layers_bytes": 2152777777,
+   "L2_109_layers_bytes": 473090277,
+   "ink9um_input_bytes": 91145833,
+   "L2_chunks_approx": 289,
+   "L0_chunks_approx": 4356,
+   "raw_volume_chunks_L0_estimate": "~4,000-9,000 (8-18 GB streamed) for a curved 4 cm2 sheet",
+   "raw_volume_chunks_L2_estimate": "~270-550 (0.6-1.2 GB streamed)"
+  },
+  "outermost_segment_20260701183151-w128-129": {
+   "area_cm2": 543.8,
+   "surface_volume_L0_shape": [
+    109,
+    89440,
+    142320
+   ],
+   "surface_volume_L0_bytes": 1387471987200,
+   "surface_volume_L2_shape": [
+    109,
+    22360,
+    35580
+   ],
+   "surface_volume_L2_bytes": 86716999200,
+   "mesh_2.4um_xyz_tif_bytes": 381873838,
+   "official_ink_tif_bytes": 518512245,
+   "official_ink_ds8_jpg_bytes": 8320734
+  },
+  "mesh_2.4um_xyz_tif_bytes": {
+   "20260701183148-w122-123": 325708845,
+   "20260701183149-w124-125": 360923944,
+   "20260701183150-w126-127": 437134119,
+   "20260701183151-w128-129": 381873838,
+   "20260623170305-w122-123": 199079085,
+   "20260623170833-w124-125": 211473448,
+   "20260623171400-w126-127": 289494376,
+   "20260623171929-w128-129": 329713580,
+   "20231007101619": 168828978
+  },
+  "mesh_grid_note": "root metadata tiff_dimensions give ~1151-1713 x 766 for 20260701 w-set, but each x/y/z.tif of w128-129 is 127 MB, so the stored grid is denser than that; TIFF headers not read (no-TIFF rule)",
+  "ink_9um_checkpoint_bytes": 138360039,
+  "implication": "Whole outer-segment surface volumes (1.4 TB L0, 87 GB L2) cannot be stored; only windowed streaming of level-2 surface-volume chunks (~120 MB/cm2, 109 layers) or on-the-fly rendering fits the 2.2 GB disk; one full outer mesh (0.2-0.44 GB) fits but uses a large share of the disk budget (DECL-P4-1 item 5 caps disk at 1.5 GB per programme)."
+ },
+ "reverification": [
+  {
+   "item": "DLS 7.91 um volumes (verified=false in volumes lens)",
+   "result": "root metadata.json entries re-read live (ETag unchanged): shapes, licence and data.aws.ash2txt.org origin confirmed; not in bucket PHercParis4/volumes/ listing (5 ESRF volumes only). .zarray still not fetched (host outside declared sources).",
+   "utc": "2026-09-26T00:02:49Z"
+  },
+  {
+   "item": "20260310170716 transform conflict",
+   "result": "confirmed: transform.json 15 landmarks vs root metadata 8 landmarks, different matrices",
+   "utc": "2026-09-26T00:03:02Z"
+  },
+  {
+   "item": "v14 bbox anomaly and w128-129 area",
+   "result": "confirmed from live meta.json; w128-129 area_vx2 9.44e9 = 543.8 cm2",
+   "utc": "2026-09-26T00:03:30Z"
+  },
+  {
+   "item": "mesh folder naming (lens wrote <id>-on-...)",
+   "result": "corrected: folders use the 14-digit timestamp id",
+   "utc": "2026-09-26T00:03:30Z"
+  },
+  {
+   "item": "dl.ash2txt.org use by statements lens vs volumes lens refusal",
+   "result": "dl.ash2txt.org is not in the declared source list; its items (2024 title-search segment meta) are recorded flagged and were not re-fetched",
+   "utc": "2026-09-26T00:06:34Z"
+  },
+  {
+   "item": "prize page",
+   "result": "re-fetched; title prize text identical",
+   "utc": "2026-09-26T00:04:18Z"
+  },
+  {
+   "item": "free disk",
+   "result": "2.2 GB, not ~3 GB",
+   "utc": "2026-09-26T00:03:40Z"
+  }
+ ],
+ "gaps": [
+  "No official winding, segment id or coordinates for the Paris 4 expected title region; the 2024 figure with title-search segment ids was not viewed (image rule).",
+  "The 2024 title-search segments and the Nov 2024 title-region segment are not in the open-data bucket; the former live on dl.ash2txt.org (7.91 um, outside declared sources, no transform to 20260411134726), the latter is linked only via Discord.",
+  "Which physical end (inner/outer) is the end of the roll for Paris 4 is not officially stated.",
+  "Outermost-wrap ranking uses mesh bboxes, not per-vertex radius (would need tifxyz TIFFs).",
+  "DLS 7.91 um zarr .zarray/.zattrs not fetched (data.aws.ash2txt.org).",
+  "20260310170716 transform.json vs root metadata matrix disagree; authority unknown.",
+  "v14 mesh bbox exceeds the 2.4 um volume; v14/v8 meta.json lack area_vx2.",
+  "Difference between 20260623 and 20260701 spiral-fit sets not officially explained; spiral-input dataset (dl.ash2txt.org, 49.6 GB) not read.",
+  "DECL-P4-1 names phercparis4-w00..w09 but only 8 cases exist (no w04; w08 unused, no labels); seed for step-075000 unspecified (seed42 and seed43 both trained on all 8).",
+  "HF ink_9um labels vs S3 20260918 label set equality not checked (would need label values).",
+  "Training data of new_canon_autoresearch_recipe and mrg20736-1um-s1z2 unknown.",
+  "mapping_validity arrays listed as published but absent from S3.",
+  "Papyrology papers (iris.unina.it) not in source list, not fetched.",
+  "Substack pages are dynamic; hashes are per-fetch.",
+  "Mesh tifxyz stored grid resolution unknown without reading TIFF headers.",
+  "(critic) The winding index of the last known-text column is unknown. It would need per-vertex tifxyz x/y/z of the GP-era segments against the spiral strips; TIFFs were not read here.",
+  "(critic) The innermost windings w000-w009 have no official mesh in the spiral sets.",
+  "(critic) The distortion of the official flattenings (for the 'low-distortion isometric' requirement) is not measured.",
+  "(critic) The exact z extent of the missing top rows is not stated."
+ ],
+ "critic_additions": {
+  "critic_utc": "2026-09-26T00:12:30Z",
+  "note": "Appended by the completeness/integrity critic. No earlier fact was removed. Every item below was fetched live at the stated time. Items marked derived are our inference from official metadata, not an organizer statement.",
+  "integrity_checks": {
+   "title_words": "Searched recon.json and recon.md for Greek characters (0 found) and for title-like Greek/Latin or transliterated words and author names: none found. No title words, readings, transcriptions or author attribution appear.",
+   "spot_checks": [
+    {
+     "fact": "Prize page: expected title region shows no detectable ink so far; deadline June 25th, 2027; submissions open until won",
+     "source": "https://scrollprize.org/prizes",
+     "fetched_utc": "2026-09-26T00:09:08Z",
+     "result": "confirmed"
+    },
+    {
+     "fact": "Root metadata.json ETag 7b86f3272d4ffa1085fafb4e3e6383bf, Last-Modified 2026-09-23T15:22:11Z",
+     "source": "https://vesuvius-challenge-open-data.s3.amazonaws.com/metadata.json",
+     "fetched_utc": "2026-09-26T00:09:07Z",
+     "result": "confirmed"
+    },
+    {
+     "fact": "20260411134726 L0 shape [75784,32693,32693], chunks 128^3, uint8, no compressor",
+     "source": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/.zarray",
+     "fetched_utc": "2026-09-26T00:09:07Z",
+     "result": "confirmed"
+    },
+    {
+     "fact": "20260701183151-w128-129 area 543.8 cm2; meshes only on 2.4 um and 45.532 um",
+     "source": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/segments/20260701183151-w128-129/mesh/",
+     "fetched_utc": "2026-09-26T00:09:15Z",
+     "result": "confirmed (area_vx2 9440951724.3 x 2.4um^2 = 543.80 cm2)"
+    },
+    {
+     "fact": "ink_9um trained with PHerc. Paris 4 (8) segments, 11 of 64 patches per batch",
+     "source": "https://huggingface.co/scrollprize/ink_9um/raw/main/README.md (sha256 ef0f3cf3...)",
+     "fetched_utc": "2026-09-26T00:09:15Z",
+     "result": "confirmed"
+    },
+    {
+     "fact": "Data browser caveat on the title region",
+     "source": "https://scrollprize.org/data_browser/PHercParis4 and villa scrollprize.org/src/data/atlasOverlay.json (sha256 03a66b50...)",
+     "fetched_utc": "2026-09-26T00:08:57Z",
+     "result": "confirmed; atlasOverlay.json byte-identical to the earlier copy"
+    }
+   ],
+   "minor_discrepancy": "The gp-2023 'bbox half-extent 9-15 mm' figure matches the mean of the x and y half-extents (9.3-15.4 mm). The max-axis half-extent is 10.5-18.4 mm. Both are bbox proxies, not radii."
+  },
+  "official_location_statements_added": [
+   {
+    "quote": "Substantial continuous Greek text recovered; ink clearly legible at 2.4µm.",
+    "url": "https://scrollprize.org/data_browser/PHercParis4",
+    "source_file": "villa scrollprize.org/src/data/atlasOverlay.json scrolls/PHercParis4/readings/status",
+    "fetched_utc": "2026-09-26T00:08:57Z"
+   },
+   {
+    "quote": "Ink detection across windings 28–37 (2.4µm)",
+    "url": "https://scrollprize.org/data_browser/PHercParis4",
+    "source_file": "atlasOverlay.json readings/images[1] caption (/img/data_browser/readings/paris4_banner.jpg, image not viewed)",
+    "fetched_utc": "2026-09-26T00:08:57Z",
+    "note": "Organizers show known-text ink on spiral windings 28-37 (segment family w028-037). This locates known text, not the title."
+   },
+   {
+    "quote": "2.4µm ink detection (segment 20231210121321)",
+    "url": "https://scrollprize.org/data_browser/PHercParis4",
+    "source_file": "atlasOverlay.json readings/images[0] caption (image not viewed)",
+    "fetched_utc": "2026-09-26T00:08:57Z"
+   },
+   {
+    "quote": "the defaults, 4,000 and 17,000, span the whole written region of Scroll 1",
+    "url": "https://scrollprize.org/tutorial_spiral",
+    "source_file": "villa scrollprize.org/docs/38_tutorial_spiral.md line 151 (last updated September 16, 2026)",
+    "fetched_utc": "2026-09-26T00:09:53Z",
+    "note": "The unit is 'full-resolution voxels' of the spiral dataset, whose example voxel_size_um is 9.6. That unit is corroborated: the 20260701 w-set tifxyz_original meta.json source tag is 'fitted_m7_ds2_z3000_18000_allgpu', and its z range 28.8-172.8 mm equals 3000-18000 x 9.6 um. Derived: the written region is about z 38.4-163.2 mm in the 2.4 um frame (L0 z ~16000-68000). The 20260623 set's z range (67.1-163.3 mm) ends at the same upper limit."
+   }
+  ],
+  "derived_radial_placement": {
+   "status": "derived from official bbox metadata; not an organizer statement",
+   "text": "The labelled / Grand Prize-era segments (the known text, which the organizers place at the end of the work) have mean bbox half-extents of 9.3-15.4 mm. The spiral strips have 13.9 mm (w010-027, 20260701) and 16.3 mm (w028-037), rising to 32.0 mm (w128-129). So the known end-of-work text lies in the inner third of the 130 windings, about w010-w045 and possibly further inside. The data browser caption 'windings 28-37' agrees. On the organizers' general rule (the title follows the end of the primary text), the expected title region is therefore more likely inward of the last known-text column, toward the core. This agrees with the PHerc. 172 and Scroll 5 precedents. The outermost windings (w122-129) that recon ranked would then be the start of the roll, not the end. This needs a per-vertex winding check (tifxyz x/y/z, not read here) before DECL-P4-2 relies on it.",
+   "inner_coverage": "No official spiral strip exists for windings w000-w009 in either set (both start at w010-027; live segment listing at 2026-09-26T00:11:02Z has 81 segments and no w00x name). The 1.129 um volume 20260608103018 covers the central region including the umbilicus. The 137 keV ROI 20260323153942 sits near the axis. 1.129 um meshes and 1 um predictions (model 20260709123958) exist for the 20260623 inner strips w010-027 (415.32 cm2) and w028-037 (438.29 cm2), and for 7 of the 11 GP-era segments. The 20260701 inner strips are w010-027 (641.42 cm2) and w028-037 (676.2 cm2), on 2.4 um only.",
+   "fetched_utc": "2026-09-26T00:11:02Z"
+  },
+  "official_meshes_and_flattening": {
+   "fact": "All 81 segments have mesh/intermediate/ with <id>_original.obj, _normalized.obj and _flattened.obj (e.g. w010-027 flattened.obj 496,990,633 B; 20231210121321 flattened.obj 165,558,241 B), plus tifxyz_original/ and tifxyz_normalized/. The spiral tutorial says render_ink.py concatenates each winding chunk, SLIM-flattens it (flatboi) and renders it with vc_render_tifxyz. So the published -on-<volume>.tifxyz meshes are official meshes that already carry a flattening. Whether that flattening meets the prize's 'low-distortion isometric' standard is not stated, and distortion was not measured. OBJ files were not downloaded (outside the allowed metadata list).",
+   "source": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4/segments/<id>/mesh/intermediate/ ; https://scrollprize.org/tutorial_spiral",
+   "fetched_utc": "2026-09-26T00:11:40Z"
+  },
+  "ink_9um_applicability": {
+   "statement": "The model card says the models expect ~9 um isotropic surface volumes. For 2.4 um surface volumes, first pool them to the ~9.6 um isotropic representation (XY pyramid level 2, 4x z mean-pooling) with scripts/prepare_9um_isotropic_input.py. Native ~9 um renders work directly. The models are sensitive to the z-layer offset (--layer-start/--layer-end; averaging nearby z windows helps). Label smoothing puts confident no-ink near 0.25; for display use (p-0.25)/0.5 and keep raw TIFFs for quantitative work.",
+   "applies_to": "20260411134726 (2.4 um) segment surface volumes: yes, the documented path, and the one the Paris 4 labels are aligned to. 1.129 um volume 20260608103018: no documented recipe (it would need a non-integer ~8.5x resampling; not official). 45.532 um: no. The 7.91 um DLS volumes are 'native ~9 um'-like but sit outside the bucket, under the EduceLab licence.",
+   "training_overlap_implication": "ink_9um trained on all 8 labelled Paris 4 segments with no held-out Paris 4 case. The prize requires that ink outputs of the title region do not overlap any training data. So a DECL-P4-2 region must exclude the labelled/supervised areas of those 8 segments, and a false-positive check on Paris 4 held-out ground truth is not possible with ink_9um as is (k-fold retraining would be needed).",
+   "source": "https://huggingface.co/scrollprize/ink_9um/raw/main/README.md",
+   "fetched_utc": "2026-09-26T00:09:15Z"
+  },
+  "organizers_ink_so_far": "Official: substantial continuous text recovered, with ink clearly legible at 2.4 um (data browser); the expected title region has shown no detectable ink so far, possibly a different ink, and its top rows are physically missing (prize page, data browser). There is no official statement that any ink model has detected ink in the title region.",
+  "remaining_gaps_for_DECL-P4-2": [
+   "No official winding, segment or coordinates for the expected title region. The inward (core) placement above is derived, not stated.",
+   "The winding index of the last known-text column is unknown. It would need per-vertex tifxyz x/y/z of the GP-era segments against the spiral strips; TIFFs were not read here.",
+   "The innermost windings w000-w009 have no official mesh in the spiral sets.",
+   "The distortion of the official flattenings (for the 'low-distortion isometric' requirement) is not measured.",
+   "The exact z extent of the missing top rows is not stated.",
+   "The 2024 title-search figure (segment ids inside an image) was not viewed, and its segments are off-bucket."
+  ]
+ }
+}

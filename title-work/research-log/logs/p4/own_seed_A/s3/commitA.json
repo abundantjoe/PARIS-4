@@ -1,0 +1,12 @@
+{
+ "rule": "DECL-P4-25-A7",
+ "own_lead_ref": "f98bd4e9a93723d7115d9d60c95ea5e1b99ab318",
+ "keys_sha256": {
+  "p4_key_own_s3o_a.json": "6380a1c9f64193b7682deb75e24a060e7aa886d3a5920cac4c2b547b61f0898d",
+  "p4_key_own_s3o_b.json": "25bdffe22d2c4f8b9f8c021a01ccba62902a36313b2c11a1919b369fa86a3f66",
+  "p4_key_n_own_s3o.json": "7c4bec3b64c0b14149a427ee171aeadbc75fa01a30c44c144d05f7c399df74d8"
+ },
+ "briefs": {
+  "956c02e4-a066-4d0a-b1f9-6cd0663f7c84": "3587ab1a71b5fa4a2e672b5603340bec5a4130e2b2dcfa829446b8cc9b3aeebf"
+ }
+}

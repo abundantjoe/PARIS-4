@@ -1,0 +1,447 @@
+{
+ "0a917b2f-293f-4fab-bc5f-eaf52aca2288": {
+  "role": "cand",
+  "src": "79b759d1-4f02-4e70-90be-10792014d607",
+  "strip": "20260701183148-w122-123",
+  "r": 4,
+  "c": 5,
+  "rot": 0,
+  "census_letters": 13
+ },
+ "314d3414-0dd7-4eaf-a561-8bdab593e619": {
+  "role": "cand",
+  "src": "630f1217-0697-4a49-85e8-bff840d14595",
+  "strip": "20260701183150-w126-127",
+  "r": 5,
+  "c": 15,
+  "rot": 0,
+  "census_letters": 9
+ },
+ "e14aa2b8-a051-4f84-880f-c3c725f9e2b9": {
+  "role": "cand",
+  "src": "d4bb863e-3a83-4245-ace3-9060f5c5d60a",
+  "strip": "20260701183148-w122-123",
+  "r": 4,
+  "c": 4,
+  "rot": 0,
+  "census_letters": 8
+ },
+ "5bad9413-2668-4592-9fa5-2caa68720de5": {
+  "role": "cand",
+  "src": "21edbe8b-1094-47f8-b324-f3b60989e904",
+  "strip": "20260701183148-w122-123",
+  "r": 3,
+  "c": 5,
+  "rot": 0,
+  "census_letters": 7
+ },
+ "32b8ff43-a4e2-477f-a25e-166acb03e2d3": {
+  "role": "cand",
+  "src": "2644c82e-cd28-412a-a5d4-d53620a4e5ae",
+  "strip": "20260701183150-w126-127",
+  "r": 3,
+  "c": 13,
+  "rot": 0,
+  "census_letters": 6
+ },
+ "ff7b10fa-abfb-492f-b836-e4bd3da8217c": {
+  "role": "cand",
+  "src": "64900a7e-73f3-4187-af99-d0650b465b06",
+  "strip": "20260701183149-w124-125",
+  "r": 4,
+  "c": 10,
+  "rot": 0,
+  "census_letters": 6
+ },
+ "60419227-ab2f-4b9c-8777-ecc24421afca": {
+  "role": "cand",
+  "src": "83aabcf2-ccd4-461a-b181-6bd5e6ce5f6d",
+  "strip": "20260701183149-w124-125",
+  "r": 4,
+  "c": 12,
+  "rot": 0,
+  "census_letters": 5
+ },
+ "e6824516-9f58-44a6-9e5a-4aa61c688301": {
+  "role": "cand",
+  "src": "bd6c7abc-85d0-4d75-a7fb-be32b6e048c8",
+  "strip": "20260701183149-w124-125",
+  "r": 2,
+  "c": 12,
+  "rot": 0,
+  "census_letters": 5
+ },
+ "63383f16-b16e-4079-83ab-74f5b43e514f": {
+  "role": "cand",
+  "src": "360a94f7-4baa-47ad-98b8-4606c7588bcf",
+  "strip": "20260701183148-w122-123",
+  "r": 3,
+  "c": 4,
+  "rot": 0,
+  "census_letters": 3
+ },
+ "644e3b76-b8f1-4dfb-a269-07ce546fd3b5": {
+  "role": "cand",
+  "src": "76d25b09-57df-431d-96b6-cb7b5422be4a",
+  "strip": "20260701183148-w122-123",
+  "r": 4,
+  "c": 3,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "fd24f5c1-9816-4610-83b4-a1aa38548cd3": {
+  "role": "cand",
+  "src": "81303dc4-a64d-448a-9c42-27e2b98fa661",
+  "strip": "20260701183150-w126-127",
+  "r": 3,
+  "c": 12,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "fd747674-6857-4420-ad85-484921e76762": {
+  "role": "cand",
+  "src": "8ab37fd5-57df-41f7-a3c6-b5f208beea5f",
+  "strip": "20260701183149-w124-125",
+  "r": 2,
+  "c": 11,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "1cf28dfa-ea91-4f90-819d-07d4cdc3a89a": {
+  "role": "cand",
+  "src": "993977b9-d3c0-414f-8e6f-645ef05ed470",
+  "strip": "20260701183148-w122-123",
+  "r": 4,
+  "c": 2,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "e43cf6dc-8a55-4e1b-8277-5413d7fa2446": {
+  "role": "cand",
+  "src": "a4a0b921-cd58-49dd-88e6-fdfb25d73e71",
+  "strip": "20260701183150-w126-127",
+  "r": 5,
+  "c": 13,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "ac953aee-f1eb-4024-b124-04730ccfd5b0": {
+  "role": "cand",
+  "src": "b12db365-eb71-427f-845f-ab9d7fbfc5be",
+  "strip": "20260701183148-w122-123",
+  "r": 3,
+  "c": 3,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "83a65f67-78f6-40eb-bfe1-201bdafb211d": {
+  "role": "cand",
+  "src": "b5820b8c-d900-42fc-a146-c440b361182d",
+  "strip": "20260701183150-w126-127",
+  "r": 3,
+  "c": 11,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "f373f225-bd2c-47f4-94ff-c515cd32ced0": {
+  "role": "cand",
+  "src": "cd0c80b5-08ce-4e0f-ae13-6128cc9d1ff5",
+  "strip": "20260701183149-w124-125",
+  "r": 4,
+  "c": 9,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "ba9986f7-d1d9-4f87-b4a7-fb070f4d3f22": {
+  "role": "cand",
+  "src": "d3fb6e92-9fdd-485d-9376-b7095176fa01",
+  "strip": "20260701183150-w126-127",
+  "r": 5,
+  "c": 14,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "55d773a2-2705-478b-9804-d243cd9300d5": {
+  "role": "cand",
+  "src": "d9888472-efe1-42f9-8262-80d0cdb966b9",
+  "strip": "20260701183149-w124-125",
+  "r": 4,
+  "c": 8,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "042fbe64-7b1d-43fe-b677-543fc7edb062": {
+  "role": "cand",
+  "src": "f71ff6cd-a5e6-442b-81f6-fc76869a7871",
+  "strip": "20260701183149-w124-125",
+  "r": 2,
+  "c": 10,
+  "rot": 0,
+  "census_letters": 0
+ },
+ "40bb3100-3340-48dd-8f6d-c16c7629b939": {
+  "role": "n0",
+  "src": "942dd6c2-faae-4ad9-a506-a0335b88b789",
+  "strip": "20260701183149-w124-125",
+  "r": 2,
+  "c": 15,
+  "rot": 90
+ },
+ "325fadab-d4e4-47a7-90b8-604ca5f38e9c": {
+  "role": "n0",
+  "src": "0a7c2076-d218-4795-8122-901dc3599975",
+  "strip": "20260701183150-w126-127",
+  "r": 8,
+  "c": 12,
+  "rot": 90
+ },
+ "8aa196c8-5bc8-4a87-8469-3915b523fff2": {
+  "role": "n0",
+  "src": "546f09cc-6f93-4111-9c48-37ecc0cf51ab",
+  "strip": "20260701183150-w126-127",
+  "r": 4,
+  "c": 1,
+  "rot": 90
+ },
+ "40c45130-c0bb-4742-813c-b340eeff806c": {
+  "role": "n0",
+  "src": "871607bc-98a3-42ad-8913-d8a6ad78fb2e",
+  "strip": "20260701183150-w126-127",
+  "r": 7,
+  "c": 13,
+  "rot": 90
+ },
+ "0aaeb68b-f0b0-4525-bae7-232b2c575b65": {
+  "role": "n0",
+  "src": "400fbfe0-e898-4655-a7f9-4e8b13c95030",
+  "strip": "20260701183149-w124-125",
+  "r": 4,
+  "c": 4,
+  "rot": 90
+ },
+ "b9d3c915-7f78-439c-b550-9ab557d469bf": {
+  "role": "n0",
+  "src": "438cbe53-5cf0-4a0b-8e29-2a02bfe71847",
+  "strip": "20260701183151-w128-129",
+  "r": 9,
+  "c": 2,
+  "rot": 90
+ },
+ "4461de20-d94e-4f5e-86fc-0ae926713de4": {
+  "role": "n0",
+  "src": "a222303b-9c0c-4c94-b148-b66f7473dfde",
+  "strip": "20260701183148-w122-123",
+  "r": 2,
+  "c": 0,
+  "rot": 90
+ },
+ "b5587109-b297-45c3-912e-be26c38bb858": {
+  "role": "n0",
+  "src": "42599aec-34c0-491f-aaf4-5408265380ae",
+  "strip": "20260701183151-w128-129",
+  "r": 2,
+  "c": 14,
+  "rot": 90
+ },
+ "05699064-6a6b-4aa0-8a20-fa936feb0061": {
+  "role": "n0",
+  "src": "ef2393a8-40ad-4a36-9ca7-ea6585523ff4",
+  "strip": "20260701183149-w124-125",
+  "r": 0,
+  "c": 6,
+  "rot": 90
+ },
+ "af0057e8-e1f5-43d3-aa50-89e79e627bba": {
+  "role": "n0",
+  "src": "9a2cb9ef-1d9b-44db-be0a-ff60ec176040",
+  "strip": "20260701183149-w124-125",
+  "r": 7,
+  "c": 14,
+  "rot": 90
+ },
+ "d5d78ef4-d596-460c-a687-8d04850e95b9": {
+  "role": "n0",
+  "src": "76e9f02a-8998-497e-819d-43a067091db2",
+  "strip": "20260701183149-w124-125",
+  "r": 1,
+  "c": 15,
+  "rot": 90
+ },
+ "96585970-3635-4972-9e3f-0df62b685340": {
+  "role": "n0",
+  "src": "bc38516d-e0f2-4bac-a185-d306f3d5606f",
+  "strip": "20260701183151-w128-129",
+  "r": 2,
+  "c": 1,
+  "rot": 90
+ },
+ "e1e9734c-63fc-4f50-ad56-97e747b8a882": {
+  "role": "n0",
+  "src": "002d0771-5ed8-41a3-8550-70eef9403aef",
+  "strip": "20260701183151-w128-129",
+  "r": 8,
+  "c": 16,
+  "rot": 90
+ },
+ "93478a63-f0e3-4b89-a247-108ba6b26b4b": {
+  "role": "n0",
+  "src": "3067312f-175b-4acd-920a-a482f76b76cc",
+  "strip": "20260701183151-w128-129",
+  "r": 8,
+  "c": 8,
+  "rot": 90
+ },
+ "06d78afa-ce05-4039-92d9-11422c97a575": {
+  "role": "n0",
+  "src": "af299466-dc20-4e03-b7d6-40e5f42f160b",
+  "strip": "20260701183148-w122-123",
+  "r": 3,
+  "c": 8,
+  "rot": 90
+ },
+ "b9c16e2e-988b-4af3-b947-eae1af7ee0f6": {
+  "role": "n0",
+  "src": "e556716a-281f-4ee4-b2e1-c171eaa6cadf",
+  "strip": "20260701183151-w128-129",
+  "r": 8,
+  "c": 15,
+  "rot": 90
+ },
+ "308e9f4c-166f-4fd8-b8c0-a3ae3b157673": {
+  "role": "n0",
+  "src": "fe088033-21ef-4a18-84cb-2d57bbaa78b4",
+  "strip": "20260701183151-w128-129",
+  "r": 9,
+  "c": 1,
+  "rot": 90
+ },
+ "2b9c9a55-9213-4e7d-9b69-b00459b1e8a0": {
+  "role": "n0",
+  "src": "4cec5a2e-eaa0-41a8-92ab-94a842655ef3",
+  "strip": "20260701183150-w126-127",
+  "r": 5,
+  "c": 9,
+  "rot": 90
+ },
+ "185692b6-327c-445e-bc65-1ecfe9e1b435": {
+  "role": "n0",
+  "src": "9c07b8a3-53a7-4ecd-9f3f-db8a161f8a97",
+  "strip": "20260701183148-w122-123",
+  "r": 1,
+  "c": 4,
+  "rot": 90
+ },
+ "0832dd3f-24df-4565-b00e-f3f8da2fb7fd": {
+  "role": "n0",
+  "src": "c266337b-6a59-4ad7-bcd4-577a4ffd1991",
+  "strip": "20260701183150-w126-127",
+  "r": 10,
+  "c": 12,
+  "rot": 90
+ },
+ "57730898-fc14-43bd-bff8-d8d6f84f754f": {
+  "role": "pc",
+  "src": "057e9638-e28c-46e2-9103-31d9b2b2a801",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 0
+ },
+ "9138d754-c400-46e2-94e4-c9067ee183b3": {
+  "role": "pc",
+  "src": "a149a264-7016-4dfe-b0fc-bac6136cfe05",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 1
+ },
+ "05dbcd3b-9183-4a5a-9a6e-578e73aca906": {
+  "role": "pc",
+  "src": "96170849-dac4-4f91-a0b6-833eac01c0ac",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 2
+ },
+ "4c35dac6-87a9-4e98-9f7b-d54b9e18322b": {
+  "role": "pc",
+  "src": "2cc795f8-55ee-44a4-bf3a-a3ccead95081",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 3
+ },
+ "fb3a6ee5-fa90-46ef-a114-fc1eb9811b96": {
+  "role": "pc",
+  "src": "37048d63-27de-4a86-a61f-5dbcaa8aefac",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 4
+ },
+ "e45a00d4-552b-41fc-98a9-5894dc72e0ce": {
+  "role": "pc",
+  "src": "38c141ca-653d-4364-ba3c-e8083dcf9efa",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 5
+ },
+ "4413930d-a70b-4822-aa17-d2b04029fd0c": {
+  "role": "pc",
+  "src": "53134903-477c-4358-a593-5ebce8731f07",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 6
+ },
+ "b365e011-98b9-4b1d-b6c4-853a42503303": {
+  "role": "pc",
+  "src": "0d1ffdad-8aa3-440c-a269-ff7d17c87cbe",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 7
+ },
+ "7d5d66d2-6fef-46bd-a2f1-eb8f6a421063": {
+  "role": "pc",
+  "src": "8c3fb678-c128-4fb1-96e4-30f6bbf00bb2",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 8
+ },
+ "88825276-94cb-4a25-a8c6-62c510076bfa": {
+  "role": "pc",
+  "src": "803fdff0-fcb3-4f11-a623-96f44cbf565e",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 9
+ },
+ "72651d34-9b02-488d-840d-69dd079d6bb0": {
+  "role": "pc",
+  "src": "71815cdc-4e42-4aba-95f2-9d5c06673996",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 10
+ },
+ "1fc97a66-4cb8-4b1b-8518-fb8c45e64876": {
+  "role": "pc",
+  "src": "2980b21f-507d-48c8-93a9-886c6c9bd11a",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 11
+ },
+ "68f74c7f-8c02-4bee-bbed-e8f9dea55a38": {
+  "role": "pc",
+  "src": "d4148b4c-bda0-444a-aedd-1f0250fe9198",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 12
+ },
+ "2305b1c7-6b98-4014-a8cd-70d817f12357": {
+  "role": "pc",
+  "src": "23c4cc98-4fd5-42e6-9145-dea51c60b3d7",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 13
+ },
+ "47f05c3d-25cc-4117-92e8-96c1334806f1": {
+  "role": "pc",
+  "src": "f9495fb5-fb47-4977-9373-f141ce19d327",
+  "strip": "w028-037",
+  "rot": 0,
+  "session": 14
+ }
+}

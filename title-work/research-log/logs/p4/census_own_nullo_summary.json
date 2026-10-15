@@ -1,0 +1,86 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-2 items 3-5",
+ "variant": "sigma2t",
+ "count": "n_letters",
+ "cand_cmin": null,
+ "stats": {
+  "jobs": 1,
+  "valid": 1,
+  "invalid": 0,
+  "missing_items": 0,
+  "right_nonempty": 0
+ },
+ "n_census_tiles": 6,
+ "n_null_tiles": 1,
+ "null_letter_counts": [
+  0
+ ],
+ "null_p99": 0.0,
+ "threshold": 5,
+ "n_rows_Y": 4,
+ "n_positive": 1,
+ "n_labelled_adjacent": 0,
+ "tiles": {
+  "59a2f893-f377-4866-8487-21b48362f60d": {
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 5,
+   "rows": "Y",
+   "n_letters": 1,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "6837a24a-5400-48f9-8740-c3897bd3aaa9": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 6,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "757c72f3-8dce-4ca8-96f4-3fec98a9da97": {
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 5,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "ba0f5f0a-7abc-4714-b336-d1f690cbec6f": {
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 4,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "d7f1d983-300a-4a5b-8158-1895b9590b75": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 5,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f6b25573-7717-4c4e-bafc-d31e1d24b4df": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 3,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  }
+ },
+ "positive": [
+  "d7f1d983-300a-4a5b-8158-1895b9590b75"
+ ],
+ "candidates": [
+  "d7f1d983-300a-4a5b-8158-1895b9590b75"
+ ]
+}

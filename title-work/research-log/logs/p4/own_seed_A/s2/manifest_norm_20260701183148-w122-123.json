@@ -1,0 +1,29 @@
+{
+ "segment": "20260701183148-w122-123",
+ "own_lead_ref": "f98bd4e9a93723d7115d9d60c95ea5e1b99ab318",
+ "arm": "S2",
+ "model_final_sha256": "f2d9ff3591a6e895d169de4c130acbad9894405fbdab1225ab399aa28dbf392e",
+ "tiles": [
+  {
+   "r": 4,
+   "c": 5,
+   "sha256": "c828a13546ffd3b8487747f17a4ad5abab7cb7f7933f65625dd793daf68ab6dd",
+   "valid_fraction": 1.0,
+   "role": "control"
+  },
+  {
+   "r": 4,
+   "c": 4,
+   "sha256": "2453a384cd1ce46c421fbb4363381858075ac8d7d14334c21f757257eb0477b8",
+   "valid_fraction": 1.0,
+   "role": "control"
+  },
+  {
+   "r": 3,
+   "c": 5,
+   "sha256": "0634861d845e6eb06ff4e437bbecd320cb1ca1476ea5c05c083a16aa35cbe47a",
+   "valid_fraction": 1.0,
+   "role": "control"
+  }
+ ]
+}

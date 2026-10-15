@@ -1,0 +1,244 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "DECL-REMOTE-HARNESS-1 items 4-7 for phase-2 batch p2mo2",
+ "ref": "origin/claude/gifted-bell-gavnl5-sib-rh-e2",
+ "jobs": {
+  "8e300399-1381-431f-a063-d2e66bf6393c": {
+   "brief_ok": true,
+   "age_sha256": "64578759482dfc89d4beb3f490ceff093e2028309e7578e9532599087a3928aa",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "76b962347a471b6fc7a3e3df0b1e24bd5f81b9515bba6fd9c2d22ea31def878f"
+   },
+   "B3_consistent": true
+  },
+  "61d2619d-3f6c-4fb6-ab60-ab9f45916db8": {
+   "brief_ok": true,
+   "age_sha256": "6fbbb6ee0381ed066490724efe047e3a422452a0ca58c56e64da06e5f2fa455d",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "74b8647235dae80e274b968e4d9d13287634b558846dd28e22056bdd228e043c"
+   },
+   "B3_consistent": true
+  },
+  "4546653f-ef1c-4bd0-a710-10cb1c62e1b4": {
+   "brief_ok": true,
+   "age_sha256": "555466ad3241206a58f1382964e3fc8f1e338b73f03f62c3b2c69869e3ce0eee",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "143fb2356797128b1d1c1a823ce9602ca62d94eb4a6a9214e96468fd0e3aa672"
+   },
+   "B3_consistent": true
+  },
+  "16993a83-223c-46ef-80da-7437a9b55fb3": {
+   "brief_ok": true,
+   "age_sha256": "eb582e5c9d8cedb90d860e59deb3fe0a5ae80bc2643111e956fa68f8ae9c0c56",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "56482741f157a2d7a175e0296f22e5555428083569c7ba6c1e5d6b141271ebae"
+   },
+   "B3_consistent": true
+  },
+  "b7110c75-10f0-45c1-9303-6937c9eead11": {
+   "brief_ok": true,
+   "age_sha256": "03e0ce7fdfbc5397c68ab2ff055803384100fc71a053a01054a51547cca4b821",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "5d5d6db8f7b65df5841f2f33fe9aee454368ed83b3e27c607e922adab9aedf32"
+   },
+   "B3_consistent": true
+  },
+  "3309f8a8-496f-42a3-b1e9-ed42d7db357d": {
+   "brief_ok": true,
+   "age_sha256": "3b97a9e2d86c332af33a6ab02898eecc74dd60a69c4856e510bb0ed8af751d9e",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "ec7c5db075414c383a501bbccae532ddb68ce8abafb460f728e616d0850d2975"
+   },
+   "B3_consistent": true
+  },
+  "5135e328-3a41-4db6-9eb3-913d319e3bdb": {
+   "brief_ok": true,
+   "age_sha256": "e918ce8190cc778abd78423a2c3efeee56bb7417115c009de04d09306cd9a7e6",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "f17a0f77050c25b221aa6fe55ae0ab6de1bc80fab3f621038bcbb705e137e87d"
+   },
+   "B3_consistent": true
+  },
+  "31c3f952-b783-4dbf-b8e7-9bcb4e7e5cbb": {
+   "brief_ok": true,
+   "age_sha256": "6b2525ab2e9bd8ab56d0452fcf742535bc19f2f45ce4ad41ef409ebf11d471ab",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "f520deb2a5fdfb675a6fa2c5b4ae8ac3552dbe129452409bbdcb8ca32a1e345c"
+   },
+   "B3_consistent": true
+  },
+  "0c1feafc-7eb2-4ffd-8e73-acba03a6cb50": {
+   "brief_ok": true,
+   "age_sha256": "2243345cb86e16ce606663be3808ccc47b86b10cf822f7317d0d2a821ac069fd",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "3147b8932b9f46b97da34b4d4727c495513ac8491ed8a7feee5bac563fae3291"
+   },
+   "B3_consistent": true
+  },
+  "e9fe9544-2e7e-4de3-8272-3e9f21a6cfcf": {
+   "brief_ok": true,
+   "age_sha256": "79d81f63915848f776631156049d3829815da43a3b394bb12a09f4783d9f90cf",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "a4cc6faae363b48a624f98d2bc5bb3c76a7452516a613e387600334270110ecc"
+   },
+   "B3_consistent": true
+  },
+  "88a69816-7c14-4eaf-a413-52e08421ffb5": {
+   "brief_ok": true,
+   "age_sha256": "c8c8b4559187d8c4a2224ef796b8d31e56e316c0a2fd69bf63753bb2c2992665",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "40ca72f9049fa45a2b0a6edc47580e08f96c9eb4022d11429ccb7f5aa9e2fa6b"
+   },
+   "B3_consistent": true
+  },
+  "848b381d-2065-4d12-927b-c475185dbf17": {
+   "brief_ok": true,
+   "age_sha256": "ac24885e7515b250bd6efa632f26be380de57d0f0ad1f955aa001ad299b368c2",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "b437946e9e1b6da13eb3d3614f8ee0167e1d945f62d1a4f7e48ef460b88d0d7c"
+   },
+   "B3_consistent": true
+  },
+  "b5ed3aac-7453-4be3-82f0-304bdaf23cfa": {
+   "brief_ok": true,
+   "age_sha256": "4c5d92e361787a2e55af0bf01c6c71404da1b3eed97c8011f68ef7deeca04779",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "e7294d59701edd9e74b270c971e3cdf02360624b1c868a1abf016d9db72cb156"
+   },
+   "B3_consistent": true
+  },
+  "92c36ed5-5f01-48e9-84ae-0b83eed4eff2": {
+   "brief_ok": true,
+   "age_sha256": "9f0bf3ea63b84337eae1b36a651370b5cdfcb0d5d3cf4e3584f6164bd1c41ba2",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "f17011917aa1dfc05b8f0da440ff8727e5348823bb64c6f4171d471304d90da0"
+   },
+   "B3_consistent": true
+  },
+  "a38bd921-fdca-4d91-b195-1f603a4a95d4": {
+   "brief_ok": true,
+   "age_sha256": "c535757f4d0bbbab37a5efae010cec82a6464af27efdacbeb00bd925639f4ed2",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "841bc2e8830c2bb77a10d4c661d2f5e6f5208129412e6f2ba1ffdfd79ea9a12c"
+   },
+   "B3_consistent": true
+  }
+ },
+ "ref_commit": "d164ec98777bccde01c6c0cc26ac33f7ec258cd5",
+ "n0_seed": 20273453,
+ "checks": {
+  "A0_code_hashes": true,
+  "A1_A_before_B": true,
+  "A2_sums": true,
+  "A2_key_sha": true,
+  "K1_cand_set": true,
+  "K1_cand_img": true,
+  "K2_n0_draw": true,
+  "K2_n0_img": true,
+  "K3_pc": true,
+  "K_roles": true,
+  "J_jobs": true,
+  "J_cover": true,
+  "B1_age_hashes": true,
+  "B2_transcripts": true,
+  "B3_answer_consistency": true
+ },
+ "n": {
+  "cand": 20,
+  "n0": 20,
+  "pc": 15,
+  "jobs": 15
+ },
+ "PASS": true,
+ "installed": true
+}

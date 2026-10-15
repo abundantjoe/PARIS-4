@@ -1,0 +1,355 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-REMOTE-HARNESS-1 items 4-7",
+ "ref": "origin/claude/gifted-bell-gavnl5-sib-rh-e2",
+ "ref_commit": "21d2b36e5874ea39fa2e02e6acbea33395d37777",
+ "checks": {
+  "A1_A_before_B": true,
+  "A2_sums": true,
+  "A2_key_shape": true,
+  "A3_img_census": true,
+  "A3_img_null_present": true,
+  "A0_code_hashes": true,
+  "A4_builder_eligible_set": true,
+  "A5_briefs": true,
+  "A5_cover": true,
+  "B1_age_hashes": true,
+  "B2_transcripts": true,
+  "B3_answer_consistency": true
+ },
+ "jobs": {
+  "b16947ca-df3a-4c99-bf32-d4f69f933993": {
+   "brief_ok": true,
+   "brief_sha256": "3876a3153cf3bd820de6b7a8f32344983121c8abbb2a3039054e87926a8e4fe5",
+   "age_sha256": "8fbee5ffacf97a22167bd6ea3d702a809e18ebfba965fd788af4cc6908b10970",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "7c4eebd5789b795490afb354dbf8d221d15eb8af55dfffad256a636e689c0ca1"
+   },
+   "B3_consistent": true
+  },
+  "9fc6d724-42ac-4cf8-8fac-080be04a5123": {
+   "brief_ok": true,
+   "brief_sha256": "b563121034f6eed8c793905453e9f682c33f1e708eb50f2b919fb703c6316ae6",
+   "age_sha256": "04990ee30a8beda4380052e9a0a7d96842f2136f22cfe724e9782dc65400ab1d",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "766496398951500e95c50854572ee282eddb7cce06a12802101120ba95ecdad3"
+   },
+   "B3_consistent": true
+  },
+  "1676b24a-9e9f-4df6-ab69-25e452181dca": {
+   "brief_ok": true,
+   "brief_sha256": "5bff4c477d6f0871b56cb1f46df0d9000ccf454568f43266400a35d447bc9f10",
+   "age_sha256": "94919bc22d55b6eefe63b3b93730bd72ecd6f508bc08ab970669ea4da3cffd2e",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "bf72deef0f8d18ee91180fe21ca88f9df673eac22572c096a2b4499db8058de3"
+   },
+   "B3_consistent": true
+  },
+  "bdbf9c79-f7ae-4eae-905e-ff9aa0bb1ab6": {
+   "brief_ok": true,
+   "brief_sha256": "95880902e839851b8904396fab6a27aecb7ecc7f78bdb4ff83ece6ae30733b2b",
+   "age_sha256": "70665a86c0c7aac64de98681c5008e45ed881ef7221e5e0e791d152c45c719df",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "c04af49ebd8c893e0c02f02185597d24062f13f50fcfb700cb768fae02551070"
+   },
+   "B3_consistent": true
+  },
+  "49b3e3bb-ac4b-4378-9f77-665d388b8975": {
+   "brief_ok": true,
+   "brief_sha256": "267b87938cb5541940f95f7fa1e8ba0309853e211c0e9374fe122ff1266e90e9",
+   "age_sha256": "794fc972165d5f81bdba7f10cea3641c1996e0bbce54209f93627434bc536b34",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "541c64101d8f3d9424b325f70069aff1fd651c25a49866d7968cdf5b648be841"
+   },
+   "B3_consistent": true
+  },
+  "584b3bcc-e8df-4368-a3e8-26265f0c549d": {
+   "brief_ok": true,
+   "brief_sha256": "8063745bde0cc1cb7a518ee7d4d6d6156b2356748df47b2f9a6278f76068f2fb",
+   "age_sha256": "7902edee41c58d3e9738b035f3a11f32b503cdec7f7c042cb7661813b073768d",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "6cd22010869b9160d83b4039a97627926f8b9b1f7e056bec6f88afceed741928"
+   },
+   "B3_consistent": true
+  },
+  "c8af2c84-7d18-4e4f-bdd5-64a8dd6caa18": {
+   "brief_ok": true,
+   "brief_sha256": "a705a286dee7ad4a24ad3892ecd95d49a3535e31d1ce48e465b2e418036672f1",
+   "age_sha256": "fa800bd0cf28490d8ed2edb5103f04a132e0a885d9f64295a276b0d632e49e74",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "ccb437e76fa9d7ddd20d447bb7c795aec6bd53c9f5243af08cf4b61aaf9f1f64"
+   },
+   "B3_consistent": true
+  },
+  "62b0c106-864a-4f2f-a7fe-d394c124937c": {
+   "brief_ok": true,
+   "brief_sha256": "de7c6cf0d9ceeda922a1413bba88dc48525704d54366e451633862dddec77bea",
+   "age_sha256": "79c2de023b63ffd85185f79f7deffd40d4d8002a5757416546d56ed0347509b7",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "1179b3f43fd0e4e7eb621ae7698ac6a9e9cb74853ee11395d5bda1b875fb7980"
+   },
+   "B3_consistent": true
+  },
+  "7069528b-ae58-4221-b015-05f49b9a00cd": {
+   "brief_ok": true,
+   "brief_sha256": "c922687d69e827470b236c357100b6ddb4fa587745598de9d0c8a154ab2cc2ff",
+   "age_sha256": "a3ac0b995d2b8d022f68884061ebbf71127559c80ac97a141c4053ff77f18ad1",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "3e43847e91e9c81c14c0fc24a81ca9f6dbe0228710b4423ec522e83f081c38cf"
+   },
+   "B3_consistent": true
+  },
+  "92b0a130-0606-40c1-adbc-0a37736b658f": {
+   "brief_ok": true,
+   "brief_sha256": "404fef09323d50efcefc917390cc029b3bc92a53d59e2fd57259e7e26837f1fb",
+   "age_sha256": "02ff78cec7f31262fbbbfcdc521ef19876be86b174a027599f0e34548bf795a2",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "ec6a87bcccd704255e7052e79506086536f4e02aa7c5eecdee5331a7634a3dd4"
+   },
+   "B3_consistent": true
+  },
+  "0dda552c-4ca2-49a8-a8d2-f8f510a77b91": {
+   "brief_ok": true,
+   "brief_sha256": "a40de303c79e98a0dcf5793f3cc819490c32db1171005259d367f06d0f6b414b",
+   "age_sha256": "b3a97aa14ea889ec92ccae02d0d00163b11468ddd49720d0fd49c67edc00d4c9",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "ad19b12818f6af01f0570f2bbdbb928d5847ca173248342af091512c4438001a"
+   },
+   "B3_consistent": true
+  },
+  "328cb1d0-6da3-45bf-b1a3-e6c8c8e1570d": {
+   "brief_ok": true,
+   "brief_sha256": "b4a4edb42c4c3148aaed5cacf903b43b442d6484852a9e9618de816bcb1f842d",
+   "age_sha256": "652b7f8ab16307ce052ba3d40fe344437f26d6bd1d4573376b6a9cd2dec4d49c",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "3c8f2d77e25f747685aeaa3575d27b6b2ec19783ff3e443aa5df579fc64ed7c1"
+   },
+   "B3_consistent": true
+  },
+  "957f5c83-0883-4c13-a37f-4b9f6974fdf4": {
+   "brief_ok": true,
+   "brief_sha256": "4973e32ff60de8052c8dee441f6b7296de486c520728bc0c5dfecdfb356c2234",
+   "age_sha256": "a58800195d4f8d5bd519182547b024c248dfdf4d259184265a0d330c08605ed2",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "8397ccf506afc0e1390b8bb0b4413bc803298b3da8a9e56ab802b9e70e643c88"
+   },
+   "B3_consistent": true
+  },
+  "7c42c5cc-c167-40b2-8d97-7eb867f820f8": {
+   "brief_ok": true,
+   "brief_sha256": "a4025c70a46e3318b085dc4506cce70a6175f9d5893744e6723fb722c44364e9",
+   "age_sha256": "e05a0ddd6b4e6a324fc3b8acee5623964274390b8efab7f5efcf06dd2cb4e30d",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "8a0b005319210adb8fda0269c50201579accf038f545bea5bf1f74e8d2699bf2"
+   },
+   "B3_consistent": true
+  },
+  "8a81409a-4baf-44b6-9f55-6f48694471e0": {
+   "brief_ok": true,
+   "brief_sha256": "8c4ac5b172c53895c25b13e7eb1b1caea2ac5ed5d38da50fb06efbd55976f9e3",
+   "age_sha256": "3d866400d348aebc7280836e937c1ae16c9b93a6be52e6187c97105f7064d63b",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "843b67ba8530f68d3a6b86e3abb852dfbc98c95f53445ce2e30905d4c7caf6e4"
+   },
+   "B3_consistent": true
+  },
+  "bcf91cb1-4ea6-4a35-99c0-22a16df6383f": {
+   "brief_ok": true,
+   "brief_sha256": "371968a1872de7f78c4f3b93ccdde5519cec1fa0d0054e971e0f8c34c5e7657d",
+   "age_sha256": "fd7af0ed66b4b956a870b0858fdc7e9d10a1fe3b6f7c04c51cf9135a687c5f98",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "375c79df917e751427385da637895eb5c6662a2d1cd1051c5729a505ba9ba28c"
+   },
+   "B3_consistent": true
+  },
+  "797ee3a5-2945-4138-afe4-e853c993b23c": {
+   "brief_ok": true,
+   "brief_sha256": "9fb962448982697dbef6112023f67cd82efacfbb79a4b001caad8a42528b3ac4",
+   "age_sha256": "bb3bc361931f33cb70e64d6286a57f77554ad239e55d94994754684f152bdc08",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "64e1db0ce89b829f16b5c0652baa11d6835f2a46eba132d20bba242dd4b999cb"
+   },
+   "B3_consistent": true
+  },
+  "cf54507f-8471-4118-8381-2665d6dd0900": {
+   "brief_ok": true,
+   "brief_sha256": "4a6f8397cc86c63b87e621a0a1faf620d778cf1b1149593448967bfc037fcd7f",
+   "age_sha256": "df94c1240733c1a4d89aa60030b19251f7c659c5c37ae2049cd342ada9693f64",
+   "B1": true,
+   "B2": {
+    "audit_valid": true,
+    "n_violations": 0,
+    "unread": 0,
+    "prompt_eq_brief": true,
+    "after_commit_A": true,
+    "transcript_sha256": "8640c109bbd330422e33473d78e6506601d05523a10e8ae6061369f380cae8f4"
+   },
+   "B3_consistent": true
+  }
+ },
+ "commit_A": [
+  "370abcdadc73e7b9c070299e6f2280fa8a7144c2",
+  "2026-09-27T07:01:49+00:00"
+ ],
+ "commit_B": [
+  "e21940886fa8bb886216a86e2906c2e17cceb281",
+  "2026-09-27T07:06:30+00:00"
+ ],
+ "key_sha256": {
+  "p4_key_mo2b.json": "24a9b5c64ffc35ce04efc6ee0bde790922778789ba15d5a641aecae166f99639",
+  "p4_key_nmo2b.json": "1dbe1b4e93e5cb1086382f6b61c99f1b3d81860d0bb208aa674914e8b61326a3"
+ },
+ "builder_ref": {
+  "batch": "mo2b",
+  "null_batch": "nmo2b",
+  "jobs_batch": "census_mo2b",
+  "builder_branch": "claude/gifted-bell-gavnl5-sib-p4-inner",
+  "builder_commit": "19fc1dde4b592cc1844d035ab19ccc17f55298c3",
+  "manifest": "logs/sib/p4-inner/mo2/w124-125/manifest.json",
+  "tiles_dir": "logs/sib/p4-inner/mo2/w124-125/tiles",
+  "orchestrator_base_commit": "1dc4a4748ff6b134b32d93955db2dbf2ce1f8771",
+  "harness_commit_base": "e28009335456a1e64da10661747781295c1788c7",
+  "variant": "sigma2t",
+  "recipient": "age1vp0tkyj8xecncfmcxj748ceef89mpmwayljccaduapjx3aqhh5rstvvcq5",
+  "key_sha256": {
+   "p4_key_mo2b.json": "24a9b5c64ffc35ce04efc6ee0bde790922778789ba15d5a641aecae166f99639",
+   "p4_key_nmo2b.json": "1dbe1b4e93e5cb1086382f6b61c99f1b3d81860d0bb208aa674914e8b61326a3"
+  },
+  "code_sha256": {
+   "tools/p4/norm_manifest.py": "d2faee660c36db99531755b6f30f4269acd6c5f5b4ebe90ac79ec80d5f596a8f",
+   "tools/p4/p4_jobs.py": "e9f99ce4247e45211b8a6701f42a7ec4e38c9f458b9c23d191bc60cfdf04e45f",
+   "tools/p4/score_p4.py": "9a5b4761a22f6a792eadb38928f8d7adfb217e885fa4ff2655c0bc1b5eb1e24d",
+   "tools/p4/p4_phase2.py": "999cb5534943fdd70b78a35cc0f61957ddc6e5411b9c10b507f0ffa415a94e05",
+   "tools/p4/p4_ext.py": "843a2664913a4a94e95b21635212e1f6d7a4a18d526df4ba10c321ddfed8a8c8",
+   "src/hercules/harness/audit.py": "e36cb995aee6f54461ef8dfc3af57ecd167853c74408f2917d1cbf560426e1f1",
+   "src/hercules/harness/jobs.py": "02d9bd781beb4d3d26bb26efcc8ab4c6fd5c2b1d64bffcba883d2daaf947f0ae",
+   "configs/briefs/keysheet_sigma2.png": "164262e67dfd7589bdd03dddb1b8470267bd7d46d5c40b0af63fc1eb980db438",
+   "configs/briefs/k_d2_task_sigma2t.txt": "f07fbdffab8ee0d62afb946fafc13b6a794ef5ab5e8506bdfbd5ae90c4f8bea0",
+   "logs/p4/ref_brief_sigma2t.txt": "627ebb0fb6dc6d1714cacc27bf35343f95d2e02967def7756872cb0dfe826700"
+  },
+  "n_images": 156,
+  "n_census": 138,
+  "n_null": 18,
+  "n_sessions": 18,
+  "session_sizes": [
+   [
+    2,
+    1
+   ],
+   [
+    8,
+    1
+   ]
+  ],
+  "unique_src_png": 127,
+  "briefs_match_ref_template": true,
+  "note": "DECL-P4-25 strip w124-125 (20260701183149-w124-125); batch mo2b = per-strip suffix of the ordered mo2; 12 eligible tiles have identical all-zero prediction PNGs (sha256 3308991ca1d6..., rc (1,7),(1,8),(1,15),(2,1),(2,8),(2,9),(2,16),(3,1),(3,9),(4,1),(4,9),(5,1)); kept as declared"
+ },
+ "n_census": 138,
+ "n_null": 18,
+ "n_eligible_builder": 138,
+ "PASS": true,
+ "installed": true
+}

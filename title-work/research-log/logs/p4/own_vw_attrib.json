@@ -1,0 +1,93 @@
+{
+ "rule": "DECL-P4-26-A2 item 7 + A2-A2",
+ "windows": [
+  {
+   "window": [
+    3,
+    1
+   ],
+   "count": 10,
+   "n_cells": 2120,
+   "slot_frac": 0.0,
+   "text_frac": 0.0,
+   "max_show_through_r": 0.34976,
+   "class": "OTHER",
+   "source_tiles_top3": [
+    [
+     "r3_c0",
+     704
+    ],
+    [
+     "r4_c0",
+     697
+    ],
+    [
+     "r4_c1",
+     375
+    ]
+   ]
+  },
+  {
+   "window": [
+    3,
+    4
+   ],
+   "count": 10,
+   "n_cells": 3703,
+   "slot_frac": 0.0,
+   "text_frac": 0.0,
+   "max_show_through_r": 0.35943,
+   "class": "OTHER",
+   "source_tiles_top3": [
+    [
+     "r4_c3",
+     978
+    ],
+    [
+     "r3_c3",
+     899
+    ],
+    [
+     "r4_c2",
+     561
+    ]
+   ]
+  },
+  {
+   "window": [
+    4,
+    5
+   ],
+   "count": 9,
+   "n_cells": 3902,
+   "slot_frac": 0.0,
+   "text_frac": 0.0,
+   "max_show_through_r": 0.36471,
+   "class": "OTHER",
+   "source_tiles_top3": [
+    [
+     "r4_c4",
+     902
+    ],
+    [
+     "r5_c4",
+     827
+    ],
+    [
+     "r4_c3",
+     581
+    ]
+   ]
+  }
+ ],
+ "counts": {
+  "SLOT": 0,
+  "SLOT_SHOWTHROUGH": 0,
+  "CONTROL": 0,
+  "OTHER": 3,
+  "NO_GEOMETRY": 0
+ },
+ "candidates": [],
+ "over_cap": [],
+ "column_like": []
+}

@@ -1,0 +1,64 @@
+{
+ "batch": "p2mo2",
+ "declaration": "RULES.md DECL-P4-25-A1 (P4-M-OUT2 phase 2), DECL-P4-2 item 6 with A2/A3/A4",
+ "orchestrator_input_commit": "13e9c363",
+ "orchestrator_base_commit": "9c563bc0e1dbefa55eabaf1dee26b9484722410c",
+ "command": "python3 tools/p4/p4_phase2.py build p2mo2 /work/p4/p2mo2/select_p2mo2.json mo,mo2a,mo2b,mo2c sigma2t",
+ "select_original": {
+  "file": "logs/p4/p2_select_mo2.json",
+  "sha256": "8efa3da35fac023bff5c889304f18e869d74008322a60a02371d338fb9f81282"
+ },
+ "select_used": {
+  "file": "select_p2mo2.json",
+  "sha256": "642ec3af3154b7a8671b9ab9f005c5452129c13400b8f066d880e80301e30014",
+  "change": "pc_pool dict -> its uuids list (the list format p4_phase2.py build reads, as in p2_select_1.json); candidates and everything else identical"
+ },
+ "pc_pool_manifest": {
+  "file": "logs/p4/pc_pool_m1/manifest.json",
+  "sha256": "417f8081c802a11356435b9830e5553069f59006ebf5f1b4acc2f87241c32811",
+  "all_15_png_sha256_match": true,
+  "equals_p2_select_1_pc_pool": true
+ },
+ "candidates_checked_vs_census_keys": "20/20 sha256 and (r,c) match mo2a/mo2b/mo2c keys",
+ "n0_pool_batches": [
+  "mo",
+  "mo2a",
+  "mo2b",
+  "mo2c"
+ ],
+ "n0_seed": 20273453,
+ "n0_by_batch": {
+  "mo2b": 5,
+  "mo2a": 5,
+  "mo": 7,
+  "mo2c": 3
+ },
+ "n0_from_all_zero_tiles": 5,
+ "variant": "sigma2t",
+ "recipient": "age1vp0tkyj8xecncfmcxj748ceef89mpmwayljccaduapjx3aqhh5rstvvcq5",
+ "key_sha256": {
+  "p4p2_key_p2mo2.json": "6b824552fb8ef9108da8912128602efda1ecd46662a633a72f0fbe8decc2bca8"
+ },
+ "code_sha256": {
+  "tools/p4/p4_phase2.py": "999cb5534943fdd70b78a35cc0f61957ddc6e5411b9c10b507f0ffa415a94e05",
+  "tools/p4/p4_jobs.py": "e9f99ce4247e45211b8a6701f42a7ec4e38c9f458b9c23d191bc60cfdf04e45f",
+  "tools/p4/score_p4.py": "9a5b4761a22f6a792eadb38928f8d7adfb217e885fa4ff2655c0bc1b5eb1e24d",
+  "tools/p4/norm_manifest.py": "d2faee660c36db99531755b6f30f4269acd6c5f5b4ebe90ac79ec80d5f596a8f",
+  "tools/p4/p4_ext.py": "843a2664913a4a94e95b21635212e1f6d7a4a18d526df4ba10c321ddfed8a8c8",
+  "src/hercules/harness/audit.py": "e36cb995aee6f54461ef8dfc3af57ecd167853c74408f2917d1cbf560426e1f1",
+  "src/hercules/harness/jobs.py": "02d9bd781beb4d3d26bb26efcc8ab4c6fd5c2b1d64bffcba883d2daaf947f0ae",
+  "configs/briefs/keysheet_sigma2.png": "164262e67dfd7589bdd03dddb1b8470267bd7d46d5c40b0af63fc1eb980db438",
+  "configs/briefs/k_d2_task_sigma2t.txt": "f07fbdffab8ee0d62afb946fafc13b6a794ef5ab5e8506bdfbd5ae90c4f8bea0",
+  "logs/p4/ref_brief_sigma2t.txt": "627ebb0fb6dc6d1714cacc27bf35343f95d2e02967def7756872cb0dfe826700"
+ },
+ "n_sessions": 15,
+ "roles": {
+  "cand": 20,
+  "n0": 20,
+  "pc": 15
+ },
+ "n_images": 55,
+ "copies_byte_identical_to_sources": true,
+ "each_cand_and_n0_in_3_sessions_pc_once": true,
+ "briefs_match_ref_sigma2t_template": true
+}

@@ -1,0 +1,31 @@
+{
+ "provenance": "Project HERCULES | HRC-JB-0924-O7",
+ "px_per_mm": 53.4,
+ "jobs": "/work/p4/jobs_extown_o.json",
+ "U": {
+  "n_reads": 9,
+  "n_letters": 57,
+  "height_px_median": 185.0,
+  "height_px_iqr": [
+   175.0,
+   190.0
+  ],
+  "height_mm_median": 3.464419475655431,
+  "width_mm_median": 2.6217228464419478,
+  "line_pitch_mm_median": 4.143258426966292,
+  "n_line_gaps": 18
+ },
+ "pc": {
+  "n_reads": 18,
+  "n_letters": 194,
+  "height_px_median": 175.0,
+  "height_px_iqr": [
+   160.0,
+   190.0
+  ],
+  "height_mm_median": 3.2771535580524347,
+  "width_mm_median": 2.9962546816479403,
+  "line_pitch_mm_median": 6.173142946317104,
+  "n_line_gaps": 24
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "segment": "20260701183148-w122-123",
+ "arm": "S1",
+ "model_final_sha256": "bfa9f7a62097374b93e87c7b406a9c3eba6b77dca3d9f79c10300fa0114daea5",
+ "list": "logs/p4/regionO_S1_rest.json",
+ "slice": [
+  0,
+  65
+ ],
+ "tiles": [
+  {
+   "r": 6,
+   "c": 0,
+   "sha256": "b75284d276c73d00e4b4d609b4898a995ed24e30cfe59caef0cbab60a661c537",
+   "valid_fraction": 0.7868474777286361,
+   "maker": "fl-pherc0191"
+  },
+  {
+   "r": 5,
+   "c": 0,
+   "sha256": "ae19dc33f91ab504077200a00f010869d98e57baaf54290c942a82addc6f0382",
+   "valid_fraction": 0.8559285967799553,
+   "maker": "fl-pherc0175b"
+  },
+  {
+   "r": 6,
+   "c": 1,
+   "sha256": "f99c673c62313dfad00dadfac48172a91ff064133c6a3aec34ed32c212969342",
+   "valid_fraction": 1.0,
+   "maker": "pairs0139c"
+  },
+  {
+   "r": 8,
+   "c": 1,
+   "sha256": "58f97905e47dfd36b086df7a015ccdb2549a0afbecfce0897dde75a18b588922",
+   "valid_fraction": 0.995885059695499,
+   "maker": "tracer"
+  }
+ ]
+}

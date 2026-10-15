@@ -1,0 +1,249 @@
+{
+ "provenance": "Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "method": "Outward direction of the 20260701183151-w128-129 canvas columns (DECL-P4-15 item a), numbers only.\nPer z-level, the mesh columns give a polyline; along each of 64 rays from the umbilicus the polyline is crossed\nonce per winding. For consecutive crossings (ordered by mesh column) we record whether radius increases with\ncolumn. Same-angle comparison removes the scroll's out-of-roundness, which dominates per-tile radius here.\nProvenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "n_pairs": 2742,
+ "frac_r_increases_with_col": 0.05,
+ "outward_direction": "decreasing column",
+ "per_z": [
+  {
+   "z_mm": 37.3,
+   "n_pairs": 84,
+   "frac_r_increases_with_col": 0.155,
+   "total_turn_deg": 718.5
+  },
+  {
+   "z_mm": 40.6,
+   "n_pairs": 66,
+   "frac_r_increases_with_col": 0.03,
+   "total_turn_deg": 718.8
+  },
+  {
+   "z_mm": 44.0,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.109,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 47.3,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.016,
+   "total_turn_deg": 718.0
+  },
+  {
+   "z_mm": 50.7,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.031,
+   "total_turn_deg": 718.8
+  },
+  {
+   "z_mm": 54.0,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 57.3,
+   "n_pairs": 63,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 717.5
+  },
+  {
+   "z_mm": 60.7,
+   "n_pairs": 63,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.2
+  },
+  {
+   "z_mm": 64.0,
+   "n_pairs": 63,
+   "frac_r_increases_with_col": 0.016,
+   "total_turn_deg": 718.8
+  },
+  {
+   "z_mm": 67.4,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.8
+  },
+  {
+   "z_mm": 70.7,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.7
+  },
+  {
+   "z_mm": 74.1,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.016,
+   "total_turn_deg": 718.3
+  },
+  {
+   "z_mm": 77.4,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.5
+  },
+  {
+   "z_mm": 80.7,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 84.1,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.5
+  },
+  {
+   "z_mm": 87.4,
+   "n_pairs": 63,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.3
+  },
+  {
+   "z_mm": 90.8,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.016,
+   "total_turn_deg": 718.9
+  },
+  {
+   "z_mm": 94.1,
+   "n_pairs": 63,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.6
+  },
+  {
+   "z_mm": 97.4,
+   "n_pairs": 109,
+   "frac_r_increases_with_col": 0.229,
+   "total_turn_deg": 719.0
+  },
+  {
+   "z_mm": 100.8,
+   "n_pairs": 89,
+   "frac_r_increases_with_col": 0.135,
+   "total_turn_deg": 718.1
+  },
+  {
+   "z_mm": 104.1,
+   "n_pairs": 71,
+   "frac_r_increases_with_col": 0.056,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 107.5,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.2
+  },
+  {
+   "z_mm": 110.8,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 719.7
+  },
+  {
+   "z_mm": 114.1,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 719.1
+  },
+  {
+   "z_mm": 117.5,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 120.8,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.8
+  },
+  {
+   "z_mm": 124.2,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.7
+  },
+  {
+   "z_mm": 127.5,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.6
+  },
+  {
+   "z_mm": 130.8,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 134.2,
+   "n_pairs": 63,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.5
+  },
+  {
+   "z_mm": 137.5,
+   "n_pairs": 63,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 140.9,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 144.2,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.6
+  },
+  {
+   "z_mm": 147.6,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.7
+  },
+  {
+   "z_mm": 150.9,
+   "n_pairs": 64,
+   "frac_r_increases_with_col": 0.0,
+   "total_turn_deg": 718.6
+  },
+  {
+   "z_mm": 154.2,
+   "n_pairs": 72,
+   "frac_r_increases_with_col": 0.097,
+   "total_turn_deg": 718.4
+  },
+  {
+   "z_mm": 157.6,
+   "n_pairs": 96,
+   "frac_r_increases_with_col": 0.229,
+   "total_turn_deg": 718.5
+  },
+  {
+   "z_mm": 160.9,
+   "n_pairs": 82,
+   "frac_r_increases_with_col": 0.207,
+   "total_turn_deg": 718.6
+  },
+  {
+   "z_mm": 164.3,
+   "n_pairs": 70,
+   "frac_r_increases_with_col": 0.086,
+   "total_turn_deg": 718.3
+  },
+  {
+   "z_mm": 167.6,
+   "n_pairs": 90,
+   "frac_r_increases_with_col": 0.178,
+   "total_turn_deg": 718.7
+  }
+ ]
+}

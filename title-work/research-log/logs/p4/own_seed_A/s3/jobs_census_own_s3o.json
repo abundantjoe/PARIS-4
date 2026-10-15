@@ -1,0 +1,18 @@
+{
+ "batch": "census_own_s3o",
+ "census_batches": [
+  "own_s3o_a",
+  "own_s3o_b"
+ ],
+ "null_batch": "n_own_s3o",
+ "variant": "sigma2t",
+ "jobs": [
+  {
+   "job": "956c02e4-a066-4d0a-b1f9-6cd0663f7c84",
+   "n_census": 6,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 8
+  }
+ ]
+}

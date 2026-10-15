@@ -1,0 +1,439 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-2 item 6, DECL-P4-2-A3",
+ "stats": {
+  "sessions": 15,
+  "attempts": 15,
+  "used": 15,
+  "void_pc": 0,
+  "invalid": 0,
+  "missing_items": 0,
+  "dropped_sessions": 0
+ },
+ "n0_best_pair_agreed": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "n0_max": 0,
+ "n0_readers_per_tile": [
+  0,
+  0,
+  0,
+  0,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3
+ ],
+ "candidates": {
+  "4d460ebc-1039-4522-acc6-8e07b1dd256d": {
+   "n_readers": 0,
+   "letters_per_reader": [],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "w010-027",
+   "r": 6,
+   "c": 4,
+   "census_letters": 5
+  },
+  "0a917b2f-293f-4fab-bc5f-eaf52aca2288": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    13,
+    12,
+    12
+   ],
+   "n_readers_ge5": 3,
+   "best_pair_agreed": 10,
+   "crit_a_2of3_ge5": true,
+   "crit_b_agree_ge5": true,
+   "crit_c_gt_n0max": true,
+   "P4_CANDIDATE": true,
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 5,
+   "census_letters": 13
+  },
+  "314d3414-0dd7-4eaf-a561-8bdab593e619": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    6,
+    3,
+    3
+   ],
+   "n_readers_ge5": 1,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183150-w126-127",
+   "r": 5,
+   "c": 15,
+   "census_letters": 9
+  },
+  "e14aa2b8-a051-4f84-880f-c3c725f9e2b9": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    8,
+    8,
+    8
+   ],
+   "n_readers_ge5": 3,
+   "best_pair_agreed": 8,
+   "crit_a_2of3_ge5": true,
+   "crit_b_agree_ge5": true,
+   "crit_c_gt_n0max": true,
+   "P4_CANDIDATE": true,
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 4,
+   "census_letters": 8
+  },
+  "5bad9413-2668-4592-9fa5-2caa68720de5": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    9,
+    8,
+    7
+   ],
+   "n_readers_ge5": 3,
+   "best_pair_agreed": 7,
+   "crit_a_2of3_ge5": true,
+   "crit_b_agree_ge5": true,
+   "crit_c_gt_n0max": true,
+   "P4_CANDIDATE": true,
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 5,
+   "census_letters": 7
+  },
+  "32b8ff43-a4e2-477f-a25e-166acb03e2d3": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    5,
+    5,
+    4
+   ],
+   "n_readers_ge5": 2,
+   "best_pair_agreed": 4,
+   "crit_a_2of3_ge5": true,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": true,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183150-w126-127",
+   "r": 3,
+   "c": 13,
+   "census_letters": 6
+  },
+  "ff7b10fa-abfb-492f-b836-e4bd3da8217c": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    2,
+    2,
+    2
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 10,
+   "census_letters": 6
+  },
+  "60419227-ab2f-4b9c-8777-ecc24421afca": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    6,
+    5,
+    4
+   ],
+   "n_readers_ge5": 2,
+   "best_pair_agreed": 3,
+   "crit_a_2of3_ge5": true,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": true,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 12,
+   "census_letters": 5
+  },
+  "e6824516-9f58-44a6-9e5a-4aa61c688301": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    2,
+    1,
+    1
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 12,
+   "census_letters": 5
+  },
+  "63383f16-b16e-4079-83ab-74f5b43e514f": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    7,
+    5,
+    3
+   ],
+   "n_readers_ge5": 2,
+   "best_pair_agreed": 5,
+   "crit_a_2of3_ge5": true,
+   "crit_b_agree_ge5": true,
+   "crit_c_gt_n0max": true,
+   "P4_CANDIDATE": true,
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 4,
+   "census_letters": 3
+  },
+  "644e3b76-b8f1-4dfb-a269-07ce546fd3b5": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 3,
+   "census_letters": 0
+  },
+  "fd24f5c1-9816-4610-83b4-a1aa38548cd3": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183150-w126-127",
+   "r": 3,
+   "c": 12,
+   "census_letters": 0
+  },
+  "fd747674-6857-4420-ad85-484921e76762": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 11,
+   "census_letters": 0
+  },
+  "1cf28dfa-ea91-4f90-819d-07d4cdc3a89a": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 2,
+   "census_letters": 0
+  },
+  "e43cf6dc-8a55-4e1b-8277-5413d7fa2446": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183150-w126-127",
+   "r": 5,
+   "c": 13,
+   "census_letters": 0
+  },
+  "ac953aee-f1eb-4024-b124-04730ccfd5b0": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 3,
+   "census_letters": 0
+  },
+  "83a65f67-78f6-40eb-bfe1-201bdafb211d": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183150-w126-127",
+   "r": 3,
+   "c": 11,
+   "census_letters": 0
+  },
+  "f373f225-bd2c-47f4-94ff-c515cd32ced0": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 9,
+   "census_letters": 0
+  },
+  "ba9986f7-d1d9-4f87-b4a7-fb070f4d3f22": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183150-w126-127",
+   "r": 5,
+   "c": 14,
+   "census_letters": 0
+  },
+  "55d773a2-2705-478b-9804-d243cd9300d5": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 8,
+   "census_letters": 0
+  },
+  "042fbe64-7b1d-43fe-b677-543fc7edb062": {
+   "n_readers": 3,
+   "letters_per_reader": [
+    0,
+    0,
+    0
+   ],
+   "n_readers_ge5": 0,
+   "best_pair_agreed": 0,
+   "crit_a_2of3_ge5": false,
+   "crit_b_agree_ge5": false,
+   "crit_c_gt_n0max": false,
+   "P4_CANDIDATE": false,
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 10,
+   "census_letters": 0
+  }
+ },
+ "n_P4_CANDIDATE": 4
+}

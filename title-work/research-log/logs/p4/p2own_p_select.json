@@ -1,0 +1,56 @@
+{
+ "provenance": "Project HERCULES | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-25-A14-A4 item 1 (hand-written select)",
+ "sources": [
+  {
+   "file": "logs/p4/census_own_pw_summary.json",
+   "sha256": "4b2bd0f927c45a550a17e6363b36d0f5c0407d68aa65a6002ef470266f2ef21c"
+  }
+ ],
+ "n_union": 4,
+ "candidates": [
+  {
+   "uuid": "d679a77a-ff64-4935-8553-9f9a78b77f92",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 9,
+   "c": 14,
+   "n_letters": 9,
+   "note": "census_letters = window r8c13 count (P4-OWN-PW-RESULT)"
+  },
+  {
+   "uuid": "5ffab248-3bd9-46a0-9daf-d5549cbef463",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 8,
+   "c": 14,
+   "n_letters": 9,
+   "note": "census_letters = window r8c13 count (P4-OWN-PW-RESULT)"
+  },
+  {
+   "uuid": "157099cb-0d80-45fb-b6fe-79ef9a1944b3",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 9,
+   "c": 13,
+   "n_letters": 9,
+   "note": "census_letters = window r8c13 count (P4-OWN-PW-RESULT)"
+  },
+  {
+   "uuid": "d161dd49-8676-4d35-883d-d0b361fd0ff6",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 8,
+   "c": 13,
+   "n_letters": 9,
+   "note": "census_letters = window r8c13 count (P4-OWN-PW-RESULT)"
+  }
+ ],
+ "dropped_by_cap": [],
+ "pc_pool": [
+  "07467fea-efb2-44c7-972c-1d32a94d743e",
+  "316557a8-4f3c-4fda-99ac-8c34e31cd4fc",
+  "24c883b6-5eb6-43db-92e3-e6d612ebcbdc"
+ ],
+ "pc_pool_note": "S1 census files of the 3 EXT-CONFIRMED lead tiles (own_o_b r4c5, r4c4, r3c5), as p2own_o"
+}

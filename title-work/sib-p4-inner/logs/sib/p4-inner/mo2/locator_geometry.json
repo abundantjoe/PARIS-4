@@ -1,0 +1,3971 @@
+{
+ "provenance": "Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "method": "DECL-P4-25 item 3 locator geometry, numbers only: per tile, traced surface position (cm) along the spiral\nfrom the outer end of the traced papyrus, across the outer strips w128-129 > w126-127 > w124-125 > w122-123.\n- Outward is DECREASING column on every strip (same-angle crossing check, direction.json); column 0 = outer end.\n- Within a strip, s(row, col) = cumulative 3-D length along the grid row from the row's first valid column (gaps\n  bridged by the straight 3-D chord). A tile's position = median of s over its grid rows at the tile's centre\n  column, plus the summed median full-row lengths of all strips outward of it.\n- Seam check: 3-D distance from each strip's inner-end column (last valid col per row) to the nearest vertex of\n  the next strip's outer-end column (first valid col); median and p90 in mm. Continuity assumption holds only if\n  the seam gap is small relative to the ~0.25 mm winding pitch.",
+ "strips": {
+  "w128-129": {
+   "segment": "20260701183151-w128-129",
+   "grid_shape": [
+    4472,
+    7116
+   ],
+   "median_row_length_cm": 32.68,
+   "row_length_cm_p10_p90": [
+    10.68,
+    37.29
+   ],
+   "offset_from_outer_end_cm": 0.0,
+   "tiles": {
+    "r0_c14": {
+     "r": 0,
+     "c": 14,
+     "s_in_strip_cm": 1.59,
+     "s_from_outer_end_cm": 1.59,
+     "s_cm_tile_outer_edge": 0.0
+    },
+    "r0_c15": {
+     "r": 0,
+     "c": 15,
+     "s_in_strip_cm": 5.19,
+     "s_from_outer_end_cm": 5.19,
+     "s_cm_tile_outer_edge": 3.66
+    },
+    "r1_c6": {
+     "r": 1,
+     "c": 6,
+     "s_in_strip_cm": 2.66,
+     "s_from_outer_end_cm": 2.66,
+     "s_cm_tile_outer_edge": 1.56
+    },
+    "r1_c7": {
+     "r": 1,
+     "c": 7,
+     "s_in_strip_cm": 4.99,
+     "s_from_outer_end_cm": 4.99,
+     "s_cm_tile_outer_edge": 3.9
+    },
+    "r1_c10": {
+     "r": 1,
+     "c": 10,
+     "s_in_strip_cm": 11.35,
+     "s_from_outer_end_cm": 11.35,
+     "s_cm_tile_outer_edge": 10.36
+    },
+    "r1_c13": {
+     "r": 1,
+     "c": 13,
+     "s_in_strip_cm": 17.27,
+     "s_from_outer_end_cm": 17.27,
+     "s_cm_tile_outer_edge": 15.63
+    },
+    "r1_c14": {
+     "r": 1,
+     "c": 14,
+     "s_in_strip_cm": 18.2,
+     "s_from_outer_end_cm": 18.2,
+     "s_cm_tile_outer_edge": 17.25
+    },
+    "r1_c15": {
+     "r": 1,
+     "c": 15,
+     "s_in_strip_cm": 20.13,
+     "s_from_outer_end_cm": 20.13,
+     "s_cm_tile_outer_edge": 18.89
+    },
+    "r2_c1": {
+     "r": 2,
+     "c": 1,
+     "s_in_strip_cm": 1.54,
+     "s_from_outer_end_cm": 1.54,
+     "s_cm_tile_outer_edge": 0.52
+    },
+    "r2_c2": {
+     "r": 2,
+     "c": 2,
+     "s_in_strip_cm": 3.62,
+     "s_from_outer_end_cm": 3.62,
+     "s_cm_tile_outer_edge": 2.58
+    },
+    "r2_c3": {
+     "r": 2,
+     "c": 3,
+     "s_in_strip_cm": 5.83,
+     "s_from_outer_end_cm": 5.83,
+     "s_cm_tile_outer_edge": 4.61
+    },
+    "r2_c4": {
+     "r": 2,
+     "c": 4,
+     "s_in_strip_cm": 7.91,
+     "s_from_outer_end_cm": 7.91,
+     "s_cm_tile_outer_edge": 6.76
+    },
+    "r2_c5": {
+     "r": 2,
+     "c": 5,
+     "s_in_strip_cm": 10.06,
+     "s_from_outer_end_cm": 10.06,
+     "s_cm_tile_outer_edge": 8.98
+    },
+    "r2_c6": {
+     "r": 2,
+     "c": 6,
+     "s_in_strip_cm": 12.43,
+     "s_from_outer_end_cm": 12.43,
+     "s_cm_tile_outer_edge": 11.2
+    },
+    "r2_c7": {
+     "r": 2,
+     "c": 7,
+     "s_in_strip_cm": 14.82,
+     "s_from_outer_end_cm": 14.82,
+     "s_cm_tile_outer_edge": 13.55
+    },
+    "r2_c8": {
+     "r": 2,
+     "c": 8,
+     "s_in_strip_cm": 17.34,
+     "s_from_outer_end_cm": 17.34,
+     "s_cm_tile_outer_edge": 16.17
+    },
+    "r2_c9": {
+     "r": 2,
+     "c": 9,
+     "s_in_strip_cm": 19.81,
+     "s_from_outer_end_cm": 19.81,
+     "s_cm_tile_outer_edge": 18.65
+    },
+    "r2_c10": {
+     "r": 2,
+     "c": 10,
+     "s_in_strip_cm": 21.89,
+     "s_from_outer_end_cm": 21.89,
+     "s_cm_tile_outer_edge": 20.59
+    },
+    "r2_c11": {
+     "r": 2,
+     "c": 11,
+     "s_in_strip_cm": 24.17,
+     "s_from_outer_end_cm": 24.17,
+     "s_cm_tile_outer_edge": 22.93
+    },
+    "r2_c12": {
+     "r": 2,
+     "c": 12,
+     "s_in_strip_cm": 26.34,
+     "s_from_outer_end_cm": 26.34,
+     "s_cm_tile_outer_edge": 25.21
+    },
+    "r2_c13": {
+     "r": 2,
+     "c": 13,
+     "s_in_strip_cm": 28.53,
+     "s_from_outer_end_cm": 28.53,
+     "s_cm_tile_outer_edge": 27.41
+    },
+    "r2_c14": {
+     "r": 2,
+     "c": 14,
+     "s_in_strip_cm": 30.88,
+     "s_from_outer_end_cm": 30.88,
+     "s_cm_tile_outer_edge": 29.67
+    },
+    "r2_c15": {
+     "r": 2,
+     "c": 15,
+     "s_in_strip_cm": 33.67,
+     "s_from_outer_end_cm": 33.67,
+     "s_cm_tile_outer_edge": 32.31
+    },
+    "r2_c16": {
+     "r": 2,
+     "c": 16,
+     "s_in_strip_cm": 36.15,
+     "s_from_outer_end_cm": 36.15,
+     "s_cm_tile_outer_edge": 35.02
+    },
+    "r3_c1": {
+     "r": 3,
+     "c": 1,
+     "s_in_strip_cm": 1.5,
+     "s_from_outer_end_cm": 1.5,
+     "s_cm_tile_outer_edge": 0.48
+    },
+    "r3_c2": {
+     "r": 3,
+     "c": 2,
+     "s_in_strip_cm": 3.51,
+     "s_from_outer_end_cm": 3.51,
+     "s_cm_tile_outer_edge": 2.51
+    },
+    "r3_c3": {
+     "r": 3,
+     "c": 3,
+     "s_in_strip_cm": 5.49,
+     "s_from_outer_end_cm": 5.49,
+     "s_cm_tile_outer_edge": 4.47
+    },
+    "r3_c4": {
+     "r": 3,
+     "c": 4,
+     "s_in_strip_cm": 7.69,
+     "s_from_outer_end_cm": 7.69,
+     "s_cm_tile_outer_edge": 6.59
+    },
+    "r3_c5": {
+     "r": 3,
+     "c": 5,
+     "s_in_strip_cm": 9.84,
+     "s_from_outer_end_cm": 9.84,
+     "s_cm_tile_outer_edge": 8.76
+    },
+    "r3_c6": {
+     "r": 3,
+     "c": 6,
+     "s_in_strip_cm": 12.06,
+     "s_from_outer_end_cm": 12.06,
+     "s_cm_tile_outer_edge": 10.95
+    },
+    "r3_c7": {
+     "r": 3,
+     "c": 7,
+     "s_in_strip_cm": 14.05,
+     "s_from_outer_end_cm": 14.05,
+     "s_cm_tile_outer_edge": 13.07
+    },
+    "r3_c8": {
+     "r": 3,
+     "c": 8,
+     "s_in_strip_cm": 16.1,
+     "s_from_outer_end_cm": 16.1,
+     "s_cm_tile_outer_edge": 15.07
+    },
+    "r3_c9": {
+     "r": 3,
+     "c": 9,
+     "s_in_strip_cm": 18.09,
+     "s_from_outer_end_cm": 18.09,
+     "s_cm_tile_outer_edge": 17.11
+    },
+    "r3_c10": {
+     "r": 3,
+     "c": 10,
+     "s_in_strip_cm": 20.04,
+     "s_from_outer_end_cm": 20.04,
+     "s_cm_tile_outer_edge": 19.08
+    },
+    "r3_c11": {
+     "r": 3,
+     "c": 11,
+     "s_in_strip_cm": 22.0,
+     "s_from_outer_end_cm": 22.0,
+     "s_cm_tile_outer_edge": 20.99
+    },
+    "r3_c12": {
+     "r": 3,
+     "c": 12,
+     "s_in_strip_cm": 24.13,
+     "s_from_outer_end_cm": 24.13,
+     "s_cm_tile_outer_edge": 23.06
+    },
+    "r3_c13": {
+     "r": 3,
+     "c": 13,
+     "s_in_strip_cm": 26.24,
+     "s_from_outer_end_cm": 26.24,
+     "s_cm_tile_outer_edge": 25.19
+    },
+    "r3_c14": {
+     "r": 3,
+     "c": 14,
+     "s_in_strip_cm": 28.4,
+     "s_from_outer_end_cm": 28.4,
+     "s_cm_tile_outer_edge": 27.32
+    },
+    "r3_c15": {
+     "r": 3,
+     "c": 15,
+     "s_in_strip_cm": 30.27,
+     "s_from_outer_end_cm": 30.27,
+     "s_cm_tile_outer_edge": 29.41
+    },
+    "r3_c16": {
+     "r": 3,
+     "c": 16,
+     "s_in_strip_cm": 32.28,
+     "s_from_outer_end_cm": 32.28,
+     "s_cm_tile_outer_edge": 31.26
+    },
+    "r4_c1": {
+     "r": 4,
+     "c": 1,
+     "s_in_strip_cm": 1.82,
+     "s_from_outer_end_cm": 1.82,
+     "s_cm_tile_outer_edge": 0.85
+    },
+    "r4_c2": {
+     "r": 4,
+     "c": 2,
+     "s_in_strip_cm": 3.78,
+     "s_from_outer_end_cm": 3.78,
+     "s_cm_tile_outer_edge": 2.79
+    },
+    "r4_c3": {
+     "r": 4,
+     "c": 3,
+     "s_in_strip_cm": 5.83,
+     "s_from_outer_end_cm": 5.83,
+     "s_cm_tile_outer_edge": 4.8
+    },
+    "r4_c4": {
+     "r": 4,
+     "c": 4,
+     "s_in_strip_cm": 7.94,
+     "s_from_outer_end_cm": 7.94,
+     "s_cm_tile_outer_edge": 6.88
+    },
+    "r4_c5": {
+     "r": 4,
+     "c": 5,
+     "s_in_strip_cm": 10.06,
+     "s_from_outer_end_cm": 10.06,
+     "s_cm_tile_outer_edge": 9.0
+    },
+    "r4_c6": {
+     "r": 4,
+     "c": 6,
+     "s_in_strip_cm": 12.17,
+     "s_from_outer_end_cm": 12.17,
+     "s_cm_tile_outer_edge": 11.13
+    },
+    "r4_c7": {
+     "r": 4,
+     "c": 7,
+     "s_in_strip_cm": 14.28,
+     "s_from_outer_end_cm": 14.28,
+     "s_cm_tile_outer_edge": 13.18
+    },
+    "r4_c8": {
+     "r": 4,
+     "c": 8,
+     "s_in_strip_cm": 16.44,
+     "s_from_outer_end_cm": 16.44,
+     "s_cm_tile_outer_edge": 15.37
+    },
+    "r4_c9": {
+     "r": 4,
+     "c": 9,
+     "s_in_strip_cm": 18.29,
+     "s_from_outer_end_cm": 18.29,
+     "s_cm_tile_outer_edge": 17.39
+    },
+    "r4_c10": {
+     "r": 4,
+     "c": 10,
+     "s_in_strip_cm": 20.22,
+     "s_from_outer_end_cm": 20.22,
+     "s_cm_tile_outer_edge": 19.24
+    },
+    "r4_c11": {
+     "r": 4,
+     "c": 11,
+     "s_in_strip_cm": 22.27,
+     "s_from_outer_end_cm": 22.27,
+     "s_cm_tile_outer_edge": 21.23
+    },
+    "r4_c12": {
+     "r": 4,
+     "c": 12,
+     "s_in_strip_cm": 24.4,
+     "s_from_outer_end_cm": 24.4,
+     "s_cm_tile_outer_edge": 23.33
+    },
+    "r4_c13": {
+     "r": 4,
+     "c": 13,
+     "s_in_strip_cm": 26.5,
+     "s_from_outer_end_cm": 26.5,
+     "s_cm_tile_outer_edge": 25.44
+    },
+    "r4_c14": {
+     "r": 4,
+     "c": 14,
+     "s_in_strip_cm": 28.53,
+     "s_from_outer_end_cm": 28.53,
+     "s_cm_tile_outer_edge": 27.53
+    },
+    "r4_c15": {
+     "r": 4,
+     "c": 15,
+     "s_in_strip_cm": 30.45,
+     "s_from_outer_end_cm": 30.45,
+     "s_cm_tile_outer_edge": 29.48
+    },
+    "r4_c16": {
+     "r": 4,
+     "c": 16,
+     "s_in_strip_cm": 32.47,
+     "s_from_outer_end_cm": 32.47,
+     "s_cm_tile_outer_edge": 31.47
+    },
+    "r5_c0": {
+     "r": 5,
+     "c": 0,
+     "s_in_strip_cm": 0.6,
+     "s_from_outer_end_cm": 0.6,
+     "s_cm_tile_outer_edge": 0.0
+    },
+    "r5_c1": {
+     "r": 5,
+     "c": 1,
+     "s_in_strip_cm": 1.98,
+     "s_from_outer_end_cm": 1.98,
+     "s_cm_tile_outer_edge": 1.32
+    },
+    "r5_c2": {
+     "r": 5,
+     "c": 2,
+     "s_in_strip_cm": 3.68,
+     "s_from_outer_end_cm": 3.68,
+     "s_cm_tile_outer_edge": 2.77
+    },
+    "r5_c3": {
+     "r": 5,
+     "c": 3,
+     "s_in_strip_cm": 5.77,
+     "s_from_outer_end_cm": 5.77,
+     "s_cm_tile_outer_edge": 4.71
+    },
+    "r5_c4": {
+     "r": 5,
+     "c": 4,
+     "s_in_strip_cm": 7.86,
+     "s_from_outer_end_cm": 7.86,
+     "s_cm_tile_outer_edge": 6.85
+    },
+    "r5_c5": {
+     "r": 5,
+     "c": 5,
+     "s_in_strip_cm": 9.98,
+     "s_from_outer_end_cm": 9.98,
+     "s_cm_tile_outer_edge": 8.9
+    },
+    "r5_c6": {
+     "r": 5,
+     "c": 6,
+     "s_in_strip_cm": 12.1,
+     "s_from_outer_end_cm": 12.1,
+     "s_cm_tile_outer_edge": 11.05
+    },
+    "r5_c7": {
+     "r": 5,
+     "c": 7,
+     "s_in_strip_cm": 14.29,
+     "s_from_outer_end_cm": 14.29,
+     "s_cm_tile_outer_edge": 13.18
+    },
+    "r5_c8": {
+     "r": 5,
+     "c": 8,
+     "s_in_strip_cm": 16.74,
+     "s_from_outer_end_cm": 16.74,
+     "s_cm_tile_outer_edge": 15.46
+    },
+    "r5_c9": {
+     "r": 5,
+     "c": 9,
+     "s_in_strip_cm": 18.92,
+     "s_from_outer_end_cm": 18.92,
+     "s_cm_tile_outer_edge": 17.96
+    },
+    "r5_c10": {
+     "r": 5,
+     "c": 10,
+     "s_in_strip_cm": 20.8,
+     "s_from_outer_end_cm": 20.8,
+     "s_cm_tile_outer_edge": 19.84
+    },
+    "r5_c11": {
+     "r": 5,
+     "c": 11,
+     "s_in_strip_cm": 22.96,
+     "s_from_outer_end_cm": 22.96,
+     "s_cm_tile_outer_edge": 21.85
+    },
+    "r5_c12": {
+     "r": 5,
+     "c": 12,
+     "s_in_strip_cm": 25.15,
+     "s_from_outer_end_cm": 25.15,
+     "s_cm_tile_outer_edge": 24.1
+    },
+    "r5_c13": {
+     "r": 5,
+     "c": 13,
+     "s_in_strip_cm": 27.28,
+     "s_from_outer_end_cm": 27.28,
+     "s_cm_tile_outer_edge": 26.21
+    },
+    "r5_c14": {
+     "r": 5,
+     "c": 14,
+     "s_in_strip_cm": 29.33,
+     "s_from_outer_end_cm": 29.33,
+     "s_cm_tile_outer_edge": 28.32
+    },
+    "r5_c15": {
+     "r": 5,
+     "c": 15,
+     "s_in_strip_cm": 31.3,
+     "s_from_outer_end_cm": 31.3,
+     "s_cm_tile_outer_edge": 30.32
+    },
+    "r5_c16": {
+     "r": 5,
+     "c": 16,
+     "s_in_strip_cm": 33.28,
+     "s_from_outer_end_cm": 33.28,
+     "s_cm_tile_outer_edge": 32.28
+    },
+    "r6_c0": {
+     "r": 6,
+     "c": 0,
+     "s_in_strip_cm": 0.23,
+     "s_from_outer_end_cm": 0.23,
+     "s_cm_tile_outer_edge": 0.0
+    },
+    "r6_c1": {
+     "r": 6,
+     "c": 1,
+     "s_in_strip_cm": 1.88,
+     "s_from_outer_end_cm": 1.88,
+     "s_cm_tile_outer_edge": 1.03
+    },
+    "r6_c2": {
+     "r": 6,
+     "c": 2,
+     "s_in_strip_cm": 4.02,
+     "s_from_outer_end_cm": 4.02,
+     "s_cm_tile_outer_edge": 2.75
+    },
+    "r6_c3": {
+     "r": 6,
+     "c": 3,
+     "s_in_strip_cm": 6.43,
+     "s_from_outer_end_cm": 6.43,
+     "s_cm_tile_outer_edge": 5.36
+    },
+    "r6_c4": {
+     "r": 6,
+     "c": 4,
+     "s_in_strip_cm": 8.48,
+     "s_from_outer_end_cm": 8.48,
+     "s_cm_tile_outer_edge": 7.47
+    },
+    "r6_c5": {
+     "r": 6,
+     "c": 5,
+     "s_in_strip_cm": 10.53,
+     "s_from_outer_end_cm": 10.53,
+     "s_cm_tile_outer_edge": 9.5
+    },
+    "r6_c6": {
+     "r": 6,
+     "c": 6,
+     "s_in_strip_cm": 12.72,
+     "s_from_outer_end_cm": 12.72,
+     "s_cm_tile_outer_edge": 11.62
+    },
+    "r6_c7": {
+     "r": 6,
+     "c": 7,
+     "s_in_strip_cm": 14.96,
+     "s_from_outer_end_cm": 14.96,
+     "s_cm_tile_outer_edge": 13.83
+    },
+    "r6_c8": {
+     "r": 6,
+     "c": 8,
+     "s_in_strip_cm": 17.33,
+     "s_from_outer_end_cm": 17.33,
+     "s_cm_tile_outer_edge": 16.12
+    },
+    "r6_c9": {
+     "r": 6,
+     "c": 9,
+     "s_in_strip_cm": 19.64,
+     "s_from_outer_end_cm": 19.64,
+     "s_cm_tile_outer_edge": 18.58
+    },
+    "r6_c10": {
+     "r": 6,
+     "c": 10,
+     "s_in_strip_cm": 22.25,
+     "s_from_outer_end_cm": 22.25,
+     "s_cm_tile_outer_edge": 20.97
+    },
+    "r6_c11": {
+     "r": 6,
+     "c": 11,
+     "s_in_strip_cm": 25.18,
+     "s_from_outer_end_cm": 25.18,
+     "s_cm_tile_outer_edge": 23.85
+    },
+    "r6_c12": {
+     "r": 6,
+     "c": 12,
+     "s_in_strip_cm": 27.43,
+     "s_from_outer_end_cm": 27.43,
+     "s_cm_tile_outer_edge": 26.35
+    },
+    "r6_c13": {
+     "r": 6,
+     "c": 13,
+     "s_in_strip_cm": 29.51,
+     "s_from_outer_end_cm": 29.51,
+     "s_cm_tile_outer_edge": 28.48
+    },
+    "r6_c14": {
+     "r": 6,
+     "c": 14,
+     "s_in_strip_cm": 31.62,
+     "s_from_outer_end_cm": 31.62,
+     "s_cm_tile_outer_edge": 30.57
+    },
+    "r6_c15": {
+     "r": 6,
+     "c": 15,
+     "s_in_strip_cm": 33.7,
+     "s_from_outer_end_cm": 33.7,
+     "s_cm_tile_outer_edge": 32.69
+    },
+    "r6_c16": {
+     "r": 6,
+     "c": 16,
+     "s_in_strip_cm": 35.68,
+     "s_from_outer_end_cm": 35.68,
+     "s_cm_tile_outer_edge": 34.7
+    },
+    "r7_c1": {
+     "r": 7,
+     "c": 1,
+     "s_in_strip_cm": 1.35,
+     "s_from_outer_end_cm": 1.35,
+     "s_cm_tile_outer_edge": 0.38
+    },
+    "r7_c2": {
+     "r": 7,
+     "c": 2,
+     "s_in_strip_cm": 3.16,
+     "s_from_outer_end_cm": 3.16,
+     "s_cm_tile_outer_edge": 2.26
+    },
+    "r7_c3": {
+     "r": 7,
+     "c": 3,
+     "s_in_strip_cm": 5.08,
+     "s_from_outer_end_cm": 5.08,
+     "s_cm_tile_outer_edge": 4.1
+    },
+    "r7_c4": {
+     "r": 7,
+     "c": 4,
+     "s_in_strip_cm": 6.97,
+     "s_from_outer_end_cm": 6.97,
+     "s_cm_tile_outer_edge": 6.04
+    },
+    "r7_c5": {
+     "r": 7,
+     "c": 5,
+     "s_in_strip_cm": 8.89,
+     "s_from_outer_end_cm": 8.89,
+     "s_cm_tile_outer_edge": 7.92
+    },
+    "r7_c6": {
+     "r": 7,
+     "c": 6,
+     "s_in_strip_cm": 10.88,
+     "s_from_outer_end_cm": 10.88,
+     "s_cm_tile_outer_edge": 9.89
+    },
+    "r7_c7": {
+     "r": 7,
+     "c": 7,
+     "s_in_strip_cm": 12.93,
+     "s_from_outer_end_cm": 12.93,
+     "s_cm_tile_outer_edge": 11.9
+    },
+    "r7_c8": {
+     "r": 7,
+     "c": 8,
+     "s_in_strip_cm": 14.99,
+     "s_from_outer_end_cm": 14.99,
+     "s_cm_tile_outer_edge": 13.96
+    },
+    "r7_c9": {
+     "r": 7,
+     "c": 9,
+     "s_in_strip_cm": 16.84,
+     "s_from_outer_end_cm": 16.84,
+     "s_cm_tile_outer_edge": 15.93
+    },
+    "r7_c10": {
+     "r": 7,
+     "c": 10,
+     "s_in_strip_cm": 18.64,
+     "s_from_outer_end_cm": 18.64,
+     "s_cm_tile_outer_edge": 17.73
+    },
+    "r7_c11": {
+     "r": 7,
+     "c": 11,
+     "s_in_strip_cm": 20.63,
+     "s_from_outer_end_cm": 20.63,
+     "s_cm_tile_outer_edge": 19.59
+    },
+    "r7_c12": {
+     "r": 7,
+     "c": 12,
+     "s_in_strip_cm": 22.64,
+     "s_from_outer_end_cm": 22.64,
+     "s_cm_tile_outer_edge": 21.65
+    },
+    "r7_c13": {
+     "r": 7,
+     "c": 13,
+     "s_in_strip_cm": 24.57,
+     "s_from_outer_end_cm": 24.57,
+     "s_cm_tile_outer_edge": 23.6
+    },
+    "r7_c14": {
+     "r": 7,
+     "c": 14,
+     "s_in_strip_cm": 26.55,
+     "s_from_outer_end_cm": 26.55,
+     "s_cm_tile_outer_edge": 25.56
+    },
+    "r7_c15": {
+     "r": 7,
+     "c": 15,
+     "s_in_strip_cm": 28.55,
+     "s_from_outer_end_cm": 28.55,
+     "s_cm_tile_outer_edge": 27.55
+    },
+    "r7_c16": {
+     "r": 7,
+     "c": 16,
+     "s_in_strip_cm": 30.54,
+     "s_from_outer_end_cm": 30.54,
+     "s_cm_tile_outer_edge": 29.55
+    },
+    "r8_c1": {
+     "r": 8,
+     "c": 1,
+     "s_in_strip_cm": 1.38,
+     "s_from_outer_end_cm": 1.38,
+     "s_cm_tile_outer_edge": 0.39
+    },
+    "r8_c2": {
+     "r": 8,
+     "c": 2,
+     "s_in_strip_cm": 3.33,
+     "s_from_outer_end_cm": 3.33,
+     "s_cm_tile_outer_edge": 2.36
+    },
+    "r8_c3": {
+     "r": 8,
+     "c": 3,
+     "s_in_strip_cm": 5.28,
+     "s_from_outer_end_cm": 5.28,
+     "s_cm_tile_outer_edge": 4.31
+    },
+    "r8_c4": {
+     "r": 8,
+     "c": 4,
+     "s_in_strip_cm": 7.44,
+     "s_from_outer_end_cm": 7.44,
+     "s_cm_tile_outer_edge": 6.37
+    },
+    "r8_c5": {
+     "r": 8,
+     "c": 5,
+     "s_in_strip_cm": 9.43,
+     "s_from_outer_end_cm": 9.43,
+     "s_cm_tile_outer_edge": 8.33
+    },
+    "r8_c6": {
+     "r": 8,
+     "c": 6,
+     "s_in_strip_cm": 11.55,
+     "s_from_outer_end_cm": 11.55,
+     "s_cm_tile_outer_edge": 10.49
+    },
+    "r8_c7": {
+     "r": 8,
+     "c": 7,
+     "s_in_strip_cm": 13.65,
+     "s_from_outer_end_cm": 13.65,
+     "s_cm_tile_outer_edge": 12.59
+    },
+    "r8_c8": {
+     "r": 8,
+     "c": 8,
+     "s_in_strip_cm": 15.78,
+     "s_from_outer_end_cm": 15.78,
+     "s_cm_tile_outer_edge": 14.71
+    },
+    "r8_c9": {
+     "r": 8,
+     "c": 9,
+     "s_in_strip_cm": 17.82,
+     "s_from_outer_end_cm": 17.82,
+     "s_cm_tile_outer_edge": 16.83
+    },
+    "r8_c10": {
+     "r": 8,
+     "c": 10,
+     "s_in_strip_cm": 19.87,
+     "s_from_outer_end_cm": 19.87,
+     "s_cm_tile_outer_edge": 18.85
+    },
+    "r8_c11": {
+     "r": 8,
+     "c": 11,
+     "s_in_strip_cm": 21.89,
+     "s_from_outer_end_cm": 21.89,
+     "s_cm_tile_outer_edge": 20.87
+    },
+    "r8_c12": {
+     "r": 8,
+     "c": 12,
+     "s_in_strip_cm": 23.99,
+     "s_from_outer_end_cm": 23.99,
+     "s_cm_tile_outer_edge": 22.97
+    },
+    "r8_c13": {
+     "r": 8,
+     "c": 13,
+     "s_in_strip_cm": 26.02,
+     "s_from_outer_end_cm": 26.02,
+     "s_cm_tile_outer_edge": 24.95
+    },
+    "r8_c14": {
+     "r": 8,
+     "c": 14,
+     "s_in_strip_cm": 28.09,
+     "s_from_outer_end_cm": 28.09,
+     "s_cm_tile_outer_edge": 27.08
+    },
+    "r8_c15": {
+     "r": 8,
+     "c": 15,
+     "s_in_strip_cm": 30.09,
+     "s_from_outer_end_cm": 30.09,
+     "s_cm_tile_outer_edge": 29.1
+    },
+    "r8_c16": {
+     "r": 8,
+     "c": 16,
+     "s_in_strip_cm": 32.12,
+     "s_from_outer_end_cm": 32.12,
+     "s_cm_tile_outer_edge": 31.11
+    },
+    "r9_c1": {
+     "r": 9,
+     "c": 1,
+     "s_in_strip_cm": 1.49,
+     "s_from_outer_end_cm": 1.49,
+     "s_cm_tile_outer_edge": 0.45
+    },
+    "r9_c2": {
+     "r": 9,
+     "c": 2,
+     "s_in_strip_cm": 3.56,
+     "s_from_outer_end_cm": 3.56,
+     "s_cm_tile_outer_edge": 2.48
+    },
+    "r9_c3": {
+     "r": 9,
+     "c": 3,
+     "s_in_strip_cm": 5.7,
+     "s_from_outer_end_cm": 5.7,
+     "s_cm_tile_outer_edge": 4.67
+    },
+    "r9_c4": {
+     "r": 9,
+     "c": 4,
+     "s_in_strip_cm": 7.7,
+     "s_from_outer_end_cm": 7.7,
+     "s_cm_tile_outer_edge": 6.74
+    },
+    "r9_c5": {
+     "r": 9,
+     "c": 5,
+     "s_in_strip_cm": 9.8,
+     "s_from_outer_end_cm": 9.8,
+     "s_cm_tile_outer_edge": 8.65
+    },
+    "r9_c6": {
+     "r": 9,
+     "c": 6,
+     "s_in_strip_cm": 11.84,
+     "s_from_outer_end_cm": 11.84,
+     "s_cm_tile_outer_edge": 10.82
+    },
+    "r9_c7": {
+     "r": 9,
+     "c": 7,
+     "s_in_strip_cm": 13.92,
+     "s_from_outer_end_cm": 13.92,
+     "s_cm_tile_outer_edge": 12.87
+    },
+    "r9_c8": {
+     "r": 9,
+     "c": 8,
+     "s_in_strip_cm": 16.0,
+     "s_from_outer_end_cm": 16.0,
+     "s_cm_tile_outer_edge": 14.95
+    },
+    "r9_c9": {
+     "r": 9,
+     "c": 9,
+     "s_in_strip_cm": 18.13,
+     "s_from_outer_end_cm": 18.13,
+     "s_cm_tile_outer_edge": 17.02
+    },
+    "r9_c10": {
+     "r": 9,
+     "c": 10,
+     "s_in_strip_cm": 20.37,
+     "s_from_outer_end_cm": 20.37,
+     "s_cm_tile_outer_edge": 19.33
+    },
+    "r9_c11": {
+     "r": 9,
+     "c": 11,
+     "s_in_strip_cm": 22.47,
+     "s_from_outer_end_cm": 22.47,
+     "s_cm_tile_outer_edge": 21.43
+    },
+    "r9_c12": {
+     "r": 9,
+     "c": 12,
+     "s_in_strip_cm": 24.42,
+     "s_from_outer_end_cm": 24.42,
+     "s_cm_tile_outer_edge": 23.51
+    },
+    "r9_c13": {
+     "r": 9,
+     "c": 13,
+     "s_in_strip_cm": 26.63,
+     "s_from_outer_end_cm": 26.63,
+     "s_cm_tile_outer_edge": 25.44
+    },
+    "r9_c14": {
+     "r": 9,
+     "c": 14,
+     "s_in_strip_cm": 28.96,
+     "s_from_outer_end_cm": 28.96,
+     "s_cm_tile_outer_edge": 27.9
+    },
+    "r9_c15": {
+     "r": 9,
+     "c": 15,
+     "s_in_strip_cm": 31.07,
+     "s_from_outer_end_cm": 31.07,
+     "s_cm_tile_outer_edge": 30.03
+    },
+    "r9_c16": {
+     "r": 9,
+     "c": 16,
+     "s_in_strip_cm": 33.32,
+     "s_from_outer_end_cm": 33.32,
+     "s_cm_tile_outer_edge": 32.12
+    }
+   }
+  },
+  "w126-127": {
+   "segment": "20260701183150-w126-127",
+   "grid_shape": [
+    4704,
+    7744
+   ],
+   "median_row_length_cm": 32.31,
+   "row_length_cm_p10_p90": [
+    9.06,
+    40.77
+   ],
+   "offset_from_outer_end_cm": 32.68,
+   "tiles": {
+    "r0_c7": {
+     "r": 0,
+     "c": 7,
+     "s_in_strip_cm": 1.63,
+     "s_from_outer_end_cm": 34.31,
+     "s_cm_tile_outer_edge": 32.68
+    },
+    "r1_c7": {
+     "r": 1,
+     "c": 7,
+     "s_in_strip_cm": 2.03,
+     "s_from_outer_end_cm": 34.71,
+     "s_cm_tile_outer_edge": 33.84
+    },
+    "r1_c8": {
+     "r": 1,
+     "c": 8,
+     "s_in_strip_cm": 4.5,
+     "s_from_outer_end_cm": 37.18,
+     "s_cm_tile_outer_edge": 35.73
+    },
+    "r1_c15": {
+     "r": 1,
+     "c": 15,
+     "s_in_strip_cm": 9.31,
+     "s_from_outer_end_cm": 41.98,
+     "s_cm_tile_outer_edge": 40.47
+    },
+    "r1_c16": {
+     "r": 1,
+     "c": 16,
+     "s_in_strip_cm": 10.91,
+     "s_from_outer_end_cm": 43.59,
+     "s_cm_tile_outer_edge": 42.41
+    },
+    "r2_c3": {
+     "r": 2,
+     "c": 3,
+     "s_in_strip_cm": 0.94,
+     "s_from_outer_end_cm": 33.61,
+     "s_cm_tile_outer_edge": 32.68
+    },
+    "r2_c6": {
+     "r": 2,
+     "c": 6,
+     "s_in_strip_cm": 6.84,
+     "s_from_outer_end_cm": 39.52,
+     "s_cm_tile_outer_edge": 38.54
+    },
+    "r2_c7": {
+     "r": 2,
+     "c": 7,
+     "s_in_strip_cm": 9.22,
+     "s_from_outer_end_cm": 41.9,
+     "s_cm_tile_outer_edge": 40.6
+    },
+    "r2_c8": {
+     "r": 2,
+     "c": 8,
+     "s_in_strip_cm": 12.12,
+     "s_from_outer_end_cm": 44.8,
+     "s_cm_tile_outer_edge": 43.53
+    },
+    "r2_c9": {
+     "r": 2,
+     "c": 9,
+     "s_in_strip_cm": 14.94,
+     "s_from_outer_end_cm": 47.62,
+     "s_cm_tile_outer_edge": 46.12
+    },
+    "r2_c14": {
+     "r": 2,
+     "c": 14,
+     "s_in_strip_cm": 23.92,
+     "s_from_outer_end_cm": 56.6,
+     "s_cm_tile_outer_edge": 52.32
+    },
+    "r2_c15": {
+     "r": 2,
+     "c": 15,
+     "s_in_strip_cm": 22.13,
+     "s_from_outer_end_cm": 54.81,
+     "s_cm_tile_outer_edge": 53.82
+    },
+    "r2_c16": {
+     "r": 2,
+     "c": 16,
+     "s_in_strip_cm": 24.22,
+     "s_from_outer_end_cm": 56.9,
+     "s_cm_tile_outer_edge": 55.66
+    },
+    "r2_c17": {
+     "r": 2,
+     "c": 17,
+     "s_in_strip_cm": 30.28,
+     "s_from_outer_end_cm": 62.96,
+     "s_cm_tile_outer_edge": 58.83
+    },
+    "r3_c2": {
+     "r": 3,
+     "c": 2,
+     "s_in_strip_cm": 1.9,
+     "s_from_outer_end_cm": 34.58,
+     "s_cm_tile_outer_edge": 33.51
+    },
+    "r3_c3": {
+     "r": 3,
+     "c": 3,
+     "s_in_strip_cm": 3.86,
+     "s_from_outer_end_cm": 36.54,
+     "s_cm_tile_outer_edge": 35.63
+    },
+    "r3_c4": {
+     "r": 3,
+     "c": 4,
+     "s_in_strip_cm": 6.11,
+     "s_from_outer_end_cm": 38.79,
+     "s_cm_tile_outer_edge": 37.59
+    },
+    "r3_c5": {
+     "r": 3,
+     "c": 5,
+     "s_in_strip_cm": 8.28,
+     "s_from_outer_end_cm": 40.96,
+     "s_cm_tile_outer_edge": 39.87
+    },
+    "r3_c6": {
+     "r": 3,
+     "c": 6,
+     "s_in_strip_cm": 10.58,
+     "s_from_outer_end_cm": 43.26,
+     "s_cm_tile_outer_edge": 42.08
+    },
+    "r3_c7": {
+     "r": 3,
+     "c": 7,
+     "s_in_strip_cm": 13.14,
+     "s_from_outer_end_cm": 45.82,
+     "s_cm_tile_outer_edge": 44.44
+    },
+    "r3_c8": {
+     "r": 3,
+     "c": 8,
+     "s_in_strip_cm": 16.06,
+     "s_from_outer_end_cm": 48.74,
+     "s_cm_tile_outer_edge": 47.26
+    },
+    "r3_c9": {
+     "r": 3,
+     "c": 9,
+     "s_in_strip_cm": 18.84,
+     "s_from_outer_end_cm": 51.52,
+     "s_cm_tile_outer_edge": 50.34
+    },
+    "r3_c10": {
+     "r": 3,
+     "c": 10,
+     "s_in_strip_cm": 20.96,
+     "s_from_outer_end_cm": 53.63,
+     "s_cm_tile_outer_edge": 52.58
+    },
+    "r3_c11": {
+     "r": 3,
+     "c": 11,
+     "s_in_strip_cm": 23.01,
+     "s_from_outer_end_cm": 55.69,
+     "s_cm_tile_outer_edge": 54.67
+    },
+    "r3_c12": {
+     "r": 3,
+     "c": 12,
+     "s_in_strip_cm": 25.62,
+     "s_from_outer_end_cm": 58.3,
+     "s_cm_tile_outer_edge": 57.0
+    },
+    "r3_c13": {
+     "r": 3,
+     "c": 13,
+     "s_in_strip_cm": 27.76,
+     "s_from_outer_end_cm": 60.44,
+     "s_cm_tile_outer_edge": 59.38
+    },
+    "r3_c14": {
+     "r": 3,
+     "c": 14,
+     "s_in_strip_cm": 29.91,
+     "s_from_outer_end_cm": 62.59,
+     "s_cm_tile_outer_edge": 61.5
+    },
+    "r3_c15": {
+     "r": 3,
+     "c": 15,
+     "s_in_strip_cm": 32.15,
+     "s_from_outer_end_cm": 64.83,
+     "s_cm_tile_outer_edge": 63.68
+    },
+    "r3_c16": {
+     "r": 3,
+     "c": 16,
+     "s_in_strip_cm": 34.53,
+     "s_from_outer_end_cm": 67.21,
+     "s_cm_tile_outer_edge": 66.16
+    },
+    "r3_c17": {
+     "r": 3,
+     "c": 17,
+     "s_in_strip_cm": 37.67,
+     "s_from_outer_end_cm": 70.35,
+     "s_cm_tile_outer_edge": 68.68
+    },
+    "r4_c1": {
+     "r": 4,
+     "c": 1,
+     "s_in_strip_cm": 0.33,
+     "s_from_outer_end_cm": 33.01,
+     "s_cm_tile_outer_edge": 32.68
+    },
+    "r4_c2": {
+     "r": 4,
+     "c": 2,
+     "s_in_strip_cm": 2.01,
+     "s_from_outer_end_cm": 34.69,
+     "s_cm_tile_outer_edge": 33.65
+    },
+    "r4_c3": {
+     "r": 4,
+     "c": 3,
+     "s_in_strip_cm": 4.0,
+     "s_from_outer_end_cm": 36.68,
+     "s_cm_tile_outer_edge": 35.7
+    },
+    "r4_c4": {
+     "r": 4,
+     "c": 4,
+     "s_in_strip_cm": 5.99,
+     "s_from_outer_end_cm": 38.66,
+     "s_cm_tile_outer_edge": 37.67
+    },
+    "r4_c5": {
+     "r": 4,
+     "c": 5,
+     "s_in_strip_cm": 8.06,
+     "s_from_outer_end_cm": 40.74,
+     "s_cm_tile_outer_edge": 39.7
+    },
+    "r4_c6": {
+     "r": 4,
+     "c": 6,
+     "s_in_strip_cm": 10.18,
+     "s_from_outer_end_cm": 42.86,
+     "s_cm_tile_outer_edge": 41.8
+    },
+    "r4_c7": {
+     "r": 4,
+     "c": 7,
+     "s_in_strip_cm": 12.25,
+     "s_from_outer_end_cm": 44.92,
+     "s_cm_tile_outer_edge": 43.93
+    },
+    "r4_c8": {
+     "r": 4,
+     "c": 8,
+     "s_in_strip_cm": 13.98,
+     "s_from_outer_end_cm": 46.66,
+     "s_cm_tile_outer_edge": 45.78
+    },
+    "r4_c9": {
+     "r": 4,
+     "c": 9,
+     "s_in_strip_cm": 15.88,
+     "s_from_outer_end_cm": 48.55,
+     "s_cm_tile_outer_edge": 47.6
+    },
+    "r4_c10": {
+     "r": 4,
+     "c": 10,
+     "s_in_strip_cm": 17.79,
+     "s_from_outer_end_cm": 50.47,
+     "s_cm_tile_outer_edge": 49.51
+    },
+    "r4_c11": {
+     "r": 4,
+     "c": 11,
+     "s_in_strip_cm": 19.71,
+     "s_from_outer_end_cm": 52.38,
+     "s_cm_tile_outer_edge": 51.42
+    },
+    "r4_c12": {
+     "r": 4,
+     "c": 12,
+     "s_in_strip_cm": 21.67,
+     "s_from_outer_end_cm": 54.35,
+     "s_cm_tile_outer_edge": 53.36
+    },
+    "r4_c13": {
+     "r": 4,
+     "c": 13,
+     "s_in_strip_cm": 23.73,
+     "s_from_outer_end_cm": 56.41,
+     "s_cm_tile_outer_edge": 55.38
+    },
+    "r4_c14": {
+     "r": 4,
+     "c": 14,
+     "s_in_strip_cm": 25.8,
+     "s_from_outer_end_cm": 58.47,
+     "s_cm_tile_outer_edge": 57.43
+    },
+    "r4_c15": {
+     "r": 4,
+     "c": 15,
+     "s_in_strip_cm": 27.89,
+     "s_from_outer_end_cm": 60.57,
+     "s_cm_tile_outer_edge": 59.52
+    },
+    "r4_c16": {
+     "r": 4,
+     "c": 16,
+     "s_in_strip_cm": 29.65,
+     "s_from_outer_end_cm": 62.33,
+     "s_cm_tile_outer_edge": 61.54
+    },
+    "r4_c17": {
+     "r": 4,
+     "c": 17,
+     "s_in_strip_cm": 31.52,
+     "s_from_outer_end_cm": 64.19,
+     "s_cm_tile_outer_edge": 63.18
+    },
+    "r5_c1": {
+     "r": 5,
+     "c": 1,
+     "s_in_strip_cm": 0.84,
+     "s_from_outer_end_cm": 33.52,
+     "s_cm_tile_outer_edge": 32.94
+    },
+    "r5_c2": {
+     "r": 5,
+     "c": 2,
+     "s_in_strip_cm": 2.45,
+     "s_from_outer_end_cm": 35.13,
+     "s_cm_tile_outer_edge": 34.27
+    },
+    "r5_c3": {
+     "r": 5,
+     "c": 3,
+     "s_in_strip_cm": 4.3,
+     "s_from_outer_end_cm": 36.98,
+     "s_cm_tile_outer_edge": 36.03
+    },
+    "r5_c4": {
+     "r": 5,
+     "c": 4,
+     "s_in_strip_cm": 6.28,
+     "s_from_outer_end_cm": 38.96,
+     "s_cm_tile_outer_edge": 37.96
+    },
+    "r5_c5": {
+     "r": 5,
+     "c": 5,
+     "s_in_strip_cm": 8.31,
+     "s_from_outer_end_cm": 40.99,
+     "s_cm_tile_outer_edge": 39.97
+    },
+    "r5_c6": {
+     "r": 5,
+     "c": 6,
+     "s_in_strip_cm": 10.36,
+     "s_from_outer_end_cm": 43.04,
+     "s_cm_tile_outer_edge": 42.02
+    },
+    "r5_c7": {
+     "r": 5,
+     "c": 7,
+     "s_in_strip_cm": 12.39,
+     "s_from_outer_end_cm": 45.07,
+     "s_cm_tile_outer_edge": 44.07
+    },
+    "r5_c8": {
+     "r": 5,
+     "c": 8,
+     "s_in_strip_cm": 14.42,
+     "s_from_outer_end_cm": 47.09,
+     "s_cm_tile_outer_edge": 46.07
+    },
+    "r5_c9": {
+     "r": 5,
+     "c": 9,
+     "s_in_strip_cm": 16.49,
+     "s_from_outer_end_cm": 49.17,
+     "s_cm_tile_outer_edge": 48.15
+    },
+    "r5_c10": {
+     "r": 5,
+     "c": 10,
+     "s_in_strip_cm": 18.2,
+     "s_from_outer_end_cm": 50.88,
+     "s_cm_tile_outer_edge": 50.06
+    },
+    "r5_c11": {
+     "r": 5,
+     "c": 11,
+     "s_in_strip_cm": 20.05,
+     "s_from_outer_end_cm": 52.73,
+     "s_cm_tile_outer_edge": 51.77
+    },
+    "r5_c12": {
+     "r": 5,
+     "c": 12,
+     "s_in_strip_cm": 22.07,
+     "s_from_outer_end_cm": 54.75,
+     "s_cm_tile_outer_edge": 53.73
+    },
+    "r5_c13": {
+     "r": 5,
+     "c": 13,
+     "s_in_strip_cm": 24.13,
+     "s_from_outer_end_cm": 56.81,
+     "s_cm_tile_outer_edge": 55.79
+    },
+    "r5_c14": {
+     "r": 5,
+     "c": 14,
+     "s_in_strip_cm": 26.2,
+     "s_from_outer_end_cm": 58.88,
+     "s_cm_tile_outer_edge": 57.84
+    },
+    "r5_c15": {
+     "r": 5,
+     "c": 15,
+     "s_in_strip_cm": 28.24,
+     "s_from_outer_end_cm": 60.92,
+     "s_cm_tile_outer_edge": 59.91
+    },
+    "r5_c16": {
+     "r": 5,
+     "c": 16,
+     "s_in_strip_cm": 30.17,
+     "s_from_outer_end_cm": 62.85,
+     "s_cm_tile_outer_edge": 61.9
+    },
+    "r5_c17": {
+     "r": 5,
+     "c": 17,
+     "s_in_strip_cm": 32.13,
+     "s_from_outer_end_cm": 64.81,
+     "s_cm_tile_outer_edge": 63.82
+    },
+    "r6_c0": {
+     "r": 6,
+     "c": 0,
+     "s_in_strip_cm": 0.88,
+     "s_from_outer_end_cm": 33.56,
+     "s_cm_tile_outer_edge": 32.68
+    },
+    "r6_c1": {
+     "r": 6,
+     "c": 1,
+     "s_in_strip_cm": 4.23,
+     "s_from_outer_end_cm": 36.91,
+     "s_cm_tile_outer_edge": 35.21
+    },
+    "r6_c2": {
+     "r": 6,
+     "c": 2,
+     "s_in_strip_cm": 6.52,
+     "s_from_outer_end_cm": 39.2,
+     "s_cm_tile_outer_edge": 37.96
+    },
+    "r6_c3": {
+     "r": 6,
+     "c": 3,
+     "s_in_strip_cm": 8.35,
+     "s_from_outer_end_cm": 41.03,
+     "s_cm_tile_outer_edge": 40.07
+    },
+    "r6_c4": {
+     "r": 6,
+     "c": 4,
+     "s_in_strip_cm": 10.47,
+     "s_from_outer_end_cm": 43.15,
+     "s_cm_tile_outer_edge": 42.1
+    },
+    "r6_c5": {
+     "r": 6,
+     "c": 5,
+     "s_in_strip_cm": 12.56,
+     "s_from_outer_end_cm": 45.24,
+     "s_cm_tile_outer_edge": 44.19
+    },
+    "r6_c6": {
+     "r": 6,
+     "c": 6,
+     "s_in_strip_cm": 14.64,
+     "s_from_outer_end_cm": 47.32,
+     "s_cm_tile_outer_edge": 46.3
+    },
+    "r6_c7": {
+     "r": 6,
+     "c": 7,
+     "s_in_strip_cm": 16.69,
+     "s_from_outer_end_cm": 49.37,
+     "s_cm_tile_outer_edge": 48.34
+    },
+    "r6_c8": {
+     "r": 6,
+     "c": 8,
+     "s_in_strip_cm": 18.87,
+     "s_from_outer_end_cm": 51.55,
+     "s_cm_tile_outer_edge": 50.42
+    },
+    "r6_c9": {
+     "r": 6,
+     "c": 9,
+     "s_in_strip_cm": 22.05,
+     "s_from_outer_end_cm": 54.73,
+     "s_cm_tile_outer_edge": 52.85
+    },
+    "r6_c10": {
+     "r": 6,
+     "c": 10,
+     "s_in_strip_cm": 25.33,
+     "s_from_outer_end_cm": 58.01,
+     "s_cm_tile_outer_edge": 56.38
+    },
+    "r6_c11": {
+     "r": 6,
+     "c": 11,
+     "s_in_strip_cm": 27.95,
+     "s_from_outer_end_cm": 60.63,
+     "s_cm_tile_outer_edge": 59.42
+    },
+    "r6_c12": {
+     "r": 6,
+     "c": 12,
+     "s_in_strip_cm": 30.43,
+     "s_from_outer_end_cm": 63.11,
+     "s_cm_tile_outer_edge": 61.87
+    },
+    "r6_c13": {
+     "r": 6,
+     "c": 13,
+     "s_in_strip_cm": 32.69,
+     "s_from_outer_end_cm": 65.37,
+     "s_cm_tile_outer_edge": 64.26
+    },
+    "r6_c14": {
+     "r": 6,
+     "c": 14,
+     "s_in_strip_cm": 34.83,
+     "s_from_outer_end_cm": 67.51,
+     "s_cm_tile_outer_edge": 66.45
+    },
+    "r6_c15": {
+     "r": 6,
+     "c": 15,
+     "s_in_strip_cm": 36.83,
+     "s_from_outer_end_cm": 69.51,
+     "s_cm_tile_outer_edge": 68.51
+    },
+    "r6_c16": {
+     "r": 6,
+     "c": 16,
+     "s_in_strip_cm": 38.84,
+     "s_from_outer_end_cm": 71.52,
+     "s_cm_tile_outer_edge": 70.52
+    },
+    "r6_c17": {
+     "r": 6,
+     "c": 17,
+     "s_in_strip_cm": 40.85,
+     "s_from_outer_end_cm": 73.53,
+     "s_cm_tile_outer_edge": 72.53
+    },
+    "r7_c1": {
+     "r": 7,
+     "c": 1,
+     "s_in_strip_cm": 0.77,
+     "s_from_outer_end_cm": 33.45,
+     "s_cm_tile_outer_edge": 32.86
+    },
+    "r7_c2": {
+     "r": 7,
+     "c": 2,
+     "s_in_strip_cm": 2.01,
+     "s_from_outer_end_cm": 34.69,
+     "s_cm_tile_outer_edge": 34.01
+    },
+    "r7_c3": {
+     "r": 7,
+     "c": 3,
+     "s_in_strip_cm": 3.66,
+     "s_from_outer_end_cm": 36.34,
+     "s_cm_tile_outer_edge": 35.46
+    },
+    "r7_c4": {
+     "r": 7,
+     "c": 4,
+     "s_in_strip_cm": 5.63,
+     "s_from_outer_end_cm": 38.31,
+     "s_cm_tile_outer_edge": 37.31
+    },
+    "r7_c5": {
+     "r": 7,
+     "c": 5,
+     "s_in_strip_cm": 7.59,
+     "s_from_outer_end_cm": 40.26,
+     "s_cm_tile_outer_edge": 39.29
+    },
+    "r7_c6": {
+     "r": 7,
+     "c": 6,
+     "s_in_strip_cm": 9.54,
+     "s_from_outer_end_cm": 42.22,
+     "s_cm_tile_outer_edge": 41.24
+    },
+    "r7_c7": {
+     "r": 7,
+     "c": 7,
+     "s_in_strip_cm": 11.51,
+     "s_from_outer_end_cm": 44.19,
+     "s_cm_tile_outer_edge": 43.2
+    },
+    "r7_c8": {
+     "r": 7,
+     "c": 8,
+     "s_in_strip_cm": 13.6,
+     "s_from_outer_end_cm": 46.28,
+     "s_cm_tile_outer_edge": 45.22
+    },
+    "r7_c9": {
+     "r": 7,
+     "c": 9,
+     "s_in_strip_cm": 15.64,
+     "s_from_outer_end_cm": 48.32,
+     "s_cm_tile_outer_edge": 47.33
+    },
+    "r7_c10": {
+     "r": 7,
+     "c": 10,
+     "s_in_strip_cm": 17.26,
+     "s_from_outer_end_cm": 49.93,
+     "s_cm_tile_outer_edge": 49.22
+    },
+    "r7_c11": {
+     "r": 7,
+     "c": 11,
+     "s_in_strip_cm": 18.77,
+     "s_from_outer_end_cm": 51.45,
+     "s_cm_tile_outer_edge": 50.65
+    },
+    "r7_c12": {
+     "r": 7,
+     "c": 12,
+     "s_in_strip_cm": 20.92,
+     "s_from_outer_end_cm": 53.6,
+     "s_cm_tile_outer_edge": 52.44
+    },
+    "r7_c13": {
+     "r": 7,
+     "c": 13,
+     "s_in_strip_cm": 23.07,
+     "s_from_outer_end_cm": 55.75,
+     "s_cm_tile_outer_edge": 54.7
+    },
+    "r7_c14": {
+     "r": 7,
+     "c": 14,
+     "s_in_strip_cm": 25.1,
+     "s_from_outer_end_cm": 57.78,
+     "s_cm_tile_outer_edge": 56.77
+    },
+    "r7_c15": {
+     "r": 7,
+     "c": 15,
+     "s_in_strip_cm": 27.11,
+     "s_from_outer_end_cm": 59.79,
+     "s_cm_tile_outer_edge": 58.8
+    },
+    "r7_c16": {
+     "r": 7,
+     "c": 16,
+     "s_in_strip_cm": 29.16,
+     "s_from_outer_end_cm": 61.83,
+     "s_cm_tile_outer_edge": 60.81
+    },
+    "r7_c17": {
+     "r": 7,
+     "c": 17,
+     "s_in_strip_cm": 31.22,
+     "s_from_outer_end_cm": 63.9,
+     "s_cm_tile_outer_edge": 62.87
+    },
+    "r8_c2": {
+     "r": 8,
+     "c": 2,
+     "s_in_strip_cm": 1.5,
+     "s_from_outer_end_cm": 34.18,
+     "s_cm_tile_outer_edge": 33.19
+    },
+    "r8_c3": {
+     "r": 8,
+     "c": 3,
+     "s_in_strip_cm": 3.4,
+     "s_from_outer_end_cm": 36.08,
+     "s_cm_tile_outer_edge": 35.14
+    },
+    "r8_c4": {
+     "r": 8,
+     "c": 4,
+     "s_in_strip_cm": 5.36,
+     "s_from_outer_end_cm": 38.03,
+     "s_cm_tile_outer_edge": 37.06
+    },
+    "r8_c5": {
+     "r": 8,
+     "c": 5,
+     "s_in_strip_cm": 7.27,
+     "s_from_outer_end_cm": 39.94,
+     "s_cm_tile_outer_edge": 39.0
+    },
+    "r8_c6": {
+     "r": 8,
+     "c": 6,
+     "s_in_strip_cm": 9.2,
+     "s_from_outer_end_cm": 41.88,
+     "s_cm_tile_outer_edge": 40.89
+    },
+    "r8_c7": {
+     "r": 8,
+     "c": 7,
+     "s_in_strip_cm": 11.19,
+     "s_from_outer_end_cm": 43.87,
+     "s_cm_tile_outer_edge": 42.87
+    },
+    "r8_c8": {
+     "r": 8,
+     "c": 8,
+     "s_in_strip_cm": 13.15,
+     "s_from_outer_end_cm": 45.83,
+     "s_cm_tile_outer_edge": 44.85
+    },
+    "r8_c9": {
+     "r": 8,
+     "c": 9,
+     "s_in_strip_cm": 15.07,
+     "s_from_outer_end_cm": 47.75,
+     "s_cm_tile_outer_edge": 46.81
+    },
+    "r8_c10": {
+     "r": 8,
+     "c": 10,
+     "s_in_strip_cm": 16.88,
+     "s_from_outer_end_cm": 49.56,
+     "s_cm_tile_outer_edge": 48.67
+    },
+    "r8_c11": {
+     "r": 8,
+     "c": 11,
+     "s_in_strip_cm": 18.63,
+     "s_from_outer_end_cm": 51.31,
+     "s_cm_tile_outer_edge": 50.42
+    },
+    "r8_c12": {
+     "r": 8,
+     "c": 12,
+     "s_in_strip_cm": 20.58,
+     "s_from_outer_end_cm": 53.26,
+     "s_cm_tile_outer_edge": 52.26
+    },
+    "r8_c13": {
+     "r": 8,
+     "c": 13,
+     "s_in_strip_cm": 22.59,
+     "s_from_outer_end_cm": 55.27,
+     "s_cm_tile_outer_edge": 54.27
+    },
+    "r8_c14": {
+     "r": 8,
+     "c": 14,
+     "s_in_strip_cm": 24.58,
+     "s_from_outer_end_cm": 57.26,
+     "s_cm_tile_outer_edge": 56.26
+    },
+    "r8_c15": {
+     "r": 8,
+     "c": 15,
+     "s_in_strip_cm": 26.61,
+     "s_from_outer_end_cm": 59.29,
+     "s_cm_tile_outer_edge": 58.27
+    },
+    "r8_c16": {
+     "r": 8,
+     "c": 16,
+     "s_in_strip_cm": 28.6,
+     "s_from_outer_end_cm": 61.28,
+     "s_cm_tile_outer_edge": 60.29
+    },
+    "r8_c17": {
+     "r": 8,
+     "c": 17,
+     "s_in_strip_cm": 30.6,
+     "s_from_outer_end_cm": 63.28,
+     "s_cm_tile_outer_edge": 62.29
+    },
+    "r9_c2": {
+     "r": 9,
+     "c": 2,
+     "s_in_strip_cm": 1.27,
+     "s_from_outer_end_cm": 33.95,
+     "s_cm_tile_outer_edge": 32.95
+    },
+    "r9_c3": {
+     "r": 9,
+     "c": 3,
+     "s_in_strip_cm": 3.27,
+     "s_from_outer_end_cm": 35.95,
+     "s_cm_tile_outer_edge": 34.98
+    },
+    "r9_c4": {
+     "r": 9,
+     "c": 4,
+     "s_in_strip_cm": 5.27,
+     "s_from_outer_end_cm": 37.95,
+     "s_cm_tile_outer_edge": 36.94
+    },
+    "r9_c5": {
+     "r": 9,
+     "c": 5,
+     "s_in_strip_cm": 7.37,
+     "s_from_outer_end_cm": 40.05,
+     "s_cm_tile_outer_edge": 39.02
+    },
+    "r9_c6": {
+     "r": 9,
+     "c": 6,
+     "s_in_strip_cm": 9.34,
+     "s_from_outer_end_cm": 42.02,
+     "s_cm_tile_outer_edge": 40.98
+    },
+    "r9_c7": {
+     "r": 9,
+     "c": 7,
+     "s_in_strip_cm": 11.33,
+     "s_from_outer_end_cm": 44.01,
+     "s_cm_tile_outer_edge": 43.03
+    },
+    "r9_c8": {
+     "r": 9,
+     "c": 8,
+     "s_in_strip_cm": 13.32,
+     "s_from_outer_end_cm": 46.0,
+     "s_cm_tile_outer_edge": 45.02
+    },
+    "r9_c9": {
+     "r": 9,
+     "c": 9,
+     "s_in_strip_cm": 15.22,
+     "s_from_outer_end_cm": 47.9,
+     "s_cm_tile_outer_edge": 46.96
+    },
+    "r9_c10": {
+     "r": 9,
+     "c": 10,
+     "s_in_strip_cm": 17.21,
+     "s_from_outer_end_cm": 49.89,
+     "s_cm_tile_outer_edge": 48.88
+    },
+    "r9_c11": {
+     "r": 9,
+     "c": 11,
+     "s_in_strip_cm": 19.14,
+     "s_from_outer_end_cm": 51.82,
+     "s_cm_tile_outer_edge": 50.88
+    },
+    "r9_c12": {
+     "r": 9,
+     "c": 12,
+     "s_in_strip_cm": 21.03,
+     "s_from_outer_end_cm": 53.71,
+     "s_cm_tile_outer_edge": 52.75
+    },
+    "r9_c13": {
+     "r": 9,
+     "c": 13,
+     "s_in_strip_cm": 23.06,
+     "s_from_outer_end_cm": 55.74,
+     "s_cm_tile_outer_edge": 54.69
+    },
+    "r9_c14": {
+     "r": 9,
+     "c": 14,
+     "s_in_strip_cm": 25.11,
+     "s_from_outer_end_cm": 57.79,
+     "s_cm_tile_outer_edge": 56.75
+    },
+    "r9_c15": {
+     "r": 9,
+     "c": 15,
+     "s_in_strip_cm": 27.09,
+     "s_from_outer_end_cm": 59.77,
+     "s_cm_tile_outer_edge": 58.78
+    },
+    "r9_c16": {
+     "r": 9,
+     "c": 16,
+     "s_in_strip_cm": 29.04,
+     "s_from_outer_end_cm": 61.72,
+     "s_cm_tile_outer_edge": 60.75
+    },
+    "r9_c17": {
+     "r": 9,
+     "c": 17,
+     "s_in_strip_cm": 31.07,
+     "s_from_outer_end_cm": 63.74,
+     "s_cm_tile_outer_edge": 62.77
+    },
+    "r10_c2": {
+     "r": 10,
+     "c": 2,
+     "s_in_strip_cm": 1.41,
+     "s_from_outer_end_cm": 34.09,
+     "s_cm_tile_outer_edge": 33.07
+    },
+    "r10_c3": {
+     "r": 10,
+     "c": 3,
+     "s_in_strip_cm": 3.36,
+     "s_from_outer_end_cm": 36.04,
+     "s_cm_tile_outer_edge": 35.07
+    },
+    "r10_c4": {
+     "r": 10,
+     "c": 4,
+     "s_in_strip_cm": 5.42,
+     "s_from_outer_end_cm": 38.1,
+     "s_cm_tile_outer_edge": 37.18
+    },
+    "r10_c5": {
+     "r": 10,
+     "c": 5,
+     "s_in_strip_cm": 7.5,
+     "s_from_outer_end_cm": 40.18,
+     "s_cm_tile_outer_edge": 39.13
+    },
+    "r10_c6": {
+     "r": 10,
+     "c": 6,
+     "s_in_strip_cm": 9.6,
+     "s_from_outer_end_cm": 42.28,
+     "s_cm_tile_outer_edge": 41.23
+    },
+    "r10_c7": {
+     "r": 10,
+     "c": 7,
+     "s_in_strip_cm": 11.77,
+     "s_from_outer_end_cm": 44.45,
+     "s_cm_tile_outer_edge": 43.38
+    },
+    "r10_c8": {
+     "r": 10,
+     "c": 8,
+     "s_in_strip_cm": 13.89,
+     "s_from_outer_end_cm": 46.57,
+     "s_cm_tile_outer_edge": 45.51
+    },
+    "r10_c9": {
+     "r": 10,
+     "c": 9,
+     "s_in_strip_cm": 15.92,
+     "s_from_outer_end_cm": 48.6,
+     "s_cm_tile_outer_edge": 47.62
+    },
+    "r10_c10": {
+     "r": 10,
+     "c": 10,
+     "s_in_strip_cm": 17.79,
+     "s_from_outer_end_cm": 50.47,
+     "s_cm_tile_outer_edge": 49.55
+    },
+    "r10_c11": {
+     "r": 10,
+     "c": 11,
+     "s_in_strip_cm": 19.66,
+     "s_from_outer_end_cm": 52.34,
+     "s_cm_tile_outer_edge": 51.39
+    },
+    "r10_c12": {
+     "r": 10,
+     "c": 12,
+     "s_in_strip_cm": 21.6,
+     "s_from_outer_end_cm": 54.27,
+     "s_cm_tile_outer_edge": 53.26
+    },
+    "r10_c13": {
+     "r": 10,
+     "c": 13,
+     "s_in_strip_cm": 23.6,
+     "s_from_outer_end_cm": 56.27,
+     "s_cm_tile_outer_edge": 55.22
+    },
+    "r10_c14": {
+     "r": 10,
+     "c": 14,
+     "s_in_strip_cm": 25.65,
+     "s_from_outer_end_cm": 58.33,
+     "s_cm_tile_outer_edge": 57.29
+    },
+    "r10_c15": {
+     "r": 10,
+     "c": 15,
+     "s_in_strip_cm": 27.71,
+     "s_from_outer_end_cm": 60.39,
+     "s_cm_tile_outer_edge": 59.33
+    },
+    "r10_c16": {
+     "r": 10,
+     "c": 16,
+     "s_in_strip_cm": 29.83,
+     "s_from_outer_end_cm": 62.51,
+     "s_cm_tile_outer_edge": 61.47
+    },
+    "r10_c17": {
+     "r": 10,
+     "c": 17,
+     "s_in_strip_cm": 31.96,
+     "s_from_outer_end_cm": 64.63,
+     "s_cm_tile_outer_edge": 63.55
+    }
+   }
+  },
+  "w124-125": {
+   "segment": "20260701183149-w124-125",
+   "grid_shape": [
+    4196,
+    7168
+   ],
+   "median_row_length_cm": 32.25,
+   "row_length_cm_p10_p90": [
+    10.29,
+    35.44
+   ],
+   "offset_from_outer_end_cm": 64.98,
+   "tiles": {
+    "r0_c6": {
+     "r": 0,
+     "c": 6,
+     "s_in_strip_cm": 0.87,
+     "s_from_outer_end_cm": 65.86,
+     "s_cm_tile_outer_edge": 64.98
+    },
+    "r1_c5": {
+     "r": 1,
+     "c": 5,
+     "s_in_strip_cm": 2.24,
+     "s_from_outer_end_cm": 67.22,
+     "s_cm_tile_outer_edge": 65.18
+    },
+    "r1_c6": {
+     "r": 1,
+     "c": 6,
+     "s_in_strip_cm": 3.28,
+     "s_from_outer_end_cm": 68.27,
+     "s_cm_tile_outer_edge": 67.21
+    },
+    "r1_c7": {
+     "r": 1,
+     "c": 7,
+     "s_in_strip_cm": 5.65,
+     "s_from_outer_end_cm": 70.63,
+     "s_cm_tile_outer_edge": 69.17
+    },
+    "r1_c8": {
+     "r": 1,
+     "c": 8,
+     "s_in_strip_cm": 14.18,
+     "s_from_outer_end_cm": 79.17,
+     "s_cm_tile_outer_edge": 71.67
+    },
+    "r1_c13": {
+     "r": 1,
+     "c": 13,
+     "s_in_strip_cm": 21.5,
+     "s_from_outer_end_cm": 86.48,
+     "s_cm_tile_outer_edge": 79.99
+    },
+    "r1_c14": {
+     "r": 1,
+     "c": 14,
+     "s_in_strip_cm": 17.78,
+     "s_from_outer_end_cm": 82.76,
+     "s_cm_tile_outer_edge": 78.64
+    },
+    "r1_c15": {
+     "r": 1,
+     "c": 15,
+     "s_in_strip_cm": 17.24,
+     "s_from_outer_end_cm": 82.23,
+     "s_cm_tile_outer_edge": 80.94
+    },
+    "r2_c1": {
+     "r": 2,
+     "c": 1,
+     "s_in_strip_cm": 1.02,
+     "s_from_outer_end_cm": 66.01,
+     "s_cm_tile_outer_edge": 64.98
+    },
+    "r2_c2": {
+     "r": 2,
+     "c": 2,
+     "s_in_strip_cm": 3.08,
+     "s_from_outer_end_cm": 68.06,
+     "s_cm_tile_outer_edge": 67.04
+    },
+    "r2_c3": {
+     "r": 2,
+     "c": 3,
+     "s_in_strip_cm": 5.14,
+     "s_from_outer_end_cm": 70.13,
+     "s_cm_tile_outer_edge": 69.08
+    },
+    "r2_c4": {
+     "r": 2,
+     "c": 4,
+     "s_in_strip_cm": 7.23,
+     "s_from_outer_end_cm": 72.21,
+     "s_cm_tile_outer_edge": 71.16
+    },
+    "r2_c5": {
+     "r": 2,
+     "c": 5,
+     "s_in_strip_cm": 9.37,
+     "s_from_outer_end_cm": 74.35,
+     "s_cm_tile_outer_edge": 73.28
+    },
+    "r2_c6": {
+     "r": 2,
+     "c": 6,
+     "s_in_strip_cm": 11.55,
+     "s_from_outer_end_cm": 76.53,
+     "s_cm_tile_outer_edge": 75.43
+    },
+    "r2_c7": {
+     "r": 2,
+     "c": 7,
+     "s_in_strip_cm": 14.21,
+     "s_from_outer_end_cm": 79.19,
+     "s_cm_tile_outer_edge": 77.66
+    },
+    "r2_c8": {
+     "r": 2,
+     "c": 8,
+     "s_in_strip_cm": 16.67,
+     "s_from_outer_end_cm": 81.66,
+     "s_cm_tile_outer_edge": 80.55
+    },
+    "r2_c9": {
+     "r": 2,
+     "c": 9,
+     "s_in_strip_cm": 18.72,
+     "s_from_outer_end_cm": 83.71,
+     "s_cm_tile_outer_edge": 82.69
+    },
+    "r2_c10": {
+     "r": 2,
+     "c": 10,
+     "s_in_strip_cm": 20.74,
+     "s_from_outer_end_cm": 85.72,
+     "s_cm_tile_outer_edge": 84.74
+    },
+    "r2_c11": {
+     "r": 2,
+     "c": 11,
+     "s_in_strip_cm": 22.77,
+     "s_from_outer_end_cm": 87.76,
+     "s_cm_tile_outer_edge": 86.75
+    },
+    "r2_c12": {
+     "r": 2,
+     "c": 12,
+     "s_in_strip_cm": 24.82,
+     "s_from_outer_end_cm": 89.81,
+     "s_cm_tile_outer_edge": 88.78
+    },
+    "r2_c13": {
+     "r": 2,
+     "c": 13,
+     "s_in_strip_cm": 26.94,
+     "s_from_outer_end_cm": 91.92,
+     "s_cm_tile_outer_edge": 90.86
+    },
+    "r2_c14": {
+     "r": 2,
+     "c": 14,
+     "s_in_strip_cm": 29.06,
+     "s_from_outer_end_cm": 94.04,
+     "s_cm_tile_outer_edge": 92.99
+    },
+    "r2_c15": {
+     "r": 2,
+     "c": 15,
+     "s_in_strip_cm": 31.11,
+     "s_from_outer_end_cm": 96.1,
+     "s_cm_tile_outer_edge": 95.05
+    },
+    "r2_c16": {
+     "r": 2,
+     "c": 16,
+     "s_in_strip_cm": 33.22,
+     "s_from_outer_end_cm": 98.21,
+     "s_cm_tile_outer_edge": 97.2
+    },
+    "r3_c1": {
+     "r": 3,
+     "c": 1,
+     "s_in_strip_cm": 1.34,
+     "s_from_outer_end_cm": 66.32,
+     "s_cm_tile_outer_edge": 65.31
+    },
+    "r3_c2": {
+     "r": 3,
+     "c": 2,
+     "s_in_strip_cm": 3.38,
+     "s_from_outer_end_cm": 68.37,
+     "s_cm_tile_outer_edge": 67.35
+    },
+    "r3_c3": {
+     "r": 3,
+     "c": 3,
+     "s_in_strip_cm": 5.41,
+     "s_from_outer_end_cm": 70.4,
+     "s_cm_tile_outer_edge": 69.38
+    },
+    "r3_c4": {
+     "r": 3,
+     "c": 4,
+     "s_in_strip_cm": 7.46,
+     "s_from_outer_end_cm": 72.45,
+     "s_cm_tile_outer_edge": 71.42
+    },
+    "r3_c5": {
+     "r": 3,
+     "c": 5,
+     "s_in_strip_cm": 9.52,
+     "s_from_outer_end_cm": 74.51,
+     "s_cm_tile_outer_edge": 73.48
+    },
+    "r3_c6": {
+     "r": 3,
+     "c": 6,
+     "s_in_strip_cm": 11.61,
+     "s_from_outer_end_cm": 76.59,
+     "s_cm_tile_outer_edge": 75.55
+    },
+    "r3_c7": {
+     "r": 3,
+     "c": 7,
+     "s_in_strip_cm": 13.53,
+     "s_from_outer_end_cm": 78.52,
+     "s_cm_tile_outer_edge": 77.59
+    },
+    "r3_c8": {
+     "r": 3,
+     "c": 8,
+     "s_in_strip_cm": 15.52,
+     "s_from_outer_end_cm": 80.5,
+     "s_cm_tile_outer_edge": 79.5
+    },
+    "r3_c9": {
+     "r": 3,
+     "c": 9,
+     "s_in_strip_cm": 17.52,
+     "s_from_outer_end_cm": 82.5,
+     "s_cm_tile_outer_edge": 81.51
+    },
+    "r3_c10": {
+     "r": 3,
+     "c": 10,
+     "s_in_strip_cm": 19.51,
+     "s_from_outer_end_cm": 84.49,
+     "s_cm_tile_outer_edge": 83.5
+    },
+    "r3_c11": {
+     "r": 3,
+     "c": 11,
+     "s_in_strip_cm": 21.54,
+     "s_from_outer_end_cm": 86.52,
+     "s_cm_tile_outer_edge": 85.5
+    },
+    "r3_c12": {
+     "r": 3,
+     "c": 12,
+     "s_in_strip_cm": 23.6,
+     "s_from_outer_end_cm": 88.58,
+     "s_cm_tile_outer_edge": 87.55
+    },
+    "r3_c13": {
+     "r": 3,
+     "c": 13,
+     "s_in_strip_cm": 25.65,
+     "s_from_outer_end_cm": 90.63,
+     "s_cm_tile_outer_edge": 89.61
+    },
+    "r3_c14": {
+     "r": 3,
+     "c": 14,
+     "s_in_strip_cm": 27.7,
+     "s_from_outer_end_cm": 92.68,
+     "s_cm_tile_outer_edge": 91.65
+    },
+    "r3_c15": {
+     "r": 3,
+     "c": 15,
+     "s_in_strip_cm": 29.72,
+     "s_from_outer_end_cm": 94.7,
+     "s_cm_tile_outer_edge": 93.7
+    },
+    "r3_c16": {
+     "r": 3,
+     "c": 16,
+     "s_in_strip_cm": 31.71,
+     "s_from_outer_end_cm": 96.7,
+     "s_cm_tile_outer_edge": 95.7
+    },
+    "r4_c0": {
+     "r": 4,
+     "c": 0,
+     "s_in_strip_cm": 0.46,
+     "s_from_outer_end_cm": 65.45,
+     "s_cm_tile_outer_edge": 64.98
+    },
+    "r4_c1": {
+     "r": 4,
+     "c": 1,
+     "s_in_strip_cm": 1.72,
+     "s_from_outer_end_cm": 66.7,
+     "s_cm_tile_outer_edge": 65.79
+    },
+    "r4_c2": {
+     "r": 4,
+     "c": 2,
+     "s_in_strip_cm": 3.66,
+     "s_from_outer_end_cm": 68.65,
+     "s_cm_tile_outer_edge": 67.66
+    },
+    "r4_c3": {
+     "r": 4,
+     "c": 3,
+     "s_in_strip_cm": 5.69,
+     "s_from_outer_end_cm": 70.68,
+     "s_cm_tile_outer_edge": 69.66
+    },
+    "r4_c4": {
+     "r": 4,
+     "c": 4,
+     "s_in_strip_cm": 7.69,
+     "s_from_outer_end_cm": 72.67,
+     "s_cm_tile_outer_edge": 71.67
+    },
+    "r4_c5": {
+     "r": 4,
+     "c": 5,
+     "s_in_strip_cm": 9.68,
+     "s_from_outer_end_cm": 74.67,
+     "s_cm_tile_outer_edge": 73.67
+    },
+    "r4_c6": {
+     "r": 4,
+     "c": 6,
+     "s_in_strip_cm": 11.7,
+     "s_from_outer_end_cm": 76.69,
+     "s_cm_tile_outer_edge": 75.69
+    },
+    "r4_c7": {
+     "r": 4,
+     "c": 7,
+     "s_in_strip_cm": 13.72,
+     "s_from_outer_end_cm": 78.71,
+     "s_cm_tile_outer_edge": 77.69
+    },
+    "r4_c8": {
+     "r": 4,
+     "c": 8,
+     "s_in_strip_cm": 15.81,
+     "s_from_outer_end_cm": 80.79,
+     "s_cm_tile_outer_edge": 79.74
+    },
+    "r4_c9": {
+     "r": 4,
+     "c": 9,
+     "s_in_strip_cm": 17.78,
+     "s_from_outer_end_cm": 82.77,
+     "s_cm_tile_outer_edge": 81.81
+    },
+    "r4_c10": {
+     "r": 4,
+     "c": 10,
+     "s_in_strip_cm": 19.79,
+     "s_from_outer_end_cm": 84.78,
+     "s_cm_tile_outer_edge": 83.75
+    },
+    "r4_c11": {
+     "r": 4,
+     "c": 11,
+     "s_in_strip_cm": 21.89,
+     "s_from_outer_end_cm": 86.87,
+     "s_cm_tile_outer_edge": 85.82
+    },
+    "r4_c12": {
+     "r": 4,
+     "c": 12,
+     "s_in_strip_cm": 23.94,
+     "s_from_outer_end_cm": 88.92,
+     "s_cm_tile_outer_edge": 87.91
+    },
+    "r4_c13": {
+     "r": 4,
+     "c": 13,
+     "s_in_strip_cm": 25.97,
+     "s_from_outer_end_cm": 90.95,
+     "s_cm_tile_outer_edge": 89.95
+    },
+    "r4_c14": {
+     "r": 4,
+     "c": 14,
+     "s_in_strip_cm": 27.98,
+     "s_from_outer_end_cm": 92.96,
+     "s_cm_tile_outer_edge": 91.97
+    },
+    "r4_c15": {
+     "r": 4,
+     "c": 15,
+     "s_in_strip_cm": 29.99,
+     "s_from_outer_end_cm": 94.97,
+     "s_cm_tile_outer_edge": 93.97
+    },
+    "r4_c16": {
+     "r": 4,
+     "c": 16,
+     "s_in_strip_cm": 32.0,
+     "s_from_outer_end_cm": 96.99,
+     "s_cm_tile_outer_edge": 95.98
+    },
+    "r5_c0": {
+     "r": 5,
+     "c": 0,
+     "s_in_strip_cm": 0.97,
+     "s_from_outer_end_cm": 65.95,
+     "s_cm_tile_outer_edge": 64.98
+    },
+    "r5_c1": {
+     "r": 5,
+     "c": 1,
+     "s_in_strip_cm": 3.45,
+     "s_from_outer_end_cm": 68.43,
+     "s_cm_tile_outer_edge": 67.35
+    },
+    "r5_c2": {
+     "r": 5,
+     "c": 2,
+     "s_in_strip_cm": 5.77,
+     "s_from_outer_end_cm": 70.76,
+     "s_cm_tile_outer_edge": 69.61
+    },
+    "r5_c3": {
+     "r": 5,
+     "c": 3,
+     "s_in_strip_cm": 7.82,
+     "s_from_outer_end_cm": 72.8,
+     "s_cm_tile_outer_edge": 71.79
+    },
+    "r5_c4": {
+     "r": 5,
+     "c": 4,
+     "s_in_strip_cm": 9.85,
+     "s_from_outer_end_cm": 74.83,
+     "s_cm_tile_outer_edge": 73.81
+    },
+    "r5_c5": {
+     "r": 5,
+     "c": 5,
+     "s_in_strip_cm": 11.86,
+     "s_from_outer_end_cm": 76.84,
+     "s_cm_tile_outer_edge": 75.85
+    },
+    "r5_c6": {
+     "r": 5,
+     "c": 6,
+     "s_in_strip_cm": 13.88,
+     "s_from_outer_end_cm": 78.87,
+     "s_cm_tile_outer_edge": 77.85
+    },
+    "r5_c7": {
+     "r": 5,
+     "c": 7,
+     "s_in_strip_cm": 15.91,
+     "s_from_outer_end_cm": 80.89,
+     "s_cm_tile_outer_edge": 79.89
+    },
+    "r5_c8": {
+     "r": 5,
+     "c": 8,
+     "s_in_strip_cm": 18.03,
+     "s_from_outer_end_cm": 83.02,
+     "s_cm_tile_outer_edge": 81.95
+    },
+    "r5_c9": {
+     "r": 5,
+     "c": 9,
+     "s_in_strip_cm": 20.57,
+     "s_from_outer_end_cm": 85.56,
+     "s_cm_tile_outer_edge": 84.21
+    },
+    "r5_c10": {
+     "r": 5,
+     "c": 10,
+     "s_in_strip_cm": 23.43,
+     "s_from_outer_end_cm": 88.41,
+     "s_cm_tile_outer_edge": 87.2
+    },
+    "r5_c11": {
+     "r": 5,
+     "c": 11,
+     "s_in_strip_cm": 25.62,
+     "s_from_outer_end_cm": 90.61,
+     "s_cm_tile_outer_edge": 89.53
+    },
+    "r5_c12": {
+     "r": 5,
+     "c": 12,
+     "s_in_strip_cm": 27.75,
+     "s_from_outer_end_cm": 92.73,
+     "s_cm_tile_outer_edge": 91.68
+    },
+    "r5_c13": {
+     "r": 5,
+     "c": 13,
+     "s_in_strip_cm": 29.77,
+     "s_from_outer_end_cm": 94.75,
+     "s_cm_tile_outer_edge": 93.77
+    },
+    "r5_c14": {
+     "r": 5,
+     "c": 14,
+     "s_in_strip_cm": 31.79,
+     "s_from_outer_end_cm": 96.77,
+     "s_cm_tile_outer_edge": 95.73
+    },
+    "r5_c15": {
+     "r": 5,
+     "c": 15,
+     "s_in_strip_cm": 33.8,
+     "s_from_outer_end_cm": 98.79,
+     "s_cm_tile_outer_edge": 97.8
+    },
+    "r5_c16": {
+     "r": 5,
+     "c": 16,
+     "s_in_strip_cm": 35.79,
+     "s_from_outer_end_cm": 100.77,
+     "s_cm_tile_outer_edge": 99.78
+    },
+    "r6_c1": {
+     "r": 6,
+     "c": 1,
+     "s_in_strip_cm": 1.41,
+     "s_from_outer_end_cm": 66.39,
+     "s_cm_tile_outer_edge": 65.62
+    },
+    "r6_c2": {
+     "r": 6,
+     "c": 2,
+     "s_in_strip_cm": 3.23,
+     "s_from_outer_end_cm": 68.21,
+     "s_cm_tile_outer_edge": 67.26
+    },
+    "r6_c3": {
+     "r": 6,
+     "c": 3,
+     "s_in_strip_cm": 5.2,
+     "s_from_outer_end_cm": 70.18,
+     "s_cm_tile_outer_edge": 69.19
+    },
+    "r6_c4": {
+     "r": 6,
+     "c": 4,
+     "s_in_strip_cm": 7.16,
+     "s_from_outer_end_cm": 72.15,
+     "s_cm_tile_outer_edge": 71.17
+    },
+    "r6_c5": {
+     "r": 6,
+     "c": 5,
+     "s_in_strip_cm": 9.11,
+     "s_from_outer_end_cm": 74.1,
+     "s_cm_tile_outer_edge": 73.12
+    },
+    "r6_c6": {
+     "r": 6,
+     "c": 6,
+     "s_in_strip_cm": 11.09,
+     "s_from_outer_end_cm": 76.07,
+     "s_cm_tile_outer_edge": 75.08
+    },
+    "r6_c7": {
+     "r": 6,
+     "c": 7,
+     "s_in_strip_cm": 13.16,
+     "s_from_outer_end_cm": 78.14,
+     "s_cm_tile_outer_edge": 77.09
+    },
+    "r6_c8": {
+     "r": 6,
+     "c": 8,
+     "s_in_strip_cm": 15.26,
+     "s_from_outer_end_cm": 80.24,
+     "s_cm_tile_outer_edge": 79.2
+    },
+    "r6_c9": {
+     "r": 6,
+     "c": 9,
+     "s_in_strip_cm": 17.18,
+     "s_from_outer_end_cm": 82.17,
+     "s_cm_tile_outer_edge": 81.26
+    },
+    "r6_c10": {
+     "r": 6,
+     "c": 10,
+     "s_in_strip_cm": 19.13,
+     "s_from_outer_end_cm": 84.11,
+     "s_cm_tile_outer_edge": 83.11
+    },
+    "r6_c11": {
+     "r": 6,
+     "c": 11,
+     "s_in_strip_cm": 21.19,
+     "s_from_outer_end_cm": 86.17,
+     "s_cm_tile_outer_edge": 85.14
+    },
+    "r6_c12": {
+     "r": 6,
+     "c": 12,
+     "s_in_strip_cm": 23.2,
+     "s_from_outer_end_cm": 88.19,
+     "s_cm_tile_outer_edge": 87.19
+    },
+    "r6_c13": {
+     "r": 6,
+     "c": 13,
+     "s_in_strip_cm": 25.21,
+     "s_from_outer_end_cm": 90.19,
+     "s_cm_tile_outer_edge": 89.19
+    },
+    "r6_c14": {
+     "r": 6,
+     "c": 14,
+     "s_in_strip_cm": 27.2,
+     "s_from_outer_end_cm": 92.19,
+     "s_cm_tile_outer_edge": 91.2
+    },
+    "r6_c15": {
+     "r": 6,
+     "c": 15,
+     "s_in_strip_cm": 29.29,
+     "s_from_outer_end_cm": 94.27,
+     "s_cm_tile_outer_edge": 93.23
+    },
+    "r6_c16": {
+     "r": 6,
+     "c": 16,
+     "s_in_strip_cm": 31.33,
+     "s_from_outer_end_cm": 96.31,
+     "s_cm_tile_outer_edge": 95.3
+    },
+    "r7_c1": {
+     "r": 7,
+     "c": 1,
+     "s_in_strip_cm": 1.1,
+     "s_from_outer_end_cm": 66.08,
+     "s_cm_tile_outer_edge": 65.08
+    },
+    "r7_c2": {
+     "r": 7,
+     "c": 2,
+     "s_in_strip_cm": 3.07,
+     "s_from_outer_end_cm": 68.05,
+     "s_cm_tile_outer_edge": 67.07
+    },
+    "r7_c3": {
+     "r": 7,
+     "c": 3,
+     "s_in_strip_cm": 5.06,
+     "s_from_outer_end_cm": 70.05,
+     "s_cm_tile_outer_edge": 69.06
+    },
+    "r7_c4": {
+     "r": 7,
+     "c": 4,
+     "s_in_strip_cm": 7.0,
+     "s_from_outer_end_cm": 71.98,
+     "s_cm_tile_outer_edge": 71.02
+    },
+    "r7_c5": {
+     "r": 7,
+     "c": 5,
+     "s_in_strip_cm": 8.97,
+     "s_from_outer_end_cm": 73.95,
+     "s_cm_tile_outer_edge": 72.96
+    },
+    "r7_c6": {
+     "r": 7,
+     "c": 6,
+     "s_in_strip_cm": 10.96,
+     "s_from_outer_end_cm": 75.94,
+     "s_cm_tile_outer_edge": 74.95
+    },
+    "r7_c7": {
+     "r": 7,
+     "c": 7,
+     "s_in_strip_cm": 12.97,
+     "s_from_outer_end_cm": 77.96,
+     "s_cm_tile_outer_edge": 76.95
+    },
+    "r7_c8": {
+     "r": 7,
+     "c": 8,
+     "s_in_strip_cm": 15.07,
+     "s_from_outer_end_cm": 80.05,
+     "s_cm_tile_outer_edge": 79.0
+    },
+    "r7_c9": {
+     "r": 7,
+     "c": 9,
+     "s_in_strip_cm": 17.02,
+     "s_from_outer_end_cm": 82.01,
+     "s_cm_tile_outer_edge": 81.02
+    },
+    "r7_c10": {
+     "r": 7,
+     "c": 10,
+     "s_in_strip_cm": 19.05,
+     "s_from_outer_end_cm": 84.04,
+     "s_cm_tile_outer_edge": 83.03
+    },
+    "r7_c11": {
+     "r": 7,
+     "c": 11,
+     "s_in_strip_cm": 21.07,
+     "s_from_outer_end_cm": 86.06,
+     "s_cm_tile_outer_edge": 85.05
+    },
+    "r7_c12": {
+     "r": 7,
+     "c": 12,
+     "s_in_strip_cm": 23.06,
+     "s_from_outer_end_cm": 88.04,
+     "s_cm_tile_outer_edge": 87.06
+    },
+    "r7_c13": {
+     "r": 7,
+     "c": 13,
+     "s_in_strip_cm": 25.04,
+     "s_from_outer_end_cm": 90.03,
+     "s_cm_tile_outer_edge": 89.03
+    },
+    "r7_c14": {
+     "r": 7,
+     "c": 14,
+     "s_in_strip_cm": 27.03,
+     "s_from_outer_end_cm": 92.01,
+     "s_cm_tile_outer_edge": 91.02
+    },
+    "r7_c15": {
+     "r": 7,
+     "c": 15,
+     "s_in_strip_cm": 29.04,
+     "s_from_outer_end_cm": 94.03,
+     "s_cm_tile_outer_edge": 93.02
+    },
+    "r7_c16": {
+     "r": 7,
+     "c": 16,
+     "s_in_strip_cm": 31.1,
+     "s_from_outer_end_cm": 96.08,
+     "s_cm_tile_outer_edge": 95.06
+    },
+    "r8_c1": {
+     "r": 8,
+     "c": 1,
+     "s_in_strip_cm": 1.02,
+     "s_from_outer_end_cm": 66.0,
+     "s_cm_tile_outer_edge": 65.02
+    },
+    "r8_c2": {
+     "r": 8,
+     "c": 2,
+     "s_in_strip_cm": 3.0,
+     "s_from_outer_end_cm": 67.98,
+     "s_cm_tile_outer_edge": 67.01
+    },
+    "r8_c3": {
+     "r": 8,
+     "c": 3,
+     "s_in_strip_cm": 4.98,
+     "s_from_outer_end_cm": 69.96,
+     "s_cm_tile_outer_edge": 68.96
+    },
+    "r8_c4": {
+     "r": 8,
+     "c": 4,
+     "s_in_strip_cm": 7.07,
+     "s_from_outer_end_cm": 72.05,
+     "s_cm_tile_outer_edge": 71.01
+    },
+    "r8_c5": {
+     "r": 8,
+     "c": 5,
+     "s_in_strip_cm": 9.15,
+     "s_from_outer_end_cm": 74.13,
+     "s_cm_tile_outer_edge": 73.09
+    },
+    "r8_c6": {
+     "r": 8,
+     "c": 6,
+     "s_in_strip_cm": 11.15,
+     "s_from_outer_end_cm": 76.13,
+     "s_cm_tile_outer_edge": 75.15
+    },
+    "r8_c7": {
+     "r": 8,
+     "c": 7,
+     "s_in_strip_cm": 13.14,
+     "s_from_outer_end_cm": 78.13,
+     "s_cm_tile_outer_edge": 77.14
+    },
+    "r8_c8": {
+     "r": 8,
+     "c": 8,
+     "s_in_strip_cm": 15.17,
+     "s_from_outer_end_cm": 80.15,
+     "s_cm_tile_outer_edge": 79.15
+    },
+    "r8_c9": {
+     "r": 8,
+     "c": 9,
+     "s_in_strip_cm": 17.2,
+     "s_from_outer_end_cm": 82.18,
+     "s_cm_tile_outer_edge": 81.19
+    },
+    "r8_c10": {
+     "r": 8,
+     "c": 10,
+     "s_in_strip_cm": 19.23,
+     "s_from_outer_end_cm": 84.22,
+     "s_cm_tile_outer_edge": 83.22
+    },
+    "r8_c11": {
+     "r": 8,
+     "c": 11,
+     "s_in_strip_cm": 21.31,
+     "s_from_outer_end_cm": 86.29,
+     "s_cm_tile_outer_edge": 85.23
+    },
+    "r8_c12": {
+     "r": 8,
+     "c": 12,
+     "s_in_strip_cm": 23.35,
+     "s_from_outer_end_cm": 88.33,
+     "s_cm_tile_outer_edge": 87.32
+    },
+    "r8_c13": {
+     "r": 8,
+     "c": 13,
+     "s_in_strip_cm": 25.34,
+     "s_from_outer_end_cm": 90.33,
+     "s_cm_tile_outer_edge": 89.31
+    },
+    "r8_c14": {
+     "r": 8,
+     "c": 14,
+     "s_in_strip_cm": 27.37,
+     "s_from_outer_end_cm": 92.36,
+     "s_cm_tile_outer_edge": 91.34
+    },
+    "r8_c15": {
+     "r": 8,
+     "c": 15,
+     "s_in_strip_cm": 29.39,
+     "s_from_outer_end_cm": 94.37,
+     "s_cm_tile_outer_edge": 93.35
+    },
+    "r8_c16": {
+     "r": 8,
+     "c": 16,
+     "s_in_strip_cm": 31.24,
+     "s_from_outer_end_cm": 96.23,
+     "s_cm_tile_outer_edge": 95.34
+    },
+    "r9_c1": {
+     "r": 9,
+     "c": 1,
+     "s_in_strip_cm": 1.23,
+     "s_from_outer_end_cm": 66.21,
+     "s_cm_tile_outer_edge": 65.22
+    },
+    "r9_c2": {
+     "r": 9,
+     "c": 2,
+     "s_in_strip_cm": 3.19,
+     "s_from_outer_end_cm": 68.17,
+     "s_cm_tile_outer_edge": 67.2
+    },
+    "r9_c3": {
+     "r": 9,
+     "c": 3,
+     "s_in_strip_cm": 5.18,
+     "s_from_outer_end_cm": 70.17,
+     "s_cm_tile_outer_edge": 69.18
+    },
+    "r9_c4": {
+     "r": 9,
+     "c": 4,
+     "s_in_strip_cm": 7.25,
+     "s_from_outer_end_cm": 72.23,
+     "s_cm_tile_outer_edge": 71.18
+    },
+    "r9_c5": {
+     "r": 9,
+     "c": 5,
+     "s_in_strip_cm": 9.38,
+     "s_from_outer_end_cm": 74.36,
+     "s_cm_tile_outer_edge": 73.3
+    },
+    "r9_c6": {
+     "r": 9,
+     "c": 6,
+     "s_in_strip_cm": 11.52,
+     "s_from_outer_end_cm": 76.51,
+     "s_cm_tile_outer_edge": 75.44
+    },
+    "r9_c7": {
+     "r": 9,
+     "c": 7,
+     "s_in_strip_cm": 13.62,
+     "s_from_outer_end_cm": 78.61,
+     "s_cm_tile_outer_edge": 77.57
+    },
+    "r9_c8": {
+     "r": 9,
+     "c": 8,
+     "s_in_strip_cm": 15.74,
+     "s_from_outer_end_cm": 80.73,
+     "s_cm_tile_outer_edge": 79.69
+    },
+    "r9_c9": {
+     "r": 9,
+     "c": 9,
+     "s_in_strip_cm": 17.69,
+     "s_from_outer_end_cm": 82.67,
+     "s_cm_tile_outer_edge": 81.7
+    },
+    "r9_c10": {
+     "r": 9,
+     "c": 10,
+     "s_in_strip_cm": 19.65,
+     "s_from_outer_end_cm": 84.64,
+     "s_cm_tile_outer_edge": 83.64
+    },
+    "r9_c11": {
+     "r": 9,
+     "c": 11,
+     "s_in_strip_cm": 21.61,
+     "s_from_outer_end_cm": 86.59,
+     "s_cm_tile_outer_edge": 85.62
+    },
+    "r9_c12": {
+     "r": 9,
+     "c": 12,
+     "s_in_strip_cm": 23.64,
+     "s_from_outer_end_cm": 88.62,
+     "s_cm_tile_outer_edge": 87.59
+    },
+    "r9_c13": {
+     "r": 9,
+     "c": 13,
+     "s_in_strip_cm": 25.71,
+     "s_from_outer_end_cm": 90.69,
+     "s_cm_tile_outer_edge": 89.65
+    },
+    "r9_c14": {
+     "r": 9,
+     "c": 14,
+     "s_in_strip_cm": 27.8,
+     "s_from_outer_end_cm": 92.79,
+     "s_cm_tile_outer_edge": 91.74
+    },
+    "r9_c15": {
+     "r": 9,
+     "c": 15,
+     "s_in_strip_cm": 29.84,
+     "s_from_outer_end_cm": 94.82,
+     "s_cm_tile_outer_edge": 93.81
+    },
+    "r9_c16": {
+     "r": 9,
+     "c": 16,
+     "s_in_strip_cm": 31.86,
+     "s_from_outer_end_cm": 96.84,
+     "s_cm_tile_outer_edge": 95.83
+    }
+   }
+  },
+  "w122-123": {
+   "segment": "20260701183148-w122-123",
+   "grid_shape": [
+    3952,
+    6868
+   ],
+   "median_row_length_cm": 31.84,
+   "row_length_cm_p10_p90": [
+    15.93,
+    33.09
+   ],
+   "offset_from_outer_end_cm": 97.23,
+   "tiles": {
+    "r0_c5": {
+     "r": 0,
+     "c": 5,
+     "s_in_strip_cm": 1.67,
+     "s_from_outer_end_cm": 98.9,
+     "s_cm_tile_outer_edge": 97.77
+    },
+    "r0_c6": {
+     "r": 0,
+     "c": 6,
+     "s_in_strip_cm": 4.25,
+     "s_from_outer_end_cm": 101.48,
+     "s_cm_tile_outer_edge": 99.81
+    },
+    "r0_c13": {
+     "r": 0,
+     "c": 13,
+     "s_in_strip_cm": 11.0,
+     "s_from_outer_end_cm": 108.23,
+     "s_cm_tile_outer_edge": 106.35
+    },
+    "r0_c14": {
+     "r": 0,
+     "c": 14,
+     "s_in_strip_cm": 12.91,
+     "s_from_outer_end_cm": 110.14,
+     "s_cm_tile_outer_edge": 108.87
+    },
+    "r1_c0": {
+     "r": 1,
+     "c": 0,
+     "s_in_strip_cm": 0.3,
+     "s_from_outer_end_cm": 97.53,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r1_c1": {
+     "r": 1,
+     "c": 1,
+     "s_in_strip_cm": 2.34,
+     "s_from_outer_end_cm": 99.57,
+     "s_cm_tile_outer_edge": 98.55
+    },
+    "r1_c2": {
+     "r": 1,
+     "c": 2,
+     "s_in_strip_cm": 4.31,
+     "s_from_outer_end_cm": 101.54,
+     "s_cm_tile_outer_edge": 100.56
+    },
+    "r1_c3": {
+     "r": 1,
+     "c": 3,
+     "s_in_strip_cm": 6.23,
+     "s_from_outer_end_cm": 103.46,
+     "s_cm_tile_outer_edge": 102.47
+    },
+    "r1_c4": {
+     "r": 1,
+     "c": 4,
+     "s_in_strip_cm": 8.27,
+     "s_from_outer_end_cm": 105.5,
+     "s_cm_tile_outer_edge": 104.47
+    },
+    "r1_c5": {
+     "r": 1,
+     "c": 5,
+     "s_in_strip_cm": 10.35,
+     "s_from_outer_end_cm": 107.58,
+     "s_cm_tile_outer_edge": 106.53
+    },
+    "r1_c6": {
+     "r": 1,
+     "c": 6,
+     "s_in_strip_cm": 12.49,
+     "s_from_outer_end_cm": 109.72,
+     "s_cm_tile_outer_edge": 108.62
+    },
+    "r1_c7": {
+     "r": 1,
+     "c": 7,
+     "s_in_strip_cm": 14.41,
+     "s_from_outer_end_cm": 111.64,
+     "s_cm_tile_outer_edge": 110.65
+    },
+    "r1_c8": {
+     "r": 1,
+     "c": 8,
+     "s_in_strip_cm": 16.46,
+     "s_from_outer_end_cm": 113.69,
+     "s_cm_tile_outer_edge": 112.65
+    },
+    "r1_c9": {
+     "r": 1,
+     "c": 9,
+     "s_in_strip_cm": 18.49,
+     "s_from_outer_end_cm": 115.72,
+     "s_cm_tile_outer_edge": 114.73
+    },
+    "r1_c10": {
+     "r": 1,
+     "c": 10,
+     "s_in_strip_cm": 20.47,
+     "s_from_outer_end_cm": 117.7,
+     "s_cm_tile_outer_edge": 116.7
+    },
+    "r1_c11": {
+     "r": 1,
+     "c": 11,
+     "s_in_strip_cm": 22.46,
+     "s_from_outer_end_cm": 119.69,
+     "s_cm_tile_outer_edge": 118.69
+    },
+    "r1_c12": {
+     "r": 1,
+     "c": 12,
+     "s_in_strip_cm": 24.53,
+     "s_from_outer_end_cm": 121.76,
+     "s_cm_tile_outer_edge": 120.72
+    },
+    "r1_c13": {
+     "r": 1,
+     "c": 13,
+     "s_in_strip_cm": 26.6,
+     "s_from_outer_end_cm": 123.83,
+     "s_cm_tile_outer_edge": 122.81
+    },
+    "r1_c14": {
+     "r": 1,
+     "c": 14,
+     "s_in_strip_cm": 28.56,
+     "s_from_outer_end_cm": 125.79,
+     "s_cm_tile_outer_edge": 124.82
+    },
+    "r1_c15": {
+     "r": 1,
+     "c": 15,
+     "s_in_strip_cm": 30.51,
+     "s_from_outer_end_cm": 127.74,
+     "s_cm_tile_outer_edge": 126.76
+    },
+    "r2_c0": {
+     "r": 2,
+     "c": 0,
+     "s_in_strip_cm": 0.47,
+     "s_from_outer_end_cm": 97.7,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r2_c1": {
+     "r": 2,
+     "c": 1,
+     "s_in_strip_cm": 2.5,
+     "s_from_outer_end_cm": 99.73,
+     "s_cm_tile_outer_edge": 98.72
+    },
+    "r2_c2": {
+     "r": 2,
+     "c": 2,
+     "s_in_strip_cm": 4.5,
+     "s_from_outer_end_cm": 101.73,
+     "s_cm_tile_outer_edge": 100.73
+    },
+    "r2_c3": {
+     "r": 2,
+     "c": 3,
+     "s_in_strip_cm": 6.55,
+     "s_from_outer_end_cm": 103.78,
+     "s_cm_tile_outer_edge": 102.75
+    },
+    "r2_c4": {
+     "r": 2,
+     "c": 4,
+     "s_in_strip_cm": 8.6,
+     "s_from_outer_end_cm": 105.83,
+     "s_cm_tile_outer_edge": 104.81
+    },
+    "r2_c5": {
+     "r": 2,
+     "c": 5,
+     "s_in_strip_cm": 10.63,
+     "s_from_outer_end_cm": 107.86,
+     "s_cm_tile_outer_edge": 106.84
+    },
+    "r2_c6": {
+     "r": 2,
+     "c": 6,
+     "s_in_strip_cm": 12.7,
+     "s_from_outer_end_cm": 109.93,
+     "s_cm_tile_outer_edge": 108.9
+    },
+    "r2_c7": {
+     "r": 2,
+     "c": 7,
+     "s_in_strip_cm": 14.72,
+     "s_from_outer_end_cm": 111.95,
+     "s_cm_tile_outer_edge": 110.94
+    },
+    "r2_c8": {
+     "r": 2,
+     "c": 8,
+     "s_in_strip_cm": 16.72,
+     "s_from_outer_end_cm": 113.95,
+     "s_cm_tile_outer_edge": 112.94
+    },
+    "r2_c9": {
+     "r": 2,
+     "c": 9,
+     "s_in_strip_cm": 18.71,
+     "s_from_outer_end_cm": 115.94,
+     "s_cm_tile_outer_edge": 114.95
+    },
+    "r2_c10": {
+     "r": 2,
+     "c": 10,
+     "s_in_strip_cm": 20.71,
+     "s_from_outer_end_cm": 117.94,
+     "s_cm_tile_outer_edge": 116.94
+    },
+    "r2_c11": {
+     "r": 2,
+     "c": 11,
+     "s_in_strip_cm": 22.75,
+     "s_from_outer_end_cm": 119.98,
+     "s_cm_tile_outer_edge": 118.97
+    },
+    "r2_c12": {
+     "r": 2,
+     "c": 12,
+     "s_in_strip_cm": 24.77,
+     "s_from_outer_end_cm": 122.0,
+     "s_cm_tile_outer_edge": 120.99
+    },
+    "r2_c13": {
+     "r": 2,
+     "c": 13,
+     "s_in_strip_cm": 26.8,
+     "s_from_outer_end_cm": 124.03,
+     "s_cm_tile_outer_edge": 123.01
+    },
+    "r2_c14": {
+     "r": 2,
+     "c": 14,
+     "s_in_strip_cm": 28.88,
+     "s_from_outer_end_cm": 126.11,
+     "s_cm_tile_outer_edge": 125.07
+    },
+    "r2_c15": {
+     "r": 2,
+     "c": 15,
+     "s_in_strip_cm": 30.89,
+     "s_from_outer_end_cm": 128.12,
+     "s_cm_tile_outer_edge": 127.12
+    },
+    "r3_c0": {
+     "r": 3,
+     "c": 0,
+     "s_in_strip_cm": 0.87,
+     "s_from_outer_end_cm": 98.1,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r3_c1": {
+     "r": 3,
+     "c": 1,
+     "s_in_strip_cm": 2.87,
+     "s_from_outer_end_cm": 100.1,
+     "s_cm_tile_outer_edge": 99.1
+    },
+    "r3_c2": {
+     "r": 3,
+     "c": 2,
+     "s_in_strip_cm": 4.9,
+     "s_from_outer_end_cm": 102.13,
+     "s_cm_tile_outer_edge": 101.11
+    },
+    "r3_c3": {
+     "r": 3,
+     "c": 3,
+     "s_in_strip_cm": 6.93,
+     "s_from_outer_end_cm": 104.16,
+     "s_cm_tile_outer_edge": 103.16
+    },
+    "r3_c4": {
+     "r": 3,
+     "c": 4,
+     "s_in_strip_cm": 8.93,
+     "s_from_outer_end_cm": 106.16,
+     "s_cm_tile_outer_edge": 105.17
+    },
+    "r3_c5": {
+     "r": 3,
+     "c": 5,
+     "s_in_strip_cm": 10.93,
+     "s_from_outer_end_cm": 108.16,
+     "s_cm_tile_outer_edge": 107.16
+    },
+    "r3_c6": {
+     "r": 3,
+     "c": 6,
+     "s_in_strip_cm": 12.96,
+     "s_from_outer_end_cm": 110.19,
+     "s_cm_tile_outer_edge": 109.17
+    },
+    "r3_c7": {
+     "r": 3,
+     "c": 7,
+     "s_in_strip_cm": 15.01,
+     "s_from_outer_end_cm": 112.24,
+     "s_cm_tile_outer_edge": 111.21
+    },
+    "r3_c8": {
+     "r": 3,
+     "c": 8,
+     "s_in_strip_cm": 17.08,
+     "s_from_outer_end_cm": 114.31,
+     "s_cm_tile_outer_edge": 113.28
+    },
+    "r3_c9": {
+     "r": 3,
+     "c": 9,
+     "s_in_strip_cm": 19.1,
+     "s_from_outer_end_cm": 116.33,
+     "s_cm_tile_outer_edge": 115.32
+    },
+    "r3_c10": {
+     "r": 3,
+     "c": 10,
+     "s_in_strip_cm": 21.15,
+     "s_from_outer_end_cm": 118.38,
+     "s_cm_tile_outer_edge": 117.35
+    },
+    "r3_c11": {
+     "r": 3,
+     "c": 11,
+     "s_in_strip_cm": 23.19,
+     "s_from_outer_end_cm": 120.42,
+     "s_cm_tile_outer_edge": 119.41
+    },
+    "r3_c12": {
+     "r": 3,
+     "c": 12,
+     "s_in_strip_cm": 25.19,
+     "s_from_outer_end_cm": 122.42,
+     "s_cm_tile_outer_edge": 121.43
+    },
+    "r3_c13": {
+     "r": 3,
+     "c": 13,
+     "s_in_strip_cm": 27.19,
+     "s_from_outer_end_cm": 124.42,
+     "s_cm_tile_outer_edge": 123.42
+    },
+    "r3_c14": {
+     "r": 3,
+     "c": 14,
+     "s_in_strip_cm": 29.19,
+     "s_from_outer_end_cm": 126.42,
+     "s_cm_tile_outer_edge": 125.42
+    },
+    "r3_c15": {
+     "r": 3,
+     "c": 15,
+     "s_in_strip_cm": 31.18,
+     "s_from_outer_end_cm": 128.41,
+     "s_cm_tile_outer_edge": 127.42
+    },
+    "r4_c0": {
+     "r": 4,
+     "c": 0,
+     "s_in_strip_cm": 0.75,
+     "s_from_outer_end_cm": 97.98,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r4_c1": {
+     "r": 4,
+     "c": 1,
+     "s_in_strip_cm": 2.64,
+     "s_from_outer_end_cm": 99.87,
+     "s_cm_tile_outer_edge": 98.88
+    },
+    "r4_c2": {
+     "r": 4,
+     "c": 2,
+     "s_in_strip_cm": 4.67,
+     "s_from_outer_end_cm": 101.9,
+     "s_cm_tile_outer_edge": 100.89
+    },
+    "r4_c3": {
+     "r": 4,
+     "c": 3,
+     "s_in_strip_cm": 6.76,
+     "s_from_outer_end_cm": 103.99,
+     "s_cm_tile_outer_edge": 102.93
+    },
+    "r4_c4": {
+     "r": 4,
+     "c": 4,
+     "s_in_strip_cm": 8.78,
+     "s_from_outer_end_cm": 106.01,
+     "s_cm_tile_outer_edge": 104.99
+    },
+    "r4_c5": {
+     "r": 4,
+     "c": 5,
+     "s_in_strip_cm": 10.77,
+     "s_from_outer_end_cm": 108.0,
+     "s_cm_tile_outer_edge": 107.02
+    },
+    "r4_c6": {
+     "r": 4,
+     "c": 6,
+     "s_in_strip_cm": 12.75,
+     "s_from_outer_end_cm": 109.98,
+     "s_cm_tile_outer_edge": 109.0
+    },
+    "r4_c7": {
+     "r": 4,
+     "c": 7,
+     "s_in_strip_cm": 14.74,
+     "s_from_outer_end_cm": 111.97,
+     "s_cm_tile_outer_edge": 110.98
+    },
+    "r4_c8": {
+     "r": 4,
+     "c": 8,
+     "s_in_strip_cm": 16.79,
+     "s_from_outer_end_cm": 114.02,
+     "s_cm_tile_outer_edge": 113.0
+    },
+    "r4_c9": {
+     "r": 4,
+     "c": 9,
+     "s_in_strip_cm": 18.83,
+     "s_from_outer_end_cm": 116.06,
+     "s_cm_tile_outer_edge": 115.04
+    },
+    "r4_c10": {
+     "r": 4,
+     "c": 10,
+     "s_in_strip_cm": 20.91,
+     "s_from_outer_end_cm": 118.14,
+     "s_cm_tile_outer_edge": 117.1
+    },
+    "r4_c11": {
+     "r": 4,
+     "c": 11,
+     "s_in_strip_cm": 23.0,
+     "s_from_outer_end_cm": 120.23,
+     "s_cm_tile_outer_edge": 119.2
+    },
+    "r4_c12": {
+     "r": 4,
+     "c": 12,
+     "s_in_strip_cm": 25.0,
+     "s_from_outer_end_cm": 122.23,
+     "s_cm_tile_outer_edge": 121.23
+    },
+    "r4_c13": {
+     "r": 4,
+     "c": 13,
+     "s_in_strip_cm": 27.0,
+     "s_from_outer_end_cm": 124.23,
+     "s_cm_tile_outer_edge": 123.24
+    },
+    "r4_c14": {
+     "r": 4,
+     "c": 14,
+     "s_in_strip_cm": 28.97,
+     "s_from_outer_end_cm": 126.2,
+     "s_cm_tile_outer_edge": 125.21
+    },
+    "r4_c15": {
+     "r": 4,
+     "c": 15,
+     "s_in_strip_cm": 30.95,
+     "s_from_outer_end_cm": 128.18,
+     "s_cm_tile_outer_edge": 127.19
+    },
+    "r5_c0": {
+     "r": 5,
+     "c": 0,
+     "s_in_strip_cm": 0.68,
+     "s_from_outer_end_cm": 97.91,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r5_c1": {
+     "r": 5,
+     "c": 1,
+     "s_in_strip_cm": 2.6,
+     "s_from_outer_end_cm": 99.83,
+     "s_cm_tile_outer_edge": 98.86
+    },
+    "r5_c2": {
+     "r": 5,
+     "c": 2,
+     "s_in_strip_cm": 4.56,
+     "s_from_outer_end_cm": 101.79,
+     "s_cm_tile_outer_edge": 100.81
+    },
+    "r5_c3": {
+     "r": 5,
+     "c": 3,
+     "s_in_strip_cm": 6.54,
+     "s_from_outer_end_cm": 103.77,
+     "s_cm_tile_outer_edge": 102.78
+    },
+    "r5_c4": {
+     "r": 5,
+     "c": 4,
+     "s_in_strip_cm": 8.49,
+     "s_from_outer_end_cm": 105.72,
+     "s_cm_tile_outer_edge": 104.74
+    },
+    "r5_c5": {
+     "r": 5,
+     "c": 5,
+     "s_in_strip_cm": 10.51,
+     "s_from_outer_end_cm": 107.74,
+     "s_cm_tile_outer_edge": 106.73
+    },
+    "r5_c6": {
+     "r": 5,
+     "c": 6,
+     "s_in_strip_cm": 12.58,
+     "s_from_outer_end_cm": 109.81,
+     "s_cm_tile_outer_edge": 108.76
+    },
+    "r5_c7": {
+     "r": 5,
+     "c": 7,
+     "s_in_strip_cm": 14.67,
+     "s_from_outer_end_cm": 111.9,
+     "s_cm_tile_outer_edge": 110.86
+    },
+    "r5_c8": {
+     "r": 5,
+     "c": 8,
+     "s_in_strip_cm": 16.75,
+     "s_from_outer_end_cm": 113.98,
+     "s_cm_tile_outer_edge": 112.95
+    },
+    "r5_c9": {
+     "r": 5,
+     "c": 9,
+     "s_in_strip_cm": 18.78,
+     "s_from_outer_end_cm": 116.01,
+     "s_cm_tile_outer_edge": 114.99
+    },
+    "r5_c10": {
+     "r": 5,
+     "c": 10,
+     "s_in_strip_cm": 20.8,
+     "s_from_outer_end_cm": 118.03,
+     "s_cm_tile_outer_edge": 117.02
+    },
+    "r5_c11": {
+     "r": 5,
+     "c": 11,
+     "s_in_strip_cm": 22.81,
+     "s_from_outer_end_cm": 120.04,
+     "s_cm_tile_outer_edge": 119.04
+    },
+    "r5_c12": {
+     "r": 5,
+     "c": 12,
+     "s_in_strip_cm": 24.79,
+     "s_from_outer_end_cm": 122.02,
+     "s_cm_tile_outer_edge": 121.02
+    },
+    "r5_c13": {
+     "r": 5,
+     "c": 13,
+     "s_in_strip_cm": 26.79,
+     "s_from_outer_end_cm": 124.02,
+     "s_cm_tile_outer_edge": 123.03
+    },
+    "r5_c14": {
+     "r": 5,
+     "c": 14,
+     "s_in_strip_cm": 28.83,
+     "s_from_outer_end_cm": 126.06,
+     "s_cm_tile_outer_edge": 125.04
+    },
+    "r5_c15": {
+     "r": 5,
+     "c": 15,
+     "s_in_strip_cm": 30.87,
+     "s_from_outer_end_cm": 128.1,
+     "s_cm_tile_outer_edge": 127.09
+    },
+    "r6_c0": {
+     "r": 6,
+     "c": 0,
+     "s_in_strip_cm": 0.59,
+     "s_from_outer_end_cm": 97.82,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r6_c1": {
+     "r": 6,
+     "c": 1,
+     "s_in_strip_cm": 2.55,
+     "s_from_outer_end_cm": 99.78,
+     "s_cm_tile_outer_edge": 98.8
+    },
+    "r6_c2": {
+     "r": 6,
+     "c": 2,
+     "s_in_strip_cm": 4.54,
+     "s_from_outer_end_cm": 101.77,
+     "s_cm_tile_outer_edge": 100.77
+    },
+    "r6_c3": {
+     "r": 6,
+     "c": 3,
+     "s_in_strip_cm": 6.5,
+     "s_from_outer_end_cm": 103.73,
+     "s_cm_tile_outer_edge": 102.76
+    },
+    "r6_c4": {
+     "r": 6,
+     "c": 4,
+     "s_in_strip_cm": 8.48,
+     "s_from_outer_end_cm": 105.71,
+     "s_cm_tile_outer_edge": 104.72
+    },
+    "r6_c5": {
+     "r": 6,
+     "c": 5,
+     "s_in_strip_cm": 10.47,
+     "s_from_outer_end_cm": 107.7,
+     "s_cm_tile_outer_edge": 106.71
+    },
+    "r6_c6": {
+     "r": 6,
+     "c": 6,
+     "s_in_strip_cm": 12.51,
+     "s_from_outer_end_cm": 109.74,
+     "s_cm_tile_outer_edge": 108.72
+    },
+    "r6_c7": {
+     "r": 6,
+     "c": 7,
+     "s_in_strip_cm": 14.61,
+     "s_from_outer_end_cm": 111.84,
+     "s_cm_tile_outer_edge": 110.78
+    },
+    "r6_c8": {
+     "r": 6,
+     "c": 8,
+     "s_in_strip_cm": 16.68,
+     "s_from_outer_end_cm": 113.91,
+     "s_cm_tile_outer_edge": 112.87
+    },
+    "r6_c9": {
+     "r": 6,
+     "c": 9,
+     "s_in_strip_cm": 18.74,
+     "s_from_outer_end_cm": 115.97,
+     "s_cm_tile_outer_edge": 114.93
+    },
+    "r6_c10": {
+     "r": 6,
+     "c": 10,
+     "s_in_strip_cm": 20.8,
+     "s_from_outer_end_cm": 118.03,
+     "s_cm_tile_outer_edge": 117.01
+    },
+    "r6_c11": {
+     "r": 6,
+     "c": 11,
+     "s_in_strip_cm": 22.82,
+     "s_from_outer_end_cm": 120.05,
+     "s_cm_tile_outer_edge": 119.05
+    },
+    "r6_c12": {
+     "r": 6,
+     "c": 12,
+     "s_in_strip_cm": 24.8,
+     "s_from_outer_end_cm": 122.03,
+     "s_cm_tile_outer_edge": 121.04
+    },
+    "r6_c13": {
+     "r": 6,
+     "c": 13,
+     "s_in_strip_cm": 26.77,
+     "s_from_outer_end_cm": 124.0,
+     "s_cm_tile_outer_edge": 123.02
+    },
+    "r6_c14": {
+     "r": 6,
+     "c": 14,
+     "s_in_strip_cm": 28.78,
+     "s_from_outer_end_cm": 126.01,
+     "s_cm_tile_outer_edge": 125.0
+    },
+    "r6_c15": {
+     "r": 6,
+     "c": 15,
+     "s_in_strip_cm": 30.81,
+     "s_from_outer_end_cm": 128.04,
+     "s_cm_tile_outer_edge": 127.03
+    },
+    "r7_c0": {
+     "r": 7,
+     "c": 0,
+     "s_in_strip_cm": 0.54,
+     "s_from_outer_end_cm": 97.77,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r7_c1": {
+     "r": 7,
+     "c": 1,
+     "s_in_strip_cm": 2.54,
+     "s_from_outer_end_cm": 99.77,
+     "s_cm_tile_outer_edge": 98.77
+    },
+    "r7_c2": {
+     "r": 7,
+     "c": 2,
+     "s_in_strip_cm": 4.51,
+     "s_from_outer_end_cm": 101.74,
+     "s_cm_tile_outer_edge": 100.77
+    },
+    "r7_c3": {
+     "r": 7,
+     "c": 3,
+     "s_in_strip_cm": 6.54,
+     "s_from_outer_end_cm": 103.77,
+     "s_cm_tile_outer_edge": 102.74
+    },
+    "r7_c4": {
+     "r": 7,
+     "c": 4,
+     "s_in_strip_cm": 8.55,
+     "s_from_outer_end_cm": 105.78,
+     "s_cm_tile_outer_edge": 104.79
+    },
+    "r7_c5": {
+     "r": 7,
+     "c": 5,
+     "s_in_strip_cm": 10.55,
+     "s_from_outer_end_cm": 107.78,
+     "s_cm_tile_outer_edge": 106.77
+    },
+    "r7_c6": {
+     "r": 7,
+     "c": 6,
+     "s_in_strip_cm": 12.54,
+     "s_from_outer_end_cm": 109.77,
+     "s_cm_tile_outer_edge": 108.77
+    },
+    "r7_c7": {
+     "r": 7,
+     "c": 7,
+     "s_in_strip_cm": 14.69,
+     "s_from_outer_end_cm": 111.92,
+     "s_cm_tile_outer_edge": 110.82
+    },
+    "r7_c8": {
+     "r": 7,
+     "c": 8,
+     "s_in_strip_cm": 16.99,
+     "s_from_outer_end_cm": 114.22,
+     "s_cm_tile_outer_edge": 113.1
+    },
+    "r7_c9": {
+     "r": 7,
+     "c": 9,
+     "s_in_strip_cm": 19.12,
+     "s_from_outer_end_cm": 116.35,
+     "s_cm_tile_outer_edge": 115.29
+    },
+    "r7_c10": {
+     "r": 7,
+     "c": 10,
+     "s_in_strip_cm": 21.16,
+     "s_from_outer_end_cm": 118.39,
+     "s_cm_tile_outer_edge": 117.39
+    },
+    "r7_c11": {
+     "r": 7,
+     "c": 11,
+     "s_in_strip_cm": 23.21,
+     "s_from_outer_end_cm": 120.44,
+     "s_cm_tile_outer_edge": 119.41
+    },
+    "r7_c12": {
+     "r": 7,
+     "c": 12,
+     "s_in_strip_cm": 25.22,
+     "s_from_outer_end_cm": 122.45,
+     "s_cm_tile_outer_edge": 121.46
+    },
+    "r7_c13": {
+     "r": 7,
+     "c": 13,
+     "s_in_strip_cm": 27.17,
+     "s_from_outer_end_cm": 124.4,
+     "s_cm_tile_outer_edge": 123.42
+    },
+    "r7_c14": {
+     "r": 7,
+     "c": 14,
+     "s_in_strip_cm": 29.08,
+     "s_from_outer_end_cm": 126.31,
+     "s_cm_tile_outer_edge": 125.36
+    },
+    "r7_c15": {
+     "r": 7,
+     "c": 15,
+     "s_in_strip_cm": 30.99,
+     "s_from_outer_end_cm": 128.22,
+     "s_cm_tile_outer_edge": 127.21
+    },
+    "r8_c0": {
+     "r": 8,
+     "c": 0,
+     "s_in_strip_cm": 0.74,
+     "s_from_outer_end_cm": 97.97,
+     "s_cm_tile_outer_edge": 97.23
+    },
+    "r8_c1": {
+     "r": 8,
+     "c": 1,
+     "s_in_strip_cm": 2.77,
+     "s_from_outer_end_cm": 100.0,
+     "s_cm_tile_outer_edge": 98.98
+    },
+    "r8_c2": {
+     "r": 8,
+     "c": 2,
+     "s_in_strip_cm": 4.81,
+     "s_from_outer_end_cm": 102.04,
+     "s_cm_tile_outer_edge": 101.03
+    },
+    "r8_c3": {
+     "r": 8,
+     "c": 3,
+     "s_in_strip_cm": 6.79,
+     "s_from_outer_end_cm": 104.02,
+     "s_cm_tile_outer_edge": 103.03
+    },
+    "r8_c4": {
+     "r": 8,
+     "c": 4,
+     "s_in_strip_cm": 8.87,
+     "s_from_outer_end_cm": 106.1,
+     "s_cm_tile_outer_edge": 105.05
+    },
+    "r8_c5": {
+     "r": 8,
+     "c": 5,
+     "s_in_strip_cm": 11.0,
+     "s_from_outer_end_cm": 108.23,
+     "s_cm_tile_outer_edge": 107.16
+    },
+    "r8_c6": {
+     "r": 8,
+     "c": 6,
+     "s_in_strip_cm": 13.07,
+     "s_from_outer_end_cm": 110.3,
+     "s_cm_tile_outer_edge": 109.29
+    },
+    "r8_c7": {
+     "r": 8,
+     "c": 7,
+     "s_in_strip_cm": 15.07,
+     "s_from_outer_end_cm": 112.3,
+     "s_cm_tile_outer_edge": 111.28
+    },
+    "r8_c8": {
+     "r": 8,
+     "c": 8,
+     "s_in_strip_cm": 17.02,
+     "s_from_outer_end_cm": 114.25,
+     "s_cm_tile_outer_edge": 113.28
+    },
+    "r8_c9": {
+     "r": 8,
+     "c": 9,
+     "s_in_strip_cm": 18.97,
+     "s_from_outer_end_cm": 116.2,
+     "s_cm_tile_outer_edge": 115.22
+    },
+    "r8_c10": {
+     "r": 8,
+     "c": 10,
+     "s_in_strip_cm": 20.98,
+     "s_from_outer_end_cm": 118.21,
+     "s_cm_tile_outer_edge": 117.21
+    },
+    "r8_c11": {
+     "r": 8,
+     "c": 11,
+     "s_in_strip_cm": 22.98,
+     "s_from_outer_end_cm": 120.21,
+     "s_cm_tile_outer_edge": 119.21
+    },
+    "r8_c12": {
+     "r": 8,
+     "c": 12,
+     "s_in_strip_cm": 25.03,
+     "s_from_outer_end_cm": 122.26,
+     "s_cm_tile_outer_edge": 121.22
+    },
+    "r8_c13": {
+     "r": 8,
+     "c": 13,
+     "s_in_strip_cm": 27.1,
+     "s_from_outer_end_cm": 124.33,
+     "s_cm_tile_outer_edge": 123.29
+    },
+    "r8_c14": {
+     "r": 8,
+     "c": 14,
+     "s_in_strip_cm": 29.14,
+     "s_from_outer_end_cm": 126.37,
+     "s_cm_tile_outer_edge": 125.37
+    },
+    "r8_c15": {
+     "r": 8,
+     "c": 15,
+     "s_in_strip_cm": 31.16,
+     "s_from_outer_end_cm": 128.39,
+     "s_cm_tile_outer_edge": 127.37
+    }
+   }
+  }
+ },
+ "seams": [
+  {
+   "from_inner_end_of": "w128-129",
+   "to_outer_end_of": "w126-127",
+   "gap_mm_median": 0.687,
+   "gap_mm_p90": 15.118
+  },
+  {
+   "from_inner_end_of": "w126-127",
+   "to_outer_end_of": "w124-125",
+   "gap_mm_median": 0.761,
+   "gap_mm_p90": 12.488
+  },
+  {
+   "from_inner_end_of": "w124-125",
+   "to_outer_end_of": "w122-123",
+   "gap_mm_median": 0.8,
+   "gap_mm_p90": 8.398
+  }
+ ]
+}

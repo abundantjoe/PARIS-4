@@ -1,0 +1,50 @@
+{
+ "provenance": "Project HERCULES | HRC-JB-0924-O7",
+ "rule": "DECL-P4-25-A7: the 3 S1 Region-O pre-G1 candidates (P4-OWN-S1-O-RESULT) + the 3 EXT-CONFIRMED lead control tiles; maps from S2, S3 and NULL",
+ "arms": [
+  "S2",
+  "S3",
+  "NULL"
+ ],
+ "tiles": [
+  {
+   "seg": "20260701183148-w122-123",
+   "r": 4,
+   "c": 5,
+   "role": "control"
+  },
+  {
+   "seg": "20260701183148-w122-123",
+   "r": 4,
+   "c": 4,
+   "role": "control"
+  },
+  {
+   "seg": "20260701183148-w122-123",
+   "r": 3,
+   "c": 5,
+   "role": "control"
+  },
+  {
+   "seg": "20260701183149-w124-125",
+   "r": 3,
+   "c": 4,
+   "s_cm": 72.45,
+   "role": "target"
+  },
+  {
+   "seg": "20260701183149-w124-125",
+   "r": 4,
+   "c": 6,
+   "s_cm": 76.69,
+   "role": "target"
+  },
+  {
+   "seg": "20260701183149-w124-125",
+   "r": 4,
+   "c": 12,
+   "s_cm": 88.92,
+   "role": "target"
+  }
+ ]
+}

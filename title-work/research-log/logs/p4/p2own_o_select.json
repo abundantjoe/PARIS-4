@@ -1,0 +1,31 @@
+{
+ "provenance": "Project HERCULES | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-25-A8 item 1 (hand-written select; p4_phase2.py select derives PCs from w028-037 only)",
+ "sources": [
+  {
+   "file": "logs/p4/census_own_o_summary.json",
+   "sha256": "b57595e02216a3d36484a1ad604699b81d837b0a8b1ad82d0933ce28768db9ac",
+   "null_p99": 4.879999999999999
+  }
+ ],
+ "n_union": 1,
+ "candidates": [
+  {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 6,
+   "rows": "Y",
+   "n_letters": 6,
+   "n_firm": 2,
+   "labelled_adjacent": false,
+   "uuid": "a126e306-4d29-4139-a3ec-4e331e672a5d"
+  }
+ ],
+ "dropped_by_cap": [],
+ "pc_pool": [
+  "07467fea-efb2-44c7-972c-1d32a94d743e",
+  "316557a8-4f3c-4fda-99ac-8c34e31cd4fc",
+  "24c883b6-5eb6-43db-92e3-e6d612ebcbdc"
+ ],
+ "pc_pool_note": "S1 census files of the 3 EXT-CONFIRMED lead tiles (own_o_b r4c5, r4c4, r3c5)"
+}

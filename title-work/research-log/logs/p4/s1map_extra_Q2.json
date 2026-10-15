@@ -1,0 +1,19 @@
+{
+ "provenance": "Project HERCULES | HRC-JB-0924-O7",
+ "rule": "DECL-P4-25-A16-A2",
+ "note": "duplicates of the last 4 Region-Q tiles (own-lead silent since 21:29Z; fl-pilot)",
+ "extra_Q2": {
+  "fl-pherc0483a": [
+   "20260701183151-w128-129:6,15"
+  ],
+  "pairs0814b": [
+   "20260701183151-w128-129:2,14"
+  ],
+  "fl-pherc0211": [
+   "20260701183151-w128-129:3,6"
+  ],
+  "census": [
+   "20260701183151-w128-129:6,0"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "rule": "DECL-P4-25-A14-A4 item 1",
+ "key_sha256": {
+  "p4p2_key_p2own_p.json": "f74c60ab1d23342c9f3d55848da0e942f22fcff72dfd2d47896867d83ab364c5",
+  "p4_key_own_pt_a.json": "64ce1f6c678197a121bf62450d00d375cd4dc58b8022948c9f6bb5d023a4650f",
+  "p4_key_own_pt_b.json": "ca6c2e7818da23140f68d3e86aeef9b62661ba1f56b046a63b224232f869d6d4"
+ },
+ "select_sha256": "a23bbe1d2a75b8c5aa83ddb7aede83841e6c9bd02fb63165c6f9dd9c51c39779",
+ "briefs": {
+  "67296af8-99d9-4ab4-87ae-a12100e7dfbf": "0433a9cdaae40a422bbc07dca7e3e1ff5035a59a2d4bae2ca07225d7a367a1be",
+  "d4960e8c-432f-442f-b4e2-12f9c6a676fa": "e65c29edc5bd194f5c141049bed8dd301452dca5fd893b97d20d18b4d499826d",
+  "f10b1815-c904-45ea-b6b1-32831d2ceed8": "1303a934a9be0ad05bbdcef1ba63ea84ea9c4ec9844a1e82d86a011b331a853e"
+ }
+}

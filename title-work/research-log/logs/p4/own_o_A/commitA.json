@@ -1,0 +1,13 @@
+{
+ "keys_sha256": {
+  "p4_key_own_o_a.json": "6f09153f98f7ddcfdc6b97cf9996baa3dfe5cd6b4fc819e3a5ec93141924de17",
+  "p4_key_own_o_b.json": "92c4ce2718ba56697b1115490ab9850eb9ee9f82de9cee33df5e04c2e0fa8982",
+  "p4_key_n_own_o.json": "8bae8ef748dfa8c5c7eaf492cd1d1eaba3b9b341ba345b968148fbedb18557dc"
+ },
+ "briefs": {
+  "38641594-9a9b-4c57-9c5b-63c9811e0dd9": "f569d15b9cd2b664afad615dfaad4fe8107e76ceeebbb29a741897712fbe0912",
+  "3f149ef0-c91d-416b-927b-4031e67e822f": "959a867e83f0236212cf687e522b76bc0c6b345aa49d8b719095a4fca9cbf031",
+  "51687f95-1cdc-4b7d-9764-8e09d3aa6ce3": "bbfe17927773e658705fc88d8da34de01e8c53ced9adf3ab66b652a9105329ac",
+  "8fe90c9a-a642-4ff9-99bb-dd871b6f81c6": "c4a40972d2a414c06580d23c7b7a51fc399e7a82dfac1e15c67a01cbba0ff871"
+ }
+}

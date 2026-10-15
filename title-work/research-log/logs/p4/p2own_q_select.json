@@ -1,0 +1,182 @@
+{
+ "provenance": "Project HERCULES | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-25-A16-A3 item 1 (hand-written select)",
+ "sources": [
+  {
+   "file": "logs/p4/census_own_qw_summary.json",
+   "sha256": "2d1940e7e14ce7bfb85816ba5a29e85a4a99d2991bc08aa8e6f6434206c0d821"
+  }
+ ],
+ "n_union": 18,
+ "candidates": [
+  {
+   "uuid": "109744b5-6547-4375-83fd-27b40e959e45",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 5,
+   "c": 15,
+   "n_letters": 6,
+   "candidate": "Q-A1"
+  },
+  {
+   "uuid": "4d3a23af-feb7-40da-b6e6-b693a0986453",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 5,
+   "c": 16,
+   "n_letters": 6,
+   "candidate": "Q-A1"
+  },
+  {
+   "uuid": "f6d7e798-55cc-4238-9647-4046f8250021",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 6,
+   "c": 15,
+   "n_letters": 6,
+   "candidate": "Q-A1"
+  },
+  {
+   "uuid": "b612172a-3bfd-4770-a56e-a02be2ceebea",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 6,
+   "c": 16,
+   "n_letters": 6,
+   "candidate": "Q-A1"
+  },
+  {
+   "uuid": "33bfee0c-21d7-4e3c-9f63-8a8f1401eddf",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 3,
+   "c": 13,
+   "n_letters": 5,
+   "candidate": "Q-A2"
+  },
+  {
+   "uuid": "8fed57bc-131d-4301-8920-7948cd4d02c9",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 3,
+   "c": 14,
+   "n_letters": 5,
+   "candidate": "Q-A2"
+  },
+  {
+   "uuid": "b5e74d89-a0c3-4447-b5fc-a89d046df2d0",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 4,
+   "c": 13,
+   "n_letters": 5,
+   "candidate": "Q-A2"
+  },
+  {
+   "uuid": "350b663b-ee0c-41ab-9938-440a0cc7caf1",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 4,
+   "c": 14,
+   "n_letters": 5,
+   "candidate": "Q-A2"
+  },
+  {
+   "uuid": "7eee74bb-fc37-49be-a408-dbac8e5dde2d",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 6,
+   "c": 12,
+   "n_letters": 5,
+   "candidate": "Q-A3"
+  },
+  {
+   "uuid": "effaf55a-e061-4f0a-88be-ad493c31af86",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 6,
+   "c": 13,
+   "n_letters": 5,
+   "candidate": "Q-A3"
+  },
+  {
+   "uuid": "9f6bc9c7-efcf-4209-91e0-79fab522271d",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 7,
+   "c": 12,
+   "n_letters": 5,
+   "candidate": "Q-A3"
+  },
+  {
+   "uuid": "da2e674e-79fd-46de-bc0b-dfb71eb16854",
+   "strip": "20260701183151-w128-129",
+   "segment": "20260701183151-w128-129",
+   "r": 7,
+   "c": 13,
+   "n_letters": 5,
+   "candidate": "Q-A3"
+  },
+  {
+   "uuid": "b81ae061-5de3-4def-85e8-97658c5ebffa",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 4,
+   "c": 4,
+   "n_letters": 12,
+   "candidate": "Q-B"
+  },
+  {
+   "uuid": "d8feb6d1-eead-4335-b5a7-fff6db4e854d",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 4,
+   "c": 5,
+   "n_letters": 12,
+   "candidate": "Q-B"
+  },
+  {
+   "uuid": "633fdd5c-2dbc-4467-b827-b75a9c5f8f32",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 5,
+   "c": 4,
+   "n_letters": 12,
+   "candidate": "Q-B"
+  },
+  {
+   "uuid": "02666030-e973-4b41-8151-672022a6d95b",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 5,
+   "c": 5,
+   "n_letters": 12,
+   "candidate": "Q-B"
+  },
+  {
+   "uuid": "6a9b3746-2196-4156-913d-b77dd95666f1",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 6,
+   "c": 4,
+   "n_letters": 12,
+   "candidate": "Q-B"
+  },
+  {
+   "uuid": "5e848403-78ef-4a56-a461-635a5c142d9a",
+   "strip": "20260701183150-w126-127",
+   "segment": "20260701183150-w126-127",
+   "r": 6,
+   "c": 5,
+   "n_letters": 12,
+   "candidate": "Q-B"
+  }
+ ],
+ "dropped_by_cap": [],
+ "pc_pool": [
+  "07467fea-efb2-44c7-972c-1d32a94d743e",
+  "316557a8-4f3c-4fda-99ac-8c34e31cd4fc",
+  "24c883b6-5eb6-43db-92e3-e6d612ebcbdc"
+ ],
+ "pc_pool_note": "S1 census files of the 3 EXT-CONFIRMED lead tiles, as p2own_o/p2own_p"
+}

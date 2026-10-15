@@ -1,0 +1,82 @@
+{
+ "3a13d005-a91e-44db-86ac-2bab2591de5a": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "7c252304210b8956be3c2c7d2851ede82e1b21fa880c5a5f1dfa71de3db27b36"
+ },
+ "d65581b9-40f6-4e6b-a627-edac8dc7235b": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "3a45c5305cd04da307bb7d12bc748521b7ccdb3544cb310455b934ac0574db53"
+ },
+ "3ee35e17-bffe-4646-9980-4146e42dfe1e": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "c48e76cc181bf0f2dab7325414d9fa10f0836793c1d87bb19fe44c5631d42127"
+ },
+ "79bbe139-9a3d-46fd-9a7f-855c543dfab5": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "20f59a05215b524e7158bdfcdb4d3c2d3cc4ba49f4dd3e2dd39c4ca6ac649b5a"
+ },
+ "448c9cbb-d008-4484-9f8f-661257031f0e": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "c691c194cf8290bb73b24c3f466ab201fc68df3c3510389bcaf30be234b52343"
+ },
+ "fe991233-1bf6-4ad3-98a8-6d17b0a3773a": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "5ec04d4f179e190d53659be84c7dfdcffe99843ccfaa806c1cc67aad086d2949"
+ },
+ "94de3f9e-3992-4ab6-9106-7c392af4b1ba": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "dd281c82d8f20edeb7102de3a0e325bcf4e68496769cdff0a02e30e78e22b4ca"
+ },
+ "9bbb4a60-e3cf-4df6-83cd-1265853b645b": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "40f1b8559e1a35e015c462b423fb604ad00921eb0a718efc9677dbe35ae449f7"
+ },
+ "8ffa7f66-edb3-4dd0-82db-cf6ffeafefe4": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "0dac92c4a21494ef2657c49180d3f48769e78d582c2d110755c250e01943e596"
+ },
+ "1a299269-cc1d-494d-96f1-00180bf9adca": {
+  "audit_valid": true,
+  "violations": 0,
+  "unread": 0,
+  "prompt_eq_brief": true,
+  "age": true,
+  "transcript_sha256": "a62573561731670c40f2a37b9e3488f4477579388d8bb48b3aac27946670ef99"
+ }
+}

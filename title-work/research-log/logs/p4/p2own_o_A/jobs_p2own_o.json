@@ -1,0 +1,39 @@
+{
+ "batch": "p2own_o",
+ "select": "logs/p4/p2own_o_select.json",
+ "select_sha256": "a7dc5c0bc285e5dfbd6fa092a04ad1bacf0822cc59335c3351305f2fad9a9ef5",
+ "n0_seed": 20345044,
+ "variant": "sigma2t",
+ "jobs": [
+  {
+   "job": "034633b6-41f4-4a60-872a-74fd28b2ed86",
+   "session": 0,
+   "attempt": 1,
+   "n_cand": 1,
+   "n_n0": 4,
+   "pc": "07b38046-7156-40a4-a1f7-073b24033776",
+   "model": "opus",
+   "n_images": 7
+  },
+  {
+   "job": "351f6b45-10a7-47a2-9fb9-d9a2806c6430",
+   "session": 1,
+   "attempt": 1,
+   "n_cand": 1,
+   "n_n0": 4,
+   "pc": "27321e07-b5be-4417-920c-bfaf6397e984",
+   "model": "opus",
+   "n_images": 7
+  },
+  {
+   "job": "cfa275a8-d63a-4724-8b41-24bc76c549c8",
+   "session": 2,
+   "attempt": 1,
+   "n_cand": 1,
+   "n_n0": 4,
+   "pc": "1277d318-11c8-466e-bc2d-bb738d027224",
+   "model": "opus",
+   "n_images": 7
+  }
+ ]
+}

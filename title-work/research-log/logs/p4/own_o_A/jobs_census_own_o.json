@@ -1,0 +1,39 @@
+{
+ "batch": "census_own_o",
+ "census_batches": [
+  "own_o_a",
+  "own_o_b"
+ ],
+ "null_batch": "n_own_o",
+ "variant": "sigma2t",
+ "jobs": [
+  {
+   "job": "38641594-9a9b-4c57-9c5b-63c9811e0dd9",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "3f149ef0-c91d-416b-927b-4031e67e822f",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "51687f95-1cdc-4b7d-9764-8e09d3aa6ce3",
+   "n_census": 8,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 10
+  },
+  {
+   "job": "8fe90c9a-a642-4ff9-99bb-dd871b6f81c6",
+   "n_census": 6,
+   "n_null": 1,
+   "model": "opus",
+   "n_images": 8
+  }
+ ]
+}

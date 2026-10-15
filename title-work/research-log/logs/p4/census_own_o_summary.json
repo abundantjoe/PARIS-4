@@ -1,0 +1,315 @@
+{
+ "provenance": "Provenance: Project HERCULES | owner Joseph Balmaceda | HRC-JB-0924-O7",
+ "serves": "RULES.md DECL-P4-2 items 3-5",
+ "variant": "sigma2t",
+ "count": "n_letters",
+ "cand_cmin": null,
+ "stats": {
+  "jobs": 4,
+  "valid": 4,
+  "invalid": 0,
+  "missing_items": 0,
+  "right_nonempty": 0
+ },
+ "n_census_tiles": 30,
+ "n_null_tiles": 4,
+ "null_letter_counts": [
+  0,
+  0,
+  1,
+  5
+ ],
+ "null_p99": 4.879999999999999,
+ "threshold": 5,
+ "n_rows_Y": 15,
+ "n_positive": 6,
+ "n_labelled_adjacent": 0,
+ "tiles": {
+  "04f561cf-7c6c-4338-919f-64b1447c3e5f": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 13,
+   "rows": "Y",
+   "n_letters": 3,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "07467fea-efb2-44c7-972c-1d32a94d743e": {
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 5,
+   "rows": "Y",
+   "n_letters": 13,
+   "n_firm": 8,
+   "labelled_adjacent": false
+  },
+  "15892cee-d209-4c60-a1e3-74dad55fe2c4": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "18f487f4-cb3d-4a18-9119-180c5d50485a": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 5,
+   "n_firm": 2,
+   "labelled_adjacent": false
+  },
+  "1d0a1e88-43ce-4d83-b462-1737a9aad939": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "21b599a5-f34a-4e8b-9202-849f94ae0bec": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "22500154-f467-4c16-b95b-1b090ba2d11f": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "23815953-df4a-4888-91ad-4d2c642d7e78": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 7,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 1,
+   "labelled_adjacent": false
+  },
+  "23e62b5f-11d7-40b8-9806-09dbe8cf9361": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "24c883b6-5eb6-43db-92e3-e6d612ebcbdc": {
+   "strip": "20260701183148-w122-123",
+   "r": 3,
+   "c": 5,
+   "rows": "Y",
+   "n_letters": 13,
+   "n_firm": 5,
+   "labelled_adjacent": false
+  },
+  "2b9d04aa-bc7e-45c7-b9e9-01a18b1f40f2": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "2e5e99b6-5e34-4bf5-aa86-339705aba4af": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 15,
+   "rows": "Y",
+   "n_letters": 4,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "316557a8-4f3c-4fda-99ac-8c34e31cd4fc": {
+   "strip": "20260701183148-w122-123",
+   "r": 4,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 10,
+   "n_firm": 4,
+   "labelled_adjacent": false
+  },
+  "501574f5-6434-4594-8d83-59983a05032b": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "558a3a6c-af15-41ab-b429-6c94da69d0a8": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 10,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "5f723dad-e232-432f-9e1d-ccfd9b80ccb8": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 4,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "744b54f6-4044-4d83-9a47-258d610692d4": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 13,
+   "rows": "Y",
+   "n_letters": 3,
+   "n_firm": 1,
+   "labelled_adjacent": false
+  },
+  "7ca1a713-88dd-46f8-b839-2cd519bb4738": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "831a4cbb-5036-4d37-aad5-8f6c129508e7": {
+   "strip": "20260701183149-w124-125",
+   "r": 7,
+   "c": 14,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "94ea3c8a-6e33-43a1-afa4-b6468ab2a660": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "a126e306-4d29-4139-a3ec-4e331e672a5d": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 6,
+   "rows": "Y",
+   "n_letters": 6,
+   "n_firm": 2,
+   "labelled_adjacent": false
+  },
+  "a51c2754-a019-48fe-ae47-5ca27b7c9d48": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 9,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "b4c219ab-636e-46aa-a027-82208ff0d4e2": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 12,
+   "rows": "Y",
+   "n_letters": 4,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "c035bc76-fd0c-4736-8e8d-e9ba23ed42b5": {
+   "strip": "20260701183149-w124-125",
+   "r": 3,
+   "c": 4,
+   "rows": "Y",
+   "n_letters": 5,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "d5ff2221-35aa-4ca2-bac9-2581a3ae3d87": {
+   "strip": "20260701183149-w124-125",
+   "r": 2,
+   "c": 11,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "d7311ba4-ace3-428b-9ab7-e7783bb5d384": {
+   "strip": "20260701183149-w124-125",
+   "r": 4,
+   "c": 10,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "e484bfc0-682a-4382-90c2-235ed942995f": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 12,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "ea291959-216a-4806-8335-7471f201af7b": {
+   "strip": "20260701183149-w124-125",
+   "r": 5,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "eafcd270-169b-4073-90b6-398042d437eb": {
+   "strip": "20260701183149-w124-125",
+   "r": 6,
+   "c": 6,
+   "rows": "Y",
+   "n_letters": 2,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  },
+  "f4458d65-16b6-4b29-a79d-ce17ed650807": {
+   "strip": "20260701183149-w124-125",
+   "r": 1,
+   "c": 13,
+   "rows": "N",
+   "n_letters": 0,
+   "n_firm": 0,
+   "labelled_adjacent": false
+  }
+ },
+ "positive": [
+  "07467fea-efb2-44c7-972c-1d32a94d743e",
+  "18f487f4-cb3d-4a18-9119-180c5d50485a",
+  "24c883b6-5eb6-43db-92e3-e6d612ebcbdc",
+  "316557a8-4f3c-4fda-99ac-8c34e31cd4fc",
+  "a126e306-4d29-4139-a3ec-4e331e672a5d",
+  "c035bc76-fd0c-4736-8e8d-e9ba23ed42b5"
+ ],
+ "candidates": [
+  "07467fea-efb2-44c7-972c-1d32a94d743e",
+  "24c883b6-5eb6-43db-92e3-e6d612ebcbdc",
+  "316557a8-4f3c-4fda-99ac-8c34e31cd4fc",
+  "a126e306-4d29-4139-a3ec-4e331e672a5d",
+  "18f487f4-cb3d-4a18-9119-180c5d50485a",
+  "c035bc76-fd0c-4736-8e8d-e9ba23ed42b5"
+ ]
+}
